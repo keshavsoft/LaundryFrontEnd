@@ -1,22 +1,41 @@
 [
     {
-        "name": "QrCodes",
-        "key": "QrCodes",
+        "name": "Customers",
+        "key": "Customers",
+        "icon": "bi bi-envelope-open-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "CustomersCreate.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Show",
+                "url": "CustomersShowAll.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "AddOns",
+        "key": "AddOns",
         "icon": "bi bi-envelope-open-fill",
         "children": [
             {
                 "name": "Show",
-                "url": "QrCodesShow.html",
+                "url": "AddOnsShowAll.html",
                 "icon": "bi bi-plus-circle"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Items",
+        "key": "Items",
+        "icon": "bi bi-envelope-open-fill",
+        "children": [
             {
-                "name": "Today",
-                "url": "Today.html",
-                "icon": "bi bi-plus-circle"
-            },
-            {
-                "name": "All",
-                "url": "QrCodesQrCodesAll.html",
+                "name": "Show",
+                "url": "ItemsShowAll.html",
                 "icon": "bi bi-plus-circle"
             }
         ]
