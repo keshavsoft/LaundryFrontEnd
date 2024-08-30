@@ -1,0 +1,24 @@
+[
+    {
+        "name": "QrCodes",
+        "key": "QrCodes",
+        "icon": "bi bi-envelope-open-fill",
+        "children": [
+            {
+                "name": "Show",
+                "url": "QrCodesShow.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Today",
+                "url": "Today.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "All",
+                "url": "QrCodesQrCodesAll.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    }
+]

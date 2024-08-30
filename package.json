@@ -1,0 +1,29 @@
+{
+  "name": "frontendbyvite",
+  "version": "1.0.0",
+  "description": "use vite for builiding frontend html and bundling js and css",
+  "main": "vite.config.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "WashtexBranch": "vite build --config src/Clients/Washtex/Branch/vite.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sweetalert2/theme-dark": "^5.0.17",
+    "bootstrap": "5.3.3",
+    "bootstrap-icons": "^1.10.5",
+    "feather-icons": "^4.29.2",
+    "lodash": "^4.17.21",
+    "perfect-scrollbar": "^1.5.5",
+    "sass": "^1.67.0",
+    "sass-loader": "^13.2.0",
+    "sweetalert2": "^11.12.3",
+    "vite": "^5.3.3",
+    "vite-plugin-handlebars": "^2.0.0",
+    "vite-plugin-nunjucks": "^0.2.0",
+    "vite-plugin-static-copy": "^1.0.6"
+  }
+}
