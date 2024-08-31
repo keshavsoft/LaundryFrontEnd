@@ -1,13 +1,11 @@
-import { StartFunc as StartFuncButtonClickFunc } from "./Addlisteners/SaveButtonClickId/ButtonClickFunc.js";
-// import { StartFunc as StartFuncLoginCheck } from "/Laundry/Js/LoginModal/EntryFile.js";
-// import { StartFunc as StartFunclistFuncs } from "./listFuncs.js";
+import { StartFunc as StartFuncFormLoad } from "./FormLoad/StartFunc.js";
+// import { StartFunc as LoginModal } from "../../../assets/static/js/Common/NiceAdmin/Header/LoginModal/EntryFile.js";
 
-const StartFunc = async () => {
-    // let jVarLocalFromAdmin = await StartFuncLoginCheck({ inSuccessFunc: StartFunclistFuncs });
+const StartFunc = () => {
+    // let jVarLocalFromAdmin = LoginModal({ inSuccessFunc: StartFuncFormLoad });
     let jVarLocalFromAdmin = true;
     if (jVarLocalFromAdmin) {
-        StartFuncButtonClickFunc();
-        StartFunclistFuncs();
+        StartFuncFormLoad();
     };
 };
 
