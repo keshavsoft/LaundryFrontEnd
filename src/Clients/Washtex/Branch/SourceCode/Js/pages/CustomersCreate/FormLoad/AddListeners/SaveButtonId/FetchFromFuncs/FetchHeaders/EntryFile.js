@@ -1,9 +1,9 @@
+import KeysJson from './Keys.json' with {type: 'json'};
 
-let StartFunc = async () => {
+let StartFunc = () => {
     let jVarLocalForm = document.getElementById("FormId");
 
-    let KeysJson = (jFLocalserializeFormData(jVarLocalForm));
-    KeysJson.BranchName=localStorage.getItem("BranchName");
+    KeysJson.body = JSON.stringify(jFLocalserializeFormData(jVarLocalForm));
 
     return KeysJson;
 };
