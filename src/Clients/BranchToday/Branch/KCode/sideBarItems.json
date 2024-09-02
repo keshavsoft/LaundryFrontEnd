@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Today",
+        "key": "Today",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "All",
+                "url": "TodayQrRaiseAll.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Pending",
+                "url": "TodayQrPending.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Raised",
+                "url": "TodayQrRaised.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "QRPrint",
+        "key": "QRPrint",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Print",
+                "url": "TodayQrPrint.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Bill",
+        "key": "Bill",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Print",
+                "url": "TodayBillPrint.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Orders",
+        "key": "Orders",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Orders",
+                "url": "TodayOrders.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Items",
+        "key": "Items",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Items",
+                "url": "TodayItems.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    }
+]
