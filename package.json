@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build",
     "WashtexBranch": "vite build --config src/Clients/Washtex/Branch/vite.config.js",
-    "BranchToday": "vite build --config src/Clients/BranchToday/Branch/vite.config.js"
-
+    "BranchToday": "vite build --config src/Clients/BranchToday/Branch/vite.config.js",
+    "TodayReports": "vite build --config src/Clients/TodayReports/Branch/vite.config.js"
   },
   "author": "",
   "license": "ISC",
