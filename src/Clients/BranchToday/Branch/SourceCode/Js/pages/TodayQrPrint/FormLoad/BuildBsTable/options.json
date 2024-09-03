@@ -5,6 +5,7 @@
     "idfield": "pk",
     "showFooter": "true",
     "data": [],
+    "onClickRow": "",
     "columns": [
         {
             "field": "KS-Serial",
@@ -20,18 +21,24 @@
             "title": "Customer Name"
         },
         {
-            "title": "QrCodes1",
-            "footerFormatter": "QrFormatter",
-            "formatter": "jFLocalQrCodeDetails1"
+            "field": "CustomerData.CustomerMobile",
+            "title": "Mobile"
+        },
+        {
+            "title": "QrCodes",
+            "field":"QRPrint",
+            "formatter": "jFLocalQrCodeDetails",
+            "footerFormatter": "QrFormatter"
         },
         {
             "title": "Order Details",
-            "footerFormatter": "jFLocalOrderDetails"
+            "formatter": "jFLocalOrderDetails",
+            "width": "100"
         },
         {
             "title": "Settlement",
-            "footerFormatter": "priceFormatter",
-            "formatter": "jFLocalSettlementDetails"
+            "formatter": "jFLocalSettlementDetails",
+            "footerFormatter": "priceFormatter"
         }
     ]
 }

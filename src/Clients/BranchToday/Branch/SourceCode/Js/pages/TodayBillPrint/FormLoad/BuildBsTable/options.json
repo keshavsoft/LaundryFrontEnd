@@ -5,39 +5,41 @@
     "idfield": "pk",
     "showFooter": "true",
     "data": [],
-   "columns": [
-    {
-        "field": "KS-Serial",
-        "title": "#",
-        "formatter": "jFGlobalSerialColumn"
-    },
-    {
-        "field": "UuId",
-        "title": "Order #"
-    },
-    {
-        "field": "CustomerData.CustomerName",
-        "title": "Customer Name"
-    },
-    {
-        "field": "CustomerData.CustomerMobile",
-        "title": "Mobile"
-    },
-    {
-        "title": "Date",
-        "formatter": "jFLocalDateFormatter"
-    },
-    {
-        "title": "Settlement",
-        "footerFormatter":"totalFormatter"
-    },
-    {
-        "title": "Print 2",
-        "footerFormatter":"totalFormatter"
-    },
-    {
-        "title": "Print 3",
-        "footerFormatter":"totalFormatter"
-    }
-]
+    "onClickRow": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
+        {
+            "field": "UuId",
+            "title": "Order #"
+        },
+        {
+            "field": "CustomerData.CustomerName",
+            "title": "C Name"
+        },
+        {
+            "field": "CustomerData.CustomerMobile",
+            "title": "Mobile"
+        },
+    
+        {
+            "title": "Settlement",
+            "formatter": "jFLocalSettlementDetails",
+            "footerFormatter": "priceFormatter"
+        },
+        {
+            "title": "QrCodes",
+            "field":"QRRaise",
+            "formatter": "jFLocalQrCodeDetails",
+            "footerFormatter": "QrFormatter"
+        },
+        {
+            "title": "Print",
+            "formatter": "Billprint",
+            "width": "100"
+        }
+    ]
 }
