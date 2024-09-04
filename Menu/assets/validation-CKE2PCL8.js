@@ -1,0 +1,1 @@
+import"./style-CWPg30Uh.js";const t=()=>{a()},a=()=>{let e=n({inGetKey:"inyourUsername"}),r=document.getElementById("yourUsernameId");r.innerHTML=e};let n=({inGetKey:e})=>{const r=window.location.search;return new URLSearchParams(r).get(e)};const o=()=>{t()},c=()=>{o()};c();

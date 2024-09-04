@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Customers",
+        "key": "Customers",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "CustomersCreate.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Show",
+                "url": "CustomersShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
+        "name": "AddOns",
+        "key": "AddOns",
+        "icon": "bi bi-x-diamond-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "AddOnsCreate.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Show",
+                "url": "AddOnsShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
+        "name": "Items",
+        "key": "Items",
+        "icon": "bi bi bi-briefcase-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "ItemsCreate.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Show",
+                "url": "ItemsShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,1 @@
+let t=()=>{l()},l=()=>{let e="KSToken";document.cookie=`${e}=; expires=Thu, 01 Jan 1947 00:00:00 UTC; path=/;`},a=()=>{let e=document.getElementById("HeaderSignOutId");e!==null&&e.addEventListener("click",t)};a();

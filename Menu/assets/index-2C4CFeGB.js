@@ -1,0 +1,1 @@
+import"./style-CWPg30Uh.js";import"./EntryFile-BS4wfFeh.js";import"./EntryFile-B8x209MB.js";import"./EntryFile-B5fBQVjD.js";const e=()=>{r()},r=()=>{document.querySelector(".revenue-card").querySelector("h6").innerHTML="16"};e();
