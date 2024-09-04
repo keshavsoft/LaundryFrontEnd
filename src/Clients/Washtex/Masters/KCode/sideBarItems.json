@@ -22,6 +22,11 @@
         "icon": "bi bi-x-diamond-fill",
         "children": [
             {
+                "name": "Create",
+                "url": "AddOnsCreate.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
                 "name": "Show",
                 "url": "AddOnsShowAll.html",
                 "icon": "bi bi-grid-3x3"
@@ -33,6 +38,11 @@
         "key": "Items",
         "icon": "bi bi bi-briefcase-fill",
         "children": [
+            {
+                "name": "Create",
+                "url": "ItemsCreate.html",
+                "icon": "bi bi-grid-3x3"
+            },
             {
                 "name": "Show",
                 "url": "ItemsShowAll.html",
