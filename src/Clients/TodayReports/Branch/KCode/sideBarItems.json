@@ -1,43 +1,20 @@
 [
     {
-        "name": "Customers",
-        "key": "Customers",
+        "name": "TodayReports",
+        "key": "TodayReports",
         "icon": "bi bi-people-fill",
         "children": [
             {
-                "name": "Create",
-                "url": "CustomersCreate.html",
+                "name": "Card",
+                "url": "Card.html",
                 "icon": "bi bi-plus-square-fill"
             },
             {
-                "name": "Show",
-                "url": "CustomersShowAll.html",
-                "icon": "bi bi-grid-3x3"
-            }
-        ]
-    },
-    {
-        "name": "AddOns",
-        "key": "AddOns",
-        "icon": "bi bi-x-diamond-fill",
-        "children": [
-            {
-                "name": "Show",
-                "url": "AddOnsShowAll.html",
-                "icon": "bi bi-grid-3x3"
-            }
-        ]
-    },
-    {
-        "name": "Items",
-        "key": "Items",
-        "icon": "bi bi bi-briefcase-fill",
-        "children": [
-            {
-                "name": "Show",
-                "url": "ItemsShowAll.html",
+                "name": "Cash",
+                "url": "Cash.html",
                 "icon": "bi bi-grid-3x3"
             }
         ]
     }
+    
 ]
