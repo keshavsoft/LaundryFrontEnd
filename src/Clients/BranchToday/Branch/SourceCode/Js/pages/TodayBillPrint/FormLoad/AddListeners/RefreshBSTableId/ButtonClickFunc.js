@@ -1,10 +1,10 @@
-import { StartFunc as Receipts } from "./Receipts/Entry.js";
+import { StartFunc as Orders } from "./Orders/GetFetch.js";
 
 import { StartFunc as StartFuncAfterFetch } from "./AfterFetch/EntryFile.js";
 
 let StartFunc = async () => {
     try {
-        let [a] = await Promise.all([Receipts()]);
+        let [a] = await Promise.all([Orders()]);
 
         jVarGlobalPresentViewData = [...a];
 
