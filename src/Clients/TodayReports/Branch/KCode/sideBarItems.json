@@ -5,16 +5,10 @@
         "icon": "bi bi-people-fill",
         "children": [
             {
-                "name": "Card",
-                "url": "Card.html",
+                "name": "ShowAll",
+                "url": "OrdersShowAll.html",
                 "icon": "bi bi-plus-square-fill"
-            },
-            {
-                "name": "Cash",
-                "url": "Cash.html",
-                "icon": "bi bi-grid-3x3"
             }
         ]
     }
-    
 ]
