@@ -2,7 +2,7 @@
     {
         "name": "QrRaise",
         "key": "Qr",
-        "icon": "bi bi-people-fill",
+        "icon": "bi bi-qr-code",
         "children": [
             {
                 "name": "All",
@@ -24,7 +24,7 @@
     {
         "name": "QRPrint",
         "key": "QRPrint",
-        "icon": "bi bi-people-fill",
+        "icon": "bi bi-qr-code",
         "children": [
             {
                 "name": "Print",
@@ -36,7 +36,7 @@
     {
         "name": "Bill",
         "key": "Bill",
-        "icon": "bi bi-people-fill",
+        "icon": "bi bi-printer-fill",
         "children": [
             {
                 "name": "Print",
@@ -60,7 +60,7 @@
     {
         "name": "Items",
         "key": "Items",
-        "icon": "bi bi-people-fill",
+        "icon": "bi bi-diagram-2",
         "children": [
             {
                 "name": "Items",
