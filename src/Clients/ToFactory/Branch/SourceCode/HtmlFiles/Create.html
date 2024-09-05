@@ -1,0 +1,112 @@
+{% set title = 'Account Profile' %}
+
+{% extends 'src/Clients/ToFactory/Branch/SourceCode/Masters/simple.html' %}
+
+{% block content %}
+<div class="pagetitle">
+    <h1 class="d-block d-sm-none">New Customer</h1>
+    <h1 class="d-none d-sm-block">CreateNew</h1>
+    <nav class="d-none d-sm-block">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item">Masters</li>
+            <li class="breadcrumb-item active">New Customer</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
+
+<section class="section">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <form href="#" class="form-horizontal needs-validation" id="FormId">
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <label class="col-md-4 col-form-label">Date</label>
+
+                                        <div class="col-md-8">
+                                            <input kvs1="" id="Date" name="Date" data-dataattribute="Date"
+                                                value="" data-clienteval="" type="date" class="form-control "
+                                                placeholder="Enter" autocomplete="off" list="">
+                                            <div class="invalid-feedback">
+                                                Should not be Empty!!
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <label class="col-md-4 col-form-label">Description</label>
+
+                                        <div class="col-md-8">
+                                            <input kvs1="" id="Description" name="Description"
+                                                data-dataattribute="Description" value="" data-clienteval=""
+                                                type="" class="form-control KeshavSoftHtmlAttributes" min=""
+                                                max="" step="" placeholder="Enter Description"
+                                                autocomplete="off" list="" autofocus>
+                                            <div class="invalid-feedback">
+                                                Should not be Empty!!
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <label class="col-md-4 col-form-label">Factory</label>
+
+                                        <div class="col-md-8">
+                                            <select name="Factory" id="Factory" class="form-select">
+                                                 <option value="" selected>select Factory</option>
+                                                <option value="Vizag">Vizag</option>
+                                                <option value="Vzm">Vzm</option>
+                                                <option value="GD">GD</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Should not be Empty!!
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <label class="col-md-4 col-form-label">BranchName</label>
+
+                                        <div class="col-md-8">
+                                            <input kvs1="" id="BranchName" name="BranchName"
+                                                data-dataattribute="BranchName" value="" data-clienteval=""
+                                                type="" class="form-control KeshavSoftHtmlAttributes"
+                                                autocomplete="off" readonly>
+                                            <div class="invalid-feedback">
+                                                Should not be Empty!!
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-12 m-3">
+
+                                        <div class="col-md-8">
+                                            <button type="button" id="CreateCustomerButtonId"
+                                                class="btn btn-success">
+                                                Save New
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block js %}
+<script type="module" src="../Js/pages/Create/StartFunc.js"></script>
+{% endblock %}

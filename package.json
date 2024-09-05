@@ -10,7 +10,9 @@
     "WashtexBranch": "vite build --config src/Clients/Washtex/Branch/vite.config.js",
     "BranchToday": "vite build --config src/Clients/BranchToday/Branch/vite.config.js",
     "TodayReports": "vite build --config src/Clients/TodayReports/Branch/vite.config.js",
-    "Masters": "vite build --config src/Clients/Washtex/Masters/vite.config.js"
+    "Masters": "vite build --config src/Clients/Washtex/Masters/vite.config.js",
+    "ToFactory": "vite build --config src/Clients/ToFactory/Branch/vite.config.js"
+
   },
   "author": "",
   "license": "ISC",
