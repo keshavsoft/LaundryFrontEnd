@@ -1,34 +1,34 @@
 [
     {
-        "name": "Today",
-        "key": "Today",
+        "name": "QrRaise",
+        "key": "Qr",
         "icon": "bi bi-people-fill",
         "children": [
             {
                 "name": "All",
-                "url": "TodayQrRaiseAll.html",
+                "url": "QrRaiseAll.html",
                 "icon": "bi bi-plus-square-fill"
             },
             {
                 "name": "Pending",
-                "url": "TodayQrPending.html",
+                "url": "QrPending.html",
                 "icon": "bi bi-plus-square-fill"
             },
             {
                 "name": "Raised",
-                "url": "TodayQrRaised.html",
+                "url": "QrRaised.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
     },
     {
         "name": "QRPrint",
-        "key": "QRPrint",
+        "key": "QrPrint",
         "icon": "bi bi-people-fill",
         "children": [
             {
                 "name": "Print",
-                "url": "TodayQrPrint.html",
+                "url": "QrPrint.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
@@ -40,7 +40,7 @@
         "children": [
             {
                 "name": "Print",
-                "url": "TodayBillPrint.html",
+                "url": "BillPrint.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
@@ -52,7 +52,7 @@
         "children": [
             {
                 "name": "Orders",
-                "url": "TodayOrders.html",
+                "url": "Orders.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
@@ -64,7 +64,7 @@
         "children": [
             {
                 "name": "Items",
-                "url": "TodayItems.html",
+                "url": "Items.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
