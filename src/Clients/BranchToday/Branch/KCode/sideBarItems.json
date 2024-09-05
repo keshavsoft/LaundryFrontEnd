@@ -23,12 +23,12 @@
     },
     {
         "name": "QRPrint",
-        "key": "QrPrint",
+        "key": "QRPrint",
         "icon": "bi bi-people-fill",
         "children": [
             {
                 "name": "Print",
-                "url": "QrPrint.html",
+                "url": "QRPrint.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
