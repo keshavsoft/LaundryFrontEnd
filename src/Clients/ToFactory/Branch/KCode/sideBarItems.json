@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Create",
+        "key": "Create",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "Create.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "DC",
+        "key": "DC",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Vouchers",
+                "url": "ToFactoryVouchers.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "QrPrint",
+                "url": "ToFactoryQrPrint.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    }
+]
