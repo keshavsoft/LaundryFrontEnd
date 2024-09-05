@@ -1,9 +1,9 @@
-import { StartFunc as StartFuncAddListeners } from "./AddListeners/StartFunc.js";
-import { StartFunc as StartFuncBuildBsTable } from "./BuildBsTable/EntryFile.js";
+import { StartFunc as StartFuncBuildBSTables } from "./BuildBSTables/EntryFile.js";
+import { StartFunc as StartFuncRefreshBSTableId } from "../AddListeners/RefreshBSTableId/EntryFile.js";
 
 const StartFunc = () => {
-    StartFuncBuildBsTable();
-    StartFuncAddListeners();
+    StartFuncBuildBSTables();
+    StartFuncRefreshBSTableId();
 };
 
 export { StartFunc };
