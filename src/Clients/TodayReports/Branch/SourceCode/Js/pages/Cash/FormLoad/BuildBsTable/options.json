@@ -1,0 +1,52 @@
+{
+    "toolbar": "#toolbar",
+    "search": "true",
+    "searchable": "true",
+    "idfield": "pk",
+    "showFooter": "true",
+    "data": [],
+    "onClickRow": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
+        {
+            "field": "UuId",
+            "title": "Order #"
+        },
+        {
+            "field": "CustomerData.CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerData.CustomerMobile",
+            "title": "Mobile"
+        },
+        {
+            "field": "TotalPcs",
+            "title": "Pcs",
+            "align": "right",
+            "footerFormatter": "totalFormatter"
+        },
+        {
+            "field": "DiscountPer",
+            "title": "Dis %",
+            "align": "right",
+            "footerFormatter": "totalFormatter"
+        },
+        {
+            "field": "DiscountAmount",
+            "title": "Dis Amount",
+            "align": "right",
+            "footerFormatter": "totalFormatter"
+        },
+        {
+            "field": "CashAmount",
+            "title": "Cash",
+            "footerFormatter": "totalFormatter",
+            "align": "right"
+        }
+    ]
+}
