@@ -26,7 +26,7 @@
                     </div>
 
 
-                    <table id="table" class="table" data-show-columns="true" data-show-footer="true">
+                    <!-- <table id="table" class="table" data-show-columns="true" data-show-footer="true">
                         <thead>
                             <tr class="table-primary">
                                 <th data-field="pk" id="OrderId">Order#</th>
@@ -39,6 +39,9 @@
                                 <th data-field="IsSettled">IsSettled</th>
                             </tr>
                         </thead>
+                    </table> -->
+                    <table id="table">
+                       
                     </table>
                 </div>
             </div>
@@ -143,10 +146,18 @@
         }
         return string;
     }
+    function totalPriceFormatter(data) {
+            var field = this.field
+            return '₹ ' + data.map(function (row) {
+                return +row.AggValues.SettlementAmount
+            }).reduce(function (sum, i) {
 
+                return sum + i
+            }, 0)
+        }
 </script>
 
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.6/dist/extensions/export/bootstrap-table-export.min.js"></script>
-<script type="module" src="../Js/pages/TodayOrders/StartFunc.js"></script>
+<script type="module" src="../Js/pages/Orders/StartFunc.js"></script>
 {% endblock %}
