@@ -1,0 +1,72 @@
+[
+    {
+        "name": "QrRaise",
+        "key": "Qr",
+        "icon": "bi bi-qr-code",
+        "children": [
+            {
+                "name": "All",
+                "url": "QrRaiseAll.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Pending",
+                "url": "QrPending.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Raised",
+                "url": "QrRaised.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "QRPrint",
+        "key": "QRPrint",
+        "icon": "bi bi-qr-code",
+        "children": [
+            {
+                "name": "Print",
+                "url": "QRPrint.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Bill",
+        "key": "Bill",
+        "icon": "bi bi-printer-fill",
+        "children": [
+            {
+                "name": "Print",
+                "url": "BillPrint.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Orders",
+        "key": "Orders",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Orders",
+                "url": "Orders.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Items",
+        "key": "Items",
+        "icon": "bi bi-diagram-2",
+        "children": [
+            {
+                "name": "Items",
+                "url": "Items.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    }
+]

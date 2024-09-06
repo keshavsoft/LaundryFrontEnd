@@ -1,0 +1,10 @@
+{
+    "routePath": "bin",
+    "folderName": "Transactions",
+    "tableName": "Kakinada",
+    "localStorageKeys": {
+        "OrderKey": "PresentOrder",
+        "ItemNamesKey": "ItemNames",
+        "AddOnsKey": "AddOns"
+    }
+}
