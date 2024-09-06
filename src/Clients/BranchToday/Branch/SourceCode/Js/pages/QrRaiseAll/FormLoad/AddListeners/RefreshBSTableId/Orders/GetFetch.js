@@ -6,7 +6,7 @@ let StartFunc = async () => {
 
     let response = await fetch(jVarLocalFetchUrl);
 
-    return await response.json();
+    return await response ;
 };
 
 export { StartFunc };
