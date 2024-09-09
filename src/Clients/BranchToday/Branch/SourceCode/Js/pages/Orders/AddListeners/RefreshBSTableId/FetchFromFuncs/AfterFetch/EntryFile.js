@@ -2,14 +2,9 @@ let StartFunc = (inData) => {
     let jVarLocalData = inData;
     let jVarLocalOrdered = jVarLocalData.sort((x, y) => ((x.pk === y.pk) ? 0 : ((x.pk < y.pk) ? 1 : -1)));
     let jVarLocalWithAggValues = jFLocalInsertAggValues({ inData: jVarLocalOrdered });
+    jFLocalHideSpinner();
 
     var $table = $('#table')
-
-    // $table.bootstrapTable({
-    //     data: jVarLocalWithAggValues,
-    //     detailView: true,
-    //     onExpandRow: StartFuncOnExpandRow
-    // });
 
     $table.bootstrapTable("load", jVarLocalWithAggValues);
 };
@@ -44,6 +39,11 @@ let jFLocalInsertAggValues = ({ inData }) => {
     });
 
     return jVarLocalReturnObject;
+};
+
+let jFLocalHideSpinner = () => {
+    let jVarLocalSpinnerId = document.getElementById("SpinnerId");
+    jVarLocalSpinnerId.style.display = "none";
 };
 
 export { StartFunc };

@@ -16,15 +16,6 @@
         "title": "Order #"
     },
     {
-        "title": "S.No",
-        "formatter": "jFLocalSerialColumn"
-        
-    },
-    {
-        "field": "pk",
-        "title": "Order No."
-    },
-    {
         "title": "ItemName",
         "field": "ItemName"
     },
@@ -32,11 +23,6 @@
         "title": "Rate",
         "field": "Rate",
         "footerFormatter":"totalFormatter"
-    },
-    {
-        "title": "Pcs",
-        "field": "Pcs"
-
     }
 ]
 }

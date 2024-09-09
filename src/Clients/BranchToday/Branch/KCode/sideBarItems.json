@@ -1,11 +1,5 @@
 [
     {
-        "name": "Home",
-        "key": "Home",
-        "icon": "bi bi-house-fill",
-        "url":"../../NewOrders/HtmlFiles/Customer.html"
-    },
-    {
         "name": "QrRaise",
         "key": "Qr",
         "icon": "bi bi-qr-code",
@@ -28,13 +22,13 @@
         ]
     },
     {
-        "name": "QRPrint",
-        "key": "QRPrint",
+        "name": "QrPrint",
+        "key": "PrintQr",
         "icon": "bi bi-qr-code",
         "children": [
             {
-                "name": "Print",
-                "url": "QRPrint.html",
+                "name": "QRPrint",
+                "url": "PrintQr.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]

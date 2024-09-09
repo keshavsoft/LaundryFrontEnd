@@ -24,24 +24,7 @@
                         <span class="visually-hidden">Loading...</span>
 
                     </div>
-
-
-                    <!-- <table id="table" class="table" data-show-columns="true" data-show-footer="true">
-                        <thead>
-                            <tr class="table-primary">
-                                <th data-field="pk" id="OrderId">Order#</th>
-                                <th data-field="CustomerData.CustomerName" id="CustomerId">Customer</th>
-                                <th data-field="CustomerData.CustomerMobile" id="MobileId">Mobile</th>
-                                <th data-field="DateTime" data-formatter="TimeDiff" id="DateId">Time Span</th>
-                                <th data-field="AggValues.ItemDetails" id="ItemsId">Items</th>
-                                <th data-field="AggValues.SettlementAmount" data-footer-formatter="totalPriceFormatter">
-                                    Settlement</th>
-                                <th data-field="IsSettled">IsSettled</th>
-                            </tr>
-                        </thead>
-                    </table> -->
                     <table id="table">
-                       
                     </table>
                 </div>
             </div>
@@ -147,14 +130,14 @@
         return string;
     }
     function totalPriceFormatter(data) {
-            var field = this.field
-            return '₹ ' + data.map(function (row) {
-                return +row.AggValues.SettlementAmount
-            }).reduce(function (sum, i) {
+        var field = this.field
+        return '₹ ' + data.map(function (row) {
+            return +row.AggValues.SettlementAmount
+        }).reduce(function (sum, i) {
 
-                return sum + i
-            }, 0)
-        }
+            return sum + i
+        }, 0)
+    }
 </script>
 
 <script

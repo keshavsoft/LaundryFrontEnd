@@ -2,11 +2,10 @@ let StartFunc = () => {
     var $table = $('#table');
     let jVarLocalSortByDate = jFLocalSortByDate();
     let jVarLocalSortByAccountName = jVarLocalSortByDate.sort((a, b) => a.value - b.value);
-    console.log("jVarLocalSortByAccountName:",jVarLocalSortByAccountName);
-    
-    let jVarLocalFilterData = jVarLocalSortByAccountName.filter(e => e.IsQrCodesRaised === true)
 
-    $table.bootstrapTable("load", jVarLocalSortByAccountName);
+    let jVarLocalFilterData = jVarLocalSortByAccountName.filter(e => e.IsQrCodesRaised === true && e.IsSettled === true)
+
+    $table.bootstrapTable("load", jVarLocalFilterData);
 };
 
 const jFLocalSortByDate = () => {
