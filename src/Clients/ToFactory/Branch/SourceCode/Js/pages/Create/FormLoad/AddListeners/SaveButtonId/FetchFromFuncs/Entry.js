@@ -3,8 +3,6 @@ import { StartFunc as CheckFunc } from "./CheckFunc.js";
 import { StartFunc as StartFuncAfterFetch } from "./AfterFetch/EntryFile.js";
 
 let StartFunc = async () => {
-    console.log("sharath");
-    
     let jVarLocalFromCheck = CheckFunc();
 
     if (jVarLocalFromCheck) {
