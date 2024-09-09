@@ -1,4 +1,10 @@
 <ul class="sidebar-nav" id="sidebar-nav">
+    <li class="nav-item"></li>
+    <a class="nav-link collapsed" href="../../NewOrders/HtmlFiles/Customer.html">
+        <i class="bi bi-grid"></i>
+        <span>Home</span>
+    </a>
+    </li>
     {% for result in sidebarItems %}
     {% if result.isTitle %}
     <li class="nav-item">
@@ -31,7 +37,8 @@
     </li>
     {% else %}
     <li class="nav-item">
-        <a class="nav-link {{ '' if (result.url == filename or filename|startsWith(result.key)) else 'collapsed' }}" href="./{{ result.url }}">
+        <a class="nav-link {{ '' if (result.url == filename or filename|startsWith(result.key)) else 'collapsed' }}"
+            href="./{{ result.url }}">
             <i class="{{ result.icon }}"></i>
             <span>{{result.name}}</span>
         </a>
