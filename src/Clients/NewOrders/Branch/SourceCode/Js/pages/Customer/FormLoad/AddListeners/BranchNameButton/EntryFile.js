@@ -3,7 +3,7 @@ let StartFunc = () => {
     let jVarLocalBranchButtonId = document.getElementById("BranchButtonId");
     jVarLocalBranchButtonId.innerText = jVarLocalBranchName;
     jVarLocalBranchButtonId.addEventListener('click', function() {
-        window.location.href = "../../../../LaundryPos/BranchSelect.html";
+        window.location.href = "/LoginUsers/HtmlFiles/login.html";
     });
 };
 

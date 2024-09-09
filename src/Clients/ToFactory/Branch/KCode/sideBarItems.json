@@ -3,17 +3,11 @@
         "name": "Create",
         "key": "Create",
         "icon": "bi bi-people-fill",
-        "children": [
-            {
-                "name": "Create",
-                "url": "Create.html",
-                "icon": "bi bi-plus-square-fill"
-            }
-        ]
+        "url": "Create.html"
     },
     {
         "name": "DC",
-        "key": "DC",
+        "key": "ToFactory",
         "icon": "bi bi-people-fill",
         "children": [
             {
