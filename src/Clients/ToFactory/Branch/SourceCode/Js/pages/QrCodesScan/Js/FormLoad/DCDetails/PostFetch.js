@@ -3,7 +3,6 @@ let StartFunc = async () => {
 
     let jVarLocalFetchUrl = `/bin/BranchDC/FilterData/pk/${jVarLocalFilterString}`;
     let response = await fetch(jVarLocalFetchUrl);
-    console.log("response:",response);
     let data = await response.json();
 
     return await data;
