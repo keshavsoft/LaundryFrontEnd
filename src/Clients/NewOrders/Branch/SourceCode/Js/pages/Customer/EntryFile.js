@@ -5,8 +5,8 @@ import { StartFunc as StartFuncFormLoad } from "./FormLoad/StartFunc.js";
 const StartFunc = async () => {
     StartFuncFormLoad();
 
-    let jVarLocalFromAdmin = true;
-    //let jVarLocalFromAdmin = await StartFuncLoginCheck();;
+    let jVarLocalFromAdmin = true
+   // let jVarLocalFromAdmin = await StartFuncLoginCheck();;
 
 
     if (jVarLocalFromAdmin === false) {      

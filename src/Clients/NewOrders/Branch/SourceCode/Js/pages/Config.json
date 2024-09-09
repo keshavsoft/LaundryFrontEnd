@@ -1,5 +1,5 @@
 {
-    "routePath": "bin",
+    "routePath": "binV3",
     "folderName": "Masters",
     "tableName": "CustomerNames",
     "localStorageKeys": {
