@@ -10,8 +10,15 @@ let StartFunc = ({ inFromFetch }) => {
         });
     };
 };
-
 let jFLocalToURL = () => {
+    const url = new URL(window.location.href);
+    let NewURl = new URL("/BranchToday/HtmlFiles/QrRaiseAll.html", url);
+
+    window.location.href = NewURl.href;
+
+};
+
+let jFLocalToURL1 = () => {
     const myUrlWithParams = new URL(`${window.location.origin}${window.location.pathname}`);
     // const k1 = new URL("../QrCodeRaise/QrCodeRaise.html", myUrlWithParams.href);
     const k1 = new URL("../../../Today/QrRaise/QrCodeRaise/QrCodeRaise.html", myUrlWithParams.href);
