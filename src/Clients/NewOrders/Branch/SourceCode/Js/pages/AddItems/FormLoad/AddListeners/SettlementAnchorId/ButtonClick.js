@@ -4,7 +4,7 @@ let StartFunc = () => {
 
 let jFLocalToURL = () => {
     const url = new URL(window.location.href);
-    const new_url = new URL("./Settlement/Settlement.html", url);
+    const new_url = new URL("./Settlement.html", url);
 
     let jVarLocalOrderNumber = jFLocalOrderNumberId();
 

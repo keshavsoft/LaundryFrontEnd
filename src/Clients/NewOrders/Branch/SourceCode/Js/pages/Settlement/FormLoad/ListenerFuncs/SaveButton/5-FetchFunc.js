@@ -5,9 +5,10 @@ let StartFunc = async ({ inSettlementData }) => {
     console.log("inSettlementData::", inSettlementData);
     let jVarLocalBodyData = inSettlementData.inDataToUpdate;
 
-    let jVarLocalFetchUrl = `/bin/Transactions/${jVarLocalBranchName}/InsertToKey/${inSettlementData.MainRowPK}/${inSettlementData.InsertKey}`;
+    // let jVarLocalFetchUrl = `/bin/Transactions/${jVarLocalBranchName}/InsertToKey/${inSettlementData.MainRowPK}/${inSettlementData.InsertKey}`;
+    let jVarLocalFetchUrl = `/binV3/${jVarLocalBranchName}/SubTable/Create/${inSettlementData.MainRowPK}/${inSettlementData.InsertKey}`;
     let jVarLocalFetchHeaderObject = {
-        method: "PUT",
+        method: "POST",
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
