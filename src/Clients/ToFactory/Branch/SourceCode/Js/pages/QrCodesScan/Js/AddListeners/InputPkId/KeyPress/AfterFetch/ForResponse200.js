@@ -1,9 +1,10 @@
 import { StartFunc as StartFuncShowOnDom } from "./ShowOnDom.js";
 
 let StartFunc = async ({ inFetchResonse }) => {
-    let localinFetchResonse = await inFetchResonse.json();
-    let jVarLocalBranchName = getUrlQueryParams({ inGetKey: "BranchName" });
-
+    let localData = await inFetchResonse.json();
+    let localinFetchResonse = localData[0];
+    // let jVarLocalBranchName = getUrlQueryParams({ inGetKey: "BranchName" });
+    let jVarLocalBranchName = localStorage.getItem("BranchName");
     if (localinFetchResonse.BookingData.OrderData.BranchName == jVarLocalBranchName) {
         StartFuncShowOnDom({ inFetchResonse: localinFetchResonse });
 

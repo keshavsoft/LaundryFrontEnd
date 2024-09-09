@@ -1,4 +1,4 @@
-import KeysJson from './Keys.json' assert {type: 'json'};
+import KeysJson from './Keys.json' with {type: 'json'};
 
 let StartFunc = () => {
 

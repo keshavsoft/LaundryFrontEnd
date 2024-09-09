@@ -2,37 +2,19 @@ let StartFunc = ({ inFromFetch }) => {
     let jVarLocalFetchData = inFromFetch;
     if (jVarLocalFetchData.KTF === true) {
         jFLocalForSuccess(jVarLocalFetchData);
-    }
-    else {
-        if (jVarLocalFetchData.KTF === false) {
-
-            let jVarLocalHtmlId = 'InputPkId';
-            let jVarLocalInputPkId = document.getElementById(jVarLocalHtmlId);
-            let jVarLocalLength = jVarLocalInputPkId.value.trim().length;
-            jVarLocalInputPkId.setSelectionRange(0, jVarLocalLength);
-
-            Swal.fire({
-                icon: 'error',
-                title: `Check And Scan`,
-                confirmButtonText: "ok",
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    window.location.href = ""
-                }
-            });
-
-        } else {
-            let jVarLocalHtmlId = 'InputPkId';
-            let jVarLocalInputPkId = document.getElementById(jVarLocalHtmlId);
-            let jVarLocalLength = jVarLocalInputPkId.value.trim().length;
-            jVarLocalInputPkId.setSelectionRange(0, jVarLocalLength);
-
-            Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: `${inFromFetch.KReason},${JSON.stringify(inFromFetch.ServerSideCheck[0])}`
-            });
-        }
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: `${jVarLocalFetchData.KReason}`,
+            confirmButtonText: "ok",
+        }).then((result) => {
+            if (result.isConfirmed) {
+                let jVarLocalHtmlId = 'InputPkId';
+                let jVarLocalInputPkId = document.getElementById(jVarLocalHtmlId);
+                let jVarLocalLength = jVarLocalInputPkId.value.trim().length;
+                jVarLocalInputPkId.setSelectionRange(0, jVarLocalLength);
+            }
+        });
     }
 };
 

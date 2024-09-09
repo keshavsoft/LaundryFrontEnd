@@ -1,6 +1,7 @@
 let StartFunc = () => {
     let jVarLocalVoucherRefValue = getUrlQueryParams({ inGetKey: "VoucherRef" });
-    let jVarLocalBranchName = getUrlQueryParams({ inGetKey: "BranchName" });
+    // let jVarLocalBranchName1 = getUrlQueryParams({ inGetKey: "BranchName" });
+    let jVarLocalBranchName = localStorage.getItem("BranchName");
     
     if (jVarLocalVoucherRefValue === "" || jVarLocalVoucherRefValue === null) Swal.fire({
         icon: "error",

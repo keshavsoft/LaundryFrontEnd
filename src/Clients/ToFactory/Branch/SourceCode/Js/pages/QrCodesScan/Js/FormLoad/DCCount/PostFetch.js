@@ -1,7 +1,7 @@
 let StartFunc = async () => {
     let jVarLocalFilterString = getUrlQueryParams({ inGetKey: "VoucherRef" });
 
-    let jVarLocalFetchUrl = `/bin/Factory/QrCodeDetails/RowCount/VoucherRef/${jVarLocalFilterString}`;
+    let jVarLocalFetchUrl = `/bin/BranchScan/RowCount/VoucherRef/${jVarLocalFilterString}`;
     let response = await fetch(jVarLocalFetchUrl);
     let data = await response.json();
 
