@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Customer",
+        "key": "Create",
+        "icon": "bi bi-people-fill",
+        "url": "CustomersCreate.html"
+    }
+]
