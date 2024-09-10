@@ -10,7 +10,6 @@ let StartFunc = async () => {
 
 const jFLocalAddVoucherName = ({ inData }) => {
     let jVarLocalWithVoucherName = inData.map(element => {
-        element.VouherName = "Receipts";
         return element;
     });
 
