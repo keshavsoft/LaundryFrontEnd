@@ -68,5 +68,14 @@
                 "icon": "bi bi-plus-square-fill"
             }
         ]
+    },
+    {
+        "name": "----Reports----"
+    },
+    {
+        "name": "Reports",
+        "key": "Reports",
+        "url": "../../TodayReports/HtmlFiles/",
+        "icon": "bi bi-graph-up-arrow"
     }
 ]
