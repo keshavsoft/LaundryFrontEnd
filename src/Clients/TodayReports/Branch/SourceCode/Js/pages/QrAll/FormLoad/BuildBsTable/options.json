@@ -10,10 +10,10 @@
         {
             "field": "KS-Serial",
             "title": "#",
-            "formatter": "jFGlobalSerialColumn"
+            "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "pk",
+            "field": "QrCodeId",
             "title": "QrCode",
             "filtercontrol": "select"
         },
@@ -28,7 +28,7 @@
             "filtercontrol": "select"
         },
         {
-            "field": "DateTime",
+            "field": "OrderDateTime",
             "title": "Order DateTime",
             "filtercontrol": "select"
         },
@@ -38,12 +38,7 @@
             "filtercontrol": "select"
         },
         {
-            "field": "VoucherNumber",
-            "title": "Voucher No",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "DCFactory",
+            "field": "location",
             "title": "DC Factory",
             "filtercontrol": "select"
         },
