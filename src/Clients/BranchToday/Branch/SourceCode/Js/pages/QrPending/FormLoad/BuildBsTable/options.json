@@ -30,7 +30,7 @@
             "filter-control": "select"
         },
         {
-            "title": "Order Details",
+            "title": "Pcs",
             "formatter": "jFLocalOrderDetails",
             "width": "100"
         },
