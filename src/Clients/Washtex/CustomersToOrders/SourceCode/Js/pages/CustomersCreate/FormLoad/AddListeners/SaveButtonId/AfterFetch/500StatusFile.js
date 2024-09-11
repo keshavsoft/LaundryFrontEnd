@@ -1,10 +1,15 @@
 let StartFunc = ({ inResponse }) => {
-    console.log("inResponse:"),inResponse;
-    
+
     Swal.fire({
-        title: 'Error alert!',
+        title: "Error Alert",
         text: `${inResponse}`,
-        icon: "error"
+        icon: "error",
+        confirmButtonColor: "#3085d6",
+    }).then((result) => {
+
+        if (result.isConfirmed || result.isDismissed) {
+            window.location.href = "";
+        }
     });
 };
 
