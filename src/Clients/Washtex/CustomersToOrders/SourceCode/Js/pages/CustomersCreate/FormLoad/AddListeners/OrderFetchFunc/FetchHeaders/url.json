@@ -1,0 +1,5 @@
+{
+    "RedirectToUrl": "CustomersShowAll.html",
+    "PresentUrl": "CustomersCreate.html",
+    "FetchUrl": "/Custom/Clients/Laundry/Orders/NewOrder"
+}

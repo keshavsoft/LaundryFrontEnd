@@ -1,30 +1,18 @@
 import KeysJson from './Keys.json' with {type: 'json'};
-// import { StartFunc as StartFuncPrepareBody } from "./PrepareBody.js";
 
-let StartFunc = () => {
-    let jVarLocalFromDom = jFLocalCustomerNameInputId();
-    let jVarLocalMobileNumber = jVarLocalFromDom.split(":")[1];
-    let jVarLocalCustomerName = jVarLocalFromDom.split(":")[0];
+let StartFunc = ({ inBodyData }) => {
+    console.log("inBodyData:",inBodyData);
+    
     let jVarLocalBranchName = localStorage.getItem("BranchName");
-     
 
-    KeysJson.body.CustomerData.CustomerMobile = jVarLocalMobileNumber;
-    KeysJson.body.CustomerData.CustomerName = jVarLocalCustomerName;
+    KeysJson.body.CustomerData.CustomerMobile = inBodyData.Mobile;
+    KeysJson.body.CustomerData.CustomerName = inBodyData.CustomerName;
     KeysJson.body.OrderData.BranchName = jVarLocalBranchName;
     KeysJson.body.OrderData.Currentdateandtime = LocalFuncCurrentDateAndTime();
 
     KeysJson.body = JSON.stringify(KeysJson.body);
 
     return KeysJson;
-};
-
-let jFLocalCustomerNameInputId = () => {
-    let jVarLocalCustomerNameInputId = 'CustomerNameInputId'
-    let jVarLocalHtmlId = document.getElementById(jVarLocalCustomerNameInputId);
-
-    if (jVarLocalHtmlId === null === false) {
-        return jVarLocalHtmlId.value.trim();
-    };
 };
 
 let LocalFuncCurrentDateAndTime = () => {
