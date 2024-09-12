@@ -1,4 +1,4 @@
-import ConfigJson from '../../../../Config.json' with {type: 'json'};
+// import ConfigJson from '../../../../Config.json' with {type: 'json'};
 
 let StartFunc = async () => {
     let jVarLocalSubRoute = ConfigJson.routePath;

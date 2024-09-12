@@ -168,41 +168,41 @@
             ].join('');
         };
     </script>
+    <script>
 
+        function TimeDiff(value) {
+            if (value === undefined) {
+                return "";
+            }
+            var diffMs = (new Date() - new Date(value)); // milliseconds between now & Christmas
+            var diffDays = Math.floor(diffMs / 86400000); // days
+            var diffHrs = Math.floor((diffMs % 86400000) / 3600000); // hours
+            var diffMins = Math.round(((diffMs % 86400000) % 3600000) / 60000); // minutes
+
+            return diffDays + " days, " + diffHrs + " hours, " + diffMins + " min...";
+
+            // console.log(diffDays + " days, " + diffHrs + " hours, " + diffMins + " min...");
+        };
+
+        function LocalDate(value) {
+            // Create a new Date object with the specified date
+            const date = new Date(value);
+
+            // Get the day, month, and year
+            const day = String(date.getDate()).padStart(2, '0');
+            const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are zero-indexed
+            const year = date.getFullYear();
+
+            // Format the date as "DD-MM-YYYY"
+            const formattedDate = `${day}-${month}-${year}`;
+            return formattedDate;
+        };
+
+
+    </script>
     <script type="module" src="../Js/pages/Customer/EntryFile.js"></script>
 </body>
 
-<script>
 
-    function TimeDiff(value) {
-        if (value === undefined) {
-            return "";
-        }
-        var diffMs = (new Date() - new Date(value)); // milliseconds between now & Christmas
-        var diffDays = Math.floor(diffMs / 86400000); // days
-        var diffHrs = Math.floor((diffMs % 86400000) / 3600000); // hours
-        var diffMins = Math.round(((diffMs % 86400000) % 3600000) / 60000); // minutes
-
-        return diffDays + " days, " + diffHrs + " hours, " + diffMins + " min...";
-
-        // console.log(diffDays + " days, " + diffHrs + " hours, " + diffMins + " min...");
-};
-
-function LocalDate(value) {
-        // Create a new Date object with the specified date
-        const date = new Date(value);
-
-        // Get the day, month, and year
-        const day = String(date.getDate()).padStart(2, '0');
-        const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are zero-indexed
-        const year = date.getFullYear();
-
-        // Format the date as "DD-MM-YYYY"
-        const formattedDate = `${day}-${month}-${year}`;
-        return formattedDate;
-};
-
-    
-</script>
 
 </html>
