@@ -1,0 +1,49 @@
+{
+    "toolbar": "#toolbar",
+    "search": "true",
+    "searchable": "true",
+    "idfield": "pk",
+    "showFooter": "true",
+    "data": [],
+    "onClickRow": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
+        {
+            "field": "UuId",
+            "title": "Order #"
+        },
+        {
+            "field": "CustomerData.CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerData.CustomerMobile",
+            "title": "Mobile"
+        },
+        {
+            "title": "TimeSpan",
+            "formatter": "TimeSpan",
+            "filter-control": "select"
+        },
+        {
+            "title": "Order Details",
+            "formatter": "jFLocalOrderDetails",
+            "width": "100"
+        },
+        {
+            "title": "Settlement",
+            "formatter": "jFLocalSettlementDetails",
+            "footerFormatter": "priceFormatter"
+        },
+        {
+            "title": "QrCodes",
+            "field":"QRRaise",
+            "formatter": "jFLocalQrCodeDetails",
+            "footerFormatter": "QrFormatter"
+        }
+    ]
+}

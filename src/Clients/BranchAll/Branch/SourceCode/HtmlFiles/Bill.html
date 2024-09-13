@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Ultrawash Bill</title>
+  <style type="text/css">
+    body,
+    td,
+    th {
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 11px;
+    }
+  </style>
+</head>
+
+<body>
+  <table width="792" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td width="371" valign="top" id="LeftBillId">
+          <table width="100%" border="1" align="left" cellpadding="4" cellspacing="1">
+            <tbody>
+              <tr>
+                <td height="30" colspan="4" align="center"><strong>Ultra WashTex PVT LTD</strong>
+                  <strong>(<label id="BranchNameId"></label>)</strong>
+                </td>
+              </tr>
+
+              <tr>
+                <td align="left">Store Contact : 8790902823</td>
+                <td align="right" colspan="3">GSTN : 37AABCU0026A1Z2</td>
+
+              </tr>
+              <tr>
+                <td colspan="4" align="center">
+                  <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td width="50%">
+                          <p> <strong>Bill Number : <label id="BillNumberid">0</label></strong></p>
+                          <p> <strong>Name :<label id="CustomerNameid">Name</label></strong></p>
+                          <p> <strong>Mobile :<label id="MobileNumberid">Mobile</label></strong></p>
+                          <p> <strong>GST NO :<label id="GSTNoid">No GST Number</label></strong></p>
+                        </td>
+                        <td width="50%" align="right">
+                          <p>Booking Date: <label id="BookingDateid">Booking Date</label></p>
+                          <p>Payment : <label id="Paymentid">Google Pay</label></p>
+                        </td>
+
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <table border="1" cellpadding="2" cellspacing="0">
+                    <thead>
+                      <tr>
+                        <td align="left">
+                          Item Name @ Service @ Remarks
+                        </td>
+
+                        <td align="right">Quantity</td>
+                        <td align="right">
+                          Total Amount
+                        </td>
+                        <td align="center">Delivary Date</td>
+
+                    </thead>
+                    <tbody id="ItemNamesBodyId" align="center">
+                      <tr>
+
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr align="right">
+                        <td>Totals: &nbsp;</td>
+                        <td><label id="TotalPiecesid">Total Pieces</label></td>
+                        <td><label id="TotalPriceid">Total Price</label></td>
+                      </tr>
+                      <tr>
+                        <td align="right" colspan="2">Discount: </td>
+                        <td align="right"><label id="DiscountAmountId">DiscountAmount</label></td>
+                      </tr>
+                      <tr>
+                        <td align="right" colspan="2">CGST (9%)&nbsp;+ SGST (9%)</td>
+                        <td align="right"><label id="CGSTid">CGST (9%)</label></td>
+                      </tr>
+                      <tr>
+                        <td align="right" colspan="2">Round Off&nbsp;</td>
+                        <td align="right"><label id="RoundOffid">RoundOff</label></td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td align="right" colspan="3">Grand Total &nbsp;</td>
+                <td align="center"><label id="GrandTotalid">Grand Total:</label></td>
+              </tr>
+
+            </tbody>
+          </table>
+        </td>
+        <td width="371" align="center" valign="top" id="RightBillId">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <template id="TemplateForTableRowId">
+    <tr>
+      <td align="left">
+        1
+      </td>
+      <td align="right">
+        2
+      </td>
+      <td align="right">
+        3
+      </td>
+      <td>
+        4
+      </td>
+    </tr>
+  </template>
+
+  <script>
+
+
+    let jVarLocalHbsTemplateForTable = document.getElementById("HbsTemplateForTable");
+
+    Handlebars.registerHelper('ForSNo', function (item) {
+      return item + 1;
+    });
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script type="module" src="../Js/pages/Bill/BillPrint.js"></script>
+</body>
+
+</html>

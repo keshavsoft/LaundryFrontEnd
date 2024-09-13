@@ -14,7 +14,11 @@
     "ToFactory": "vite build --config src/Clients/ToFactory/Branch/vite.config.js",
     "NewOrders": "vite build --config src/Clients/NewOrders/Branch/vite.config.js",
     "CustomersToOrders": "vite build --config src/Clients/Washtex/CustomersToOrders/vite.config.js",
-    "Main": "vite build --config src/Clients/Main/Branch/vite.config.js"
+    "Main": "vite build --config src/Clients/Main/Branch/vite.config.js",
+    "BranchAll": "vite build --config src/Clients/BranchAll/Branch/vite.config.js",
+    "AllReports": "vite build --config src/Clients/AllReports/Branch/vite.config.js"
+
+
      
   },
   "author": "",
