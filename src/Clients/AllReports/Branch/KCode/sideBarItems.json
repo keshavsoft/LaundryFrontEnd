@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Payments",
+        "key": "Payments",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "OrdersShowAll.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Cash",
+                "url": "Cash.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Card",
+                "url": "Card.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "UPI",
+                "url": "UPI.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Qr",
+        "key": "Qr",
+        "icon": "bi bi-qr-code",
+        "children": [
+            {
+                "name": "All",
+                "url": "QrAll.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "InBranch",
+                "url": "QrInBranch.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "ToFactory",
+                "url": "QrToFactory.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    }
+]
