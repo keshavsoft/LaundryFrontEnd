@@ -13,7 +13,8 @@
     "Masters": "vite build --config src/Clients/Washtex/Masters/vite.config.js",
     "ToFactory": "vite build --config src/Clients/ToFactory/Branch/vite.config.js",
     "NewOrders": "vite build --config src/Clients/NewOrders/Branch/vite.config.js",
-    "CustomersToOrders": "vite build --config src/Clients/Washtex/CustomersToOrders/vite.config.js"
+    "CustomersToOrders": "vite build --config src/Clients/Washtex/CustomersToOrders/vite.config.js",
+    "Main": "vite build --config src/Clients/Main/Branch/vite.config.js"
      
   },
   "author": "",
