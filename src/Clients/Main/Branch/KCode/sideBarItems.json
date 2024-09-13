@@ -1,0 +1,14 @@
+[
+    {
+        "name": "QrRaise",
+        "key": "Qr",
+        "icon": "bi bi-qr-code",
+        "children": [
+            {
+                "name": "All",
+                "url": "QrRaiseAll.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    }
+]
