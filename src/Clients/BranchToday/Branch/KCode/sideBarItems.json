@@ -1,5 +1,13 @@
 [
     {
+        "name": "Today"
+    },
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../NewOrders/HtmlFiles/Customer.html"
+    },
+    {
         "name": "QrRaise",
         "key": "Qr",
         "icon": "bi bi-qr-code",

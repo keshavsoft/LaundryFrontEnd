@@ -7,8 +7,8 @@
     "data": [],
     "onClickRow": "",
     "detailView": true,
-    "onExpandRow":"",
-    "icons":"",
+    "onExpandRow": "",
+    "icons": "",
     "columns": [
         {
             "field": "KS-Serial",
@@ -30,7 +30,7 @@
         {
             "field": "DateTime",
             "title": "Time Span",
-            "formatter":"TimeDiff"
+            "formatter": "TimeDiff"
         },
         {
             "field": "AggValues.ItemDetails",
@@ -39,7 +39,8 @@
         {
             "field": "AggValues.SettlementAmount",
             "title": "Settlement",
-            "footerFormatter":"totalPriceFormatter"
+            "footerFormatter": "totalPriceFormatter",
+            "align": "right"
         },
         {
             "field": "IsSettled",

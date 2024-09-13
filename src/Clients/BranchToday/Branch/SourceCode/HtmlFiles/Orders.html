@@ -1,6 +1,6 @@
 {% set title = 'Account Profile' %}
 
-{% extends 'src/Clients/Washtex/Branch/SourceCode/Masters/simple.html' %}
+{% extends 'src/Clients/BranchToday/Branch/SourceCode/Masters/simple.html' %}
 
 {% block content %}
 <div class="pagetitle">
@@ -35,10 +35,10 @@
     <table class="table-sm table-success">
         <thead>
             <tr>
-                <th data-formatter="jFLocalSerialColumn">S.No</th>
+                <th data-formatter="jFLocalSerialColumn">#</th>
                 <th data-field="ItemName">ItemName</th>
-                <th data-field="Rate">Rate</th>
-                <th data-field="Pcs">Pcs</th>
+                <th data-field="Rate" data-align="right">Rate</th>
+                <th data-field="Pcs" data-align="right">Pcs</th>
             </tr>
         </thead>
     </table>
@@ -48,7 +48,7 @@
     <table class="table-warning table-sm">
         <thead>
             <tr>
-                <th data-formatter="jFLocalSerialColumn">S.No</th>
+                <th data-formatter="jFLocalSerialColumn">#</th>
                 <th data-field="AddOnService">AddOnService</th>
                 <th data-field="AddOnRate">AddOnRate</th>
             </tr>
