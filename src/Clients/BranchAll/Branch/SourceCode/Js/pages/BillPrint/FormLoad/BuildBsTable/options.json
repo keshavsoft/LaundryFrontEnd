@@ -24,7 +24,11 @@
             "field": "CustomerData.CustomerMobile",
             "title": "Mobile"
         },
-    
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan",
+            "filter-control": "select"
+        },
         {
             "title": "Settlement",
             "formatter": "jFLocalSettlementDetails",
@@ -32,7 +36,7 @@
         },
         {
             "title": "QrCodes",
-            "field":"QRRaise",
+            "field": "QRRaise",
             "formatter": "jFLocalQrCodeDetails",
             "footerFormatter": "QrFormatter"
         },

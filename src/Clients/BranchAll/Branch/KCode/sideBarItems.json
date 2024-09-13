@@ -1,6 +1,6 @@
 [
     {
-        "name": "Today"
+        "name": "All"
     },
     {
         "name": "Home",
@@ -83,7 +83,7 @@
     {
         "name": "Reports",
         "key": "Reports",
-        "url": "../../TodayReports/HtmlFiles/",
+        "url": "../../AllReports/HtmlFiles/",
         "icon": "bi bi-graph-up-arrow"
     }
 ]
