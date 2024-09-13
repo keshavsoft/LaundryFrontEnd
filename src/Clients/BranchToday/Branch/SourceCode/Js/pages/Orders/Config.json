@@ -1,4 +1,5 @@
 {
     "routePath": "binV3",
-    "tableName": "Kakinada"
+    "tableName": "Kakinada",
+    "url":"/Custom/Clients/Laundry/Today/Orders/OnlyOrders"
 }
