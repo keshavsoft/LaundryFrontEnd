@@ -1,4 +1,4 @@
-let StartFunc = ({ inResponse }) => {
+let StartFunc = ({ inResponse, inBodyData }) => {
     Swal.fire({
         title: "Error Alert",
         text: `${inResponse}`,
@@ -7,7 +7,14 @@ let StartFunc = ({ inResponse }) => {
     }).then((result) => {
 
         if (result.isConfirmed || result.isDismissed) {
-            window.location.href = "/NewOrders/HtmlFiles/Customer.html";
+            const url = new URL(window.location.href);
+            const params1 = new URLSearchParams(url.search);
+            let NewURl = new URL("/NewOrders/HtmlFiles/Customer.html", url);
+            const new_url = new URL(`${NewURl.href}?${params1}`);
+            new_url.searchParams.append('CustomerMobile', inBodyData.CustomerName);
+            new_url.searchParams.append('CustomerName', inBodyData.Mobile);
+
+            window.location.href = new_url.href;
         }
     });
 };

@@ -6,9 +6,10 @@ import { StartFunc as Order200StatusFile } from "../AfterFetch/200StatusFile.js"
 import { StartFunc as Order500StatusFile } from "../AfterFetch/500StatusFile.js";
 import { StartFunc as Customer500StatusFile } from "./AfterFetch/500StatusFile.js";
 
-let StartFunc = async () => {
-    let jVarLocalRefreshBSTableId = document.getElementById("SaveButtonId");
-    jVarLocalRefreshBSTableId.disabled = true;
+let StartFunc = async (inEvent) => {
+    inEvent.preventDefault()
+    // let jVarLocalRefreshBSTableId = document.getElementById("SaveButtonId");
+    // jVarLocalRefreshBSTableId.disabled = true;
 
     let jVarLocalFromCheck = CheckFunc();
 
@@ -23,7 +24,7 @@ let StartFunc = async () => {
                 Order200StatusFile();
             };
             if (jVarorderResponse.status === 500) {
-                Order500StatusFile({ inResponse: await jVarorderResponse.text() })
+                Order500StatusFile({ inResponse: await jVarorderResponse.text(), inBodyData: LocalBodyData })
 
             };
         };
