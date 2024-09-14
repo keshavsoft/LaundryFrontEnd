@@ -58,6 +58,33 @@
         {% include 'src/Clients/ToFactory/Branch/SourceCode/Footers/withVersion.html' %}
     </footer><!-- End Footer -->
 
+    <div class="modal fade" id="LoginModalId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="login-form">
+                        <h2 class="text-center mb-4">Login</h2>
+
+                        <div class="mb-3">
+                            <input type="text" id="UsernameId" class="form-control" placeholder="User name" autofocus>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" id="PasswordId" class="form-control" id="password"
+                                placeholder="Password">
+                        </div>
+                        <div class="mb-3 text-center mt-3">
+                            <button type="button" id="LoginButtonId"
+                                class="btn btn-primary btn-block w-100">Login</button>
+                        </div>
+                        <div class="text-center mt-3">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 
