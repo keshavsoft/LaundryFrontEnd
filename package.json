@@ -16,7 +16,9 @@
     "CustomersToOrders": "vite build --config src/Clients/Washtex/CustomersToOrders/vite.config.js",
     "Main": "vite build --config src/Clients/Main/Branch/vite.config.js",
     "BranchAll": "vite build --config src/Clients/BranchAll/Branch/vite.config.js",
-    "AllReports": "vite build --config src/Clients/AllReports/Branch/vite.config.js"
+    "AllReports": "vite build --config src/Clients/AllReports/Branch/vite.config.js",
+    "TodayQrCodes": "vite build --config src/Clients/TodayQrCodes/Branch/vite.config.js"
+
 
 
      

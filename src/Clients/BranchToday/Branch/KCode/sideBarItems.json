@@ -85,5 +85,11 @@
         "key": "Reports",
         "url": "../../TodayReports/HtmlFiles/",
         "icon": "bi bi-graph-up-arrow"
+    },
+    {
+        "name": "QrCodes",
+        "key": "Qr",
+        "url": "../../TodayQrCodes/HtmlFiles/",
+        "icon": "bi bi-graph-up-arrow"
     }
 ]
