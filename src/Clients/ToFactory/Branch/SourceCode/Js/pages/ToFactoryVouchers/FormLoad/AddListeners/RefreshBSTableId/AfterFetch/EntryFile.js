@@ -1,11 +1,11 @@
 let StartFunc = () => {
     var $table = $('#table');
     let jVarLocalSortByDate = jFLocalSortByDate();
-    let jVarLocalSortByAccountName = jVarLocalSortByDate.sort((a, b) => a.value - b.value);
-    console.log("jVarLocalSortByAccountName:",jVarLocalSortByAccountName);
-    
+    let jVarLocalBranchName = localStorage.getItem("BranchName");
+    let FilterData = jVarLocalSortByDate.filter(element => element.BranchName === jVarLocalBranchName);
+    FilterData.reverse();
 
-    $table.bootstrapTable("load", jVarLocalSortByAccountName);
+    $table.bootstrapTable("load", FilterData);
 };
 
 const jFLocalSortByDate = () => {
