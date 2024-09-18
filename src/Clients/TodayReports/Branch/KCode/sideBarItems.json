@@ -1,6 +1,6 @@
 [
     {
-        "name": "Today-Reopts"
+        "name": "Today-Reports"
     },
     {
         "name": "Home",
@@ -8,30 +8,23 @@
         "url": "../../NewOrders/HtmlFiles/Customer.html"
     },
     {
-        "name": "Payments",
-        "key": "Payments",
-        "icon": "bi bi-people-fill",
-        "children": [
-            {
-                "name": "ShowAll",
-                "url": "PaymentsShowAll.html",
-                "icon": "bi bi-plus-square-fill"
-            },
-            {
-                "name": "Cash",
-                "url": "PaymentsCash.html",
-                "icon": "bi bi-plus-square-fill"
-            },
-            {
-                "name": "Card",
-                "url": "PaymentsCard.html",
-                "icon": "bi bi-plus-square-fill"
-            },
-            {
-                "name": "UPI",
-                "url": "PaymentsUPI.html",
-                "icon": "bi bi-plus-square-fill"
-            }
-        ]
+        "name": "ShowAll",
+        "url": "PaymentsShowAll.html",
+        "icon": "bi bi-border-all"
+    },
+    {
+        "name": "Cash",
+        "url": "PaymentsCash.html",
+        "icon": "bi bi-cash-coin"
+    },
+    {
+        "name": "Card",
+        "url": "PaymentsCard.html",
+        "icon": "bi bi-person-vcard-fill"
+    },
+    {
+        "name": "UPI",
+        "url": "PaymentsUPI.html",
+        "icon": "bi bi-currency-dollar"
     }
 ]
