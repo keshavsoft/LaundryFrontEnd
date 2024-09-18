@@ -84,12 +84,12 @@
         "name": "Reports",
         "key": "Reports",
         "url": "../../TodayReports/HtmlFiles/",
-        "icon": "bi bi-graph-up-arrow"
+        "icon": "bi bi-journal-bookmark-fill"
     },
     {
         "name": "QrCodes",
         "key": "Qr",
         "url": "../../TodayQrCodes/HtmlFiles/",
-        "icon": "bi bi-graph-up-arrow"
+        "icon": "bi bi-fast-forward-btn"
     }
 ]
