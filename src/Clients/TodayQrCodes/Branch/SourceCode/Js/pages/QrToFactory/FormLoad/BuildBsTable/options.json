@@ -38,6 +38,16 @@
             "filtercontrol": "select"
         },
         {
+            "field": "VoucherNumber",
+            "title": "DC #",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "DC Date",
+            "field": "DCDate",
+            "filtercontrol": "select"
+        },
+        {
             "field": "location",
             "title": "DC Factory",
             "filtercontrol": "select"
