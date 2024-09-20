@@ -9,3 +9,4 @@ call npm run Main
 call npm run BranchAll
 call npm run AllReports
 call npm run TodayQrCodes
+call npm run TodayOrders
