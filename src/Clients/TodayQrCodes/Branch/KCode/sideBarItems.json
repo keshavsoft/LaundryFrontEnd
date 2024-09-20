@@ -23,5 +23,10 @@
         "name": "ToFactory",
         "url": "QrToFactory.html",
         "icon": "bi bi-circle"
+    },
+    {
+        "name": "Return",
+        "url": "QrReturn.html",
+        "icon": "bi bi-circle"
     }
 ]

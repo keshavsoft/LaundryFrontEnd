@@ -1,0 +1,56 @@
+{
+    "toolbar": "#toolbar",
+    "search": "true",
+    "searchable": "true",
+    "idfield": "pk",
+    "showFooter": "true",
+    "data": [],
+    "onClickRow": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "QrCodeId",
+            "title": "QrCode",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "ItemName",
+            "title": "ItemName",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "Rate",
+            "title": "Rate",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "OrderDateTime",
+            "title": "Order DateTime",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "DeliveryDateTime",
+            "title": "DeliveryDateTime",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "location",
+            "title": "DC Factory",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "Status",
+            "title": "Status",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan",
+            "filtercontrol": "select"
+        }
+    ]
+}
