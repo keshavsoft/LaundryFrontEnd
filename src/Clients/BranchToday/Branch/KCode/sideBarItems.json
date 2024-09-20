@@ -56,14 +56,8 @@
     {
         "name": "Orders",
         "key": "Orders",
-        "icon": "bi bi-people-fill",
-        "children": [
-            {
-                "name": "Orders",
-                "url": "Orders.html",
-                "icon": "bi bi-plus-square-fill"
-            }
-        ]
+        "icon": "bi bi-border-style",
+        "url":"../../../TodayOrders/HtmlFiles/Orders.html"
     },
     {
         "name": "Items",

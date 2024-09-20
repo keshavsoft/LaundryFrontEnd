@@ -4,32 +4,33 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
+    "pagination": "true",
     "data": [],
-   "columns": [
-    {
-        "field": "KS-Serial",
-        "title": "#",
-        "formatter": "jFGlobalSerialColumn"
-    },
-    {
-        "field": "Category",
-        "title": "Category"
-    },
-    {
-        "field": "ItemName",
-        "title": "ItemName"
-    },
-    {
-        "field": "Pcs",
-        "title": "Pcs"
-    },
-    {
-        "field": "WashType",
-        "title": "WashType"
-    },
-    {
-        "field": "DryWashRate",
-        "title": "DryWashRate"
-    }
-]
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
+        {
+            "field": "Category",
+            "title": "Category"
+        },
+        {
+            "field": "ItemName",
+            "title": "ItemName"
+        },
+        {
+            "field": "Pcs",
+            "title": "Pcs"
+        },
+        {
+            "field": "WashType",
+            "title": "WashType"
+        },
+        {
+            "field": "DryWashRate",
+            "title": "DryWashRate"
+        }
+    ]
 }
