@@ -25,19 +25,19 @@
             "title": "DC Date"
         },
         {
-            "title": "Description",
-            "field": "Description"
+            "title": "Duration",
+            "formatter": "DateFormatter"
         },
         {
-            "title": "DateTime",
-            "field": "DateTime"
+            "title": "Description",
+            "field": "Description"
         },
         {
             "title": "Items",
             "formatter": "ItemsFormatter"
         },
         {
-            "title": "Print",
+            "title": "Scan",
             "formatter": "QRCodeGenerate"
         }
     ]
