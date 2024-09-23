@@ -1,12 +1,10 @@
+import Configjson from "../../../Config.json" with {type: "json"};
 
 let StartFunc = async ({ inSettlementData }) => {
-    // let jVarLocalBranchName = getUrlQueryParams({ inGetKey: "BranchName" });
     let jVarLocalBranchName = localStorage.getItem("BranchName");
-    console.log("inSettlementData::", inSettlementData);
     let jVarLocalBodyData = inSettlementData.inDataToUpdate;
 
-    // let jVarLocalFetchUrl = `/bin/Transactions/${jVarLocalBranchName}/InsertToKey/${inSettlementData.MainRowPK}/${inSettlementData.InsertKey}`;
-    let jVarLocalFetchUrl = `/binV3/${jVarLocalBranchName}/SubTable/Create/${inSettlementData.MainRowPK}/${inSettlementData.InsertKey}`;
+    let jVarLocalFetchUrl = `/${Configjson.routePath}/${jVarLocalBranchName}/SubTable/Create/${inSettlementData.MainRowPK}/${inSettlementData.InsertKey}`;
     let jVarLocalFetchHeaderObject = {
         method: "POST",
         headers: {
@@ -20,12 +18,6 @@ let StartFunc = async ({ inSettlementData }) => {
     let jVarLocalResponse = await response.json();
 
     return jVarLocalResponse;
-};
-let getUrlQueryParams = ({ inGetKey }) => {
-    const queryString = window.location.search;
-    const parameters = new URLSearchParams(queryString);
-    const value = parameters.get(inGetKey);
-    return value;
 };
 
 export { StartFunc };
