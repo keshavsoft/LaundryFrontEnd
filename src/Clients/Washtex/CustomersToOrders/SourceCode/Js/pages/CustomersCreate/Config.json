@@ -1,4 +1,3 @@
 {
-    "routePath": "binV3",
-    "tableName":"MastersCustomers"
+    "FetchUrl": "/binV4/MastersCustomers/Create"
 }

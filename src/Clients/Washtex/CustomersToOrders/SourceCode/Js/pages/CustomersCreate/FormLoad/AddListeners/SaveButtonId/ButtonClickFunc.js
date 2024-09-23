@@ -8,8 +8,6 @@ import { StartFunc as Customer500StatusFile } from "./AfterFetch/500StatusFile.j
 
 let StartFunc = async (inEvent) => {
     inEvent.preventDefault()
-    // let jVarLocalRefreshBSTableId = document.getElementById("SaveButtonId");
-    // jVarLocalRefreshBSTableId.disabled = true;
 
     let jVarLocalFromCheck = CheckFunc();
 

@@ -10,7 +10,6 @@ const StartFunc = () => {
         onExpandRow: StartFuncOnExpandRow,
         icons: IconsJson
     });
-
 };
 
 export { StartFunc };

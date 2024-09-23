@@ -6,13 +6,12 @@ const StartFunc = async () => {
     StartFuncFormLoad();
 
     // let jVarLocalFromAdmin = true
-   let jVarLocalFromAdmin = await StartFuncLoginCheck();;
+    let jVarLocalFromAdmin = await StartFuncLoginCheck();;
 
-
-    if (jVarLocalFromAdmin === false) {      
+    if (jVarLocalFromAdmin === false) {
         return await false;
     };
-    
+
     StartFuncShowOnDom();
 };
 
