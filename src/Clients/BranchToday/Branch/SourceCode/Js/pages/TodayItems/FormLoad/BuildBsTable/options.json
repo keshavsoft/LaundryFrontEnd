@@ -5,24 +5,36 @@
     "idfield": "pk",
     "showFooter": "true",
     "data": [],
-   "columns": [
-    {
-        "field": "KS-Serial",
-        "title": "#",
-        "formatter": "jFGlobalSerialColumn"
-    },
-    {
-        "field": "UuId",
-        "title": "Order #"
-    },
-    {
-        "title": "ItemName",
-        "field": "ItemName"
-    },
-    {
-        "title": "Rate",
-        "field": "Rate",
-        "footerFormatter":"totalFormatter"
-    }
-]
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
+        {
+            "field": "OrderNumber",
+            "title": "Order #"
+        },
+        {
+            "title": "QrCode",
+            "field": "QrCode"
+        },
+        {
+            "title": "ItemName",
+            "field": "ItemName"
+        },
+        {
+            "title": "Rate",
+            "field": "Rate",
+            "footerFormatter": "totalFormatter"
+        },
+        {
+            "title": "OrderDate",
+            "field": "OrderDate"
+        },
+        {
+            "title": "DeliveryDate",
+            "field": "DeliveryDate"
+        }
+    ]
 }

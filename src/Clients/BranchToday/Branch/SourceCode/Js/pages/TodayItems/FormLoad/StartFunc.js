@@ -4,7 +4,7 @@ import { StartFunc as StartFuncFromUrlParams } from "./FromUrlParams/EntryFile.j
 const StartFunc = () => {
     StartFuncFromUrlParams();
     StartFuncBuildBsTable();
-    StartFuncAddListeners();
+    // StartFuncAddListeners();
 };
 
 export { StartFunc };
