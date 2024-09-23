@@ -1,5 +1,5 @@
 import { StartFunc as StartFuncFetchHeaders } from "./FetchHeaders/EntryFile.js";
-import ConfigJson from "../../../../../Config.json" with { type: "json" };
+import ConfigJson from "../../../../Config.json" with { type: "json" };
 
 let StartFunc = async () => {
     let LocalroutePath = ConfigJson.routePath;
