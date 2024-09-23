@@ -5,7 +5,8 @@ import { StartFunc as LoginModal } from "../../../assets/static/js/Common/NiceAd
 const StartFunc = async () => {
     await StartFuncFormLoad();
     let jVarLocalFromAdmin = LoginModal({ inSuccessFunc: StartFuncShowToDom });
-
+    //let jVarLocalFromAdmin = true;
+    
     if (jVarLocalFromAdmin) {
         StartFuncShowToDom();
     };
