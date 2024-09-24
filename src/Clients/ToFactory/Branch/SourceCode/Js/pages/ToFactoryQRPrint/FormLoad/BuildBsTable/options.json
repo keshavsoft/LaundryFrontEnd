@@ -37,7 +37,8 @@
             "formatter": "ItemsFormatter"
         },
         {
-            "title": "Scan",
+            "title": "Print",
+            "field": "print",
             "formatter": "QRCodeGenerate"
         }
     ]
