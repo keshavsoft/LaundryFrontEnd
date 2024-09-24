@@ -6,5 +6,13 @@
         "OrderKey": "CustomerNames",
         "ItemNamesKey": "ItemNames",
         "AddOnsKey": "AddOns"
+    },
+    "Urls": {
+        "NewOrderButtonId": {
+            "PostFetch": "/Custom/Clients/Laundry/Orders/NewOrder",
+            "RedirectUrl": {
+                "500Status": "/Laundry/NewOrders/HtmlFiles/AddItems.html"
+            }
+        }
     }
 }

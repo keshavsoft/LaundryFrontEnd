@@ -1,9 +1,10 @@
 import { StartFunc as StartFuncFetchHeaders } from "./FetchHeaders/EntryFile.js";
+import ConfigJson from '../../../../Config.json' with {type: 'json'};
 
 let StartFunc = async () => {
     let jVarLocalFetchHeaders = StartFuncFetchHeaders();
     let jVarLocalBranchName = localStorage.getItem("BranchName");
-    let jVarLocalFetchUrl = `/Custom/Clients/Laundry/Orders/NewOrder/${jVarLocalBranchName}`;
+    let jVarLocalFetchUrl = `${ConfigJson.Urls.NewOrderButtonId.PostFetch}/${jVarLocalBranchName}`;
 
     let response = await fetch(jVarLocalFetchUrl, jVarLocalFetchHeaders);
 
