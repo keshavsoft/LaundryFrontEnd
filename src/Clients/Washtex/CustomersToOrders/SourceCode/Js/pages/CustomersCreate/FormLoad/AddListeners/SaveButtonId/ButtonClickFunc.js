@@ -10,6 +10,7 @@ let StartFunc = async (inEvent) => {
     inEvent.preventDefault()
 
     let jVarLocalFromCheck = CheckFunc();
+    debugger
 
     if (jVarLocalFromCheck) {
         let LocalBodyData = FetchHeaders();
@@ -21,15 +22,21 @@ let StartFunc = async (inEvent) => {
             if (jVarorderResponse.status === 200) {
                 Order200StatusFile();
             };
-            if (jVarorderResponse.status === 500) {
-                Order500StatusFile({ inResponse: await jVarorderResponse.text(), inBodyData: LocalBodyData })
 
+            if (jVarorderResponse.status === 500) {
+                const jVarLocalResponseBody = await jVarorderResponse.text();
+
+                Order500StatusFile({
+                    inResponse: jVarLocalResponseBody,
+                    inBodyData: LocalBodyData
+                })
             };
         };
+
         if (jVarLocalResponse.status === 500) {
             Customer500StatusFile({ inResponse: await jVarLocalResponse.text() });
         };
     };
 };
 
-export { StartFunc }
+export { StartFunc };
