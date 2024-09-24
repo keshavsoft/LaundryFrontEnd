@@ -1,4 +1,9 @@
 {
+    "urls":{
+        "SaveButtonId":{
+            "redirectToUrl":"/Laundry/BranchToday/HtmlFiles/QrRaiseAll.html"
+        }
+    },
     "routePath": "binV3",
     "folderName": "Masters",
     "tableName": "CustomerNames",
