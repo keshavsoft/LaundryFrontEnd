@@ -12,12 +12,8 @@
             "formatter": "jFGlobalSerialColumn"
         },
         {
-            "field": "OrderNumber",
+            "field": "pk",
             "title": "Order #"
-        },
-        {
-            "title": "QrCode",
-            "field": "QrCode"
         },
         {
             "title": "ItemName",
@@ -26,15 +22,12 @@
         {
             "title": "Rate",
             "field": "Rate",
+            "align": "right",
             "footerFormatter": "totalFormatter"
         },
         {
-            "title": "OrderDate",
-            "field": "OrderDate"
-        },
-        {
-            "title": "DeliveryDate",
-            "field": "DeliveryDate"
+            "title": "Pcs",
+            "field": "Pcs"
         }
     ]
 }
