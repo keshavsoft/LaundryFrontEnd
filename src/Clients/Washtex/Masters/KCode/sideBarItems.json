@@ -1,4 +1,11 @@
 [
+
+    
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../NewOrders/HtmlFiles/Customer.html"
+    },
     {
         "name": "Customers",
         "key": "Customers",

@@ -1,6 +1,7 @@
 {% set title = 'Account Profile' %}
 
-{% extends 'src/Clients/Washtex/Branch/SourceCode/Masters/simple.html' %}
+{% extends 'src/Clients/Washtex/Masters/SourceCode/Masters/simple.html' %}
+
 {% block content %}
 <div class="pagetitle">
     <h1 class="d-block d-sm-none">New Customer</h1>
@@ -60,7 +61,7 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <label class="col-md-4 col-form-label">City</label>
+                        <label class="col-md-4 col-form-label">Location</label>
                         <div class="col-md-8">
                             <input name="City" type="text" class="form-control" autocomplete="off">
                             <div class="invalid-feedback">
@@ -88,12 +89,17 @@
                     </div>
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">BranchName</label>
+
                         <div class="col-md-8">
-                            <input name="BranchName" type="text" class="form-control" autocomplete="off">
+                            <input kvs1="" id="BranchName" name="BranchName"
+                                data-dataattribute="BranchName" value="" data-clienteval=""
+                                type="" class="form-control KeshavSoftHtmlAttributes"
+                                autocomplete="off" readonly>
                             <div class="invalid-feedback">
-                                BranchName Should not be empty!!
+                                Should not be Empty!!
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <div class="row mt-3">
