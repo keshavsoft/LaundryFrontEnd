@@ -1,0 +1,12 @@
+npm run WashtexBranch
+npm run BranchToday
+npm run TodayReports
+npm run Masters
+npm run ToFactory
+npm run NewOrders
+npm run CustomersToOrders
+npm run Main
+npm run BranchAll
+npm run AllReports
+npm run TodayQrCodes
+npm run TodayOrders
