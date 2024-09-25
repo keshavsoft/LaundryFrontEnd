@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Today-Orders"
+    },
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../../BranchToday/HtmlFiles/QrRaiseAll.html"
+    },
+    {
+        "name": "Orders",
+        "key": "Orders",
+        "icon": "bi bi-people-fill",
+        "url": "Orders.html"
+    }
+]

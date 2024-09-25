@@ -18,12 +18,9 @@
     "BranchAll": "vite build --config src/Clients/BranchAll/Branch/vite.config.js",
     "AllReports": "vite build --config src/Clients/AllReports/Branch/vite.config.js",
     "TodayQrCodes": "vite build --config src/Clients/TodayQrCodes/Branch/vite.config.js",
-    "TodayOrders": "vite build --config src/Clients/TodayOrders/Branch/vite.config.js"
-
-
-
-
-     
+    "TodayOrders": "vite build --config src/Clients/TodayOrders/Branch/vite.config.js",
+    "Today-QrCodes": "vite build --config src/Clients/Today/QrCodes/vite.config.js",
+    "Today-Orders": "vite build --config src/Clients/Today/Orders/vite.config.js"
   },
   "author": "",
   "license": "ISC",

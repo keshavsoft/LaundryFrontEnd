@@ -8,5 +8,5 @@ call npm run CustomersToOrders
 call npm run Main
 call npm run BranchAll
 call npm run AllReports
-call npm run TodayQrCodes
-call npm run TodayOrders
+call npm run Today-QrCodes
+call npm run Today-Orders
