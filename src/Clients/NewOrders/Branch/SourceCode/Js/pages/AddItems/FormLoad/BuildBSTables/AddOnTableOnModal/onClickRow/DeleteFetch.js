@@ -1,8 +1,10 @@
+import ConfigJson from "../../../../Config.json" with {type:'json'};
+
 const StartFunc = async (row) => {
     let jVarLocalBranchName = localStorage.getItem("BranchName");
 
     let jVarLocalOrderNo = jFLocalOrderNumberId();
-    let LocalUrl = `/bin/Transactions/${jVarLocalBranchName}/FromKey/${jVarLocalOrderNo}/AddOnData/${row.AddOnPK}`
+    let LocalUrl = `/${ConfigJson.routePath}/Transactions/${jVarLocalBranchName}/FromKey/${jVarLocalOrderNo}/AddOnData/${row.AddOnPK}`
     let LocalFetchObj = {
         method: "DELETE",
         headers: {
