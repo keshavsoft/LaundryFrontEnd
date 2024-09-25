@@ -57,7 +57,7 @@
         "name": "Orders",
         "key": "Orders",
         "icon": "bi bi-border-style",
-        "url":"../../../TodayOrders/HtmlFiles/Orders.html"
+        "url":"../../Today/TodayOrders/HtmlFiles/Orders.html"
     },
     {
         "name": "Items",
@@ -83,7 +83,7 @@
     {
         "name": "QrCodes",
         "key": "Qr",
-        "url": "../../TodayQrCodes/HtmlFiles/",
+        "url": "../../Today/TodayQrCodes/HtmlFiles/QrAll.html",
         "icon": "bi bi-fast-forward-btn"
     }
 ]
