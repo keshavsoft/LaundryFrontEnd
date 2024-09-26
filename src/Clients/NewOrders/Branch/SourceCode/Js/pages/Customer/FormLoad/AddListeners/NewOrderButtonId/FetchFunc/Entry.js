@@ -5,7 +5,7 @@ import { StartFunc as Status500File } from "./AfterFetch/Status500File.js";
 
 let StartFunc = async () => {
     let jVarLocalDataNeeded = await StartFuncFetchFuncs();
-    debugger
+    // debugger
     if (jVarLocalDataNeeded.status === 200) {
         StartFuncAfterFetch(await jVarLocalDataNeeded.json());
     };
