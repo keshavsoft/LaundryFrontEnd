@@ -1,5 +1,9 @@
+import { StartFunc as Check } from "./Check.js";
+
 let StartFunc = () => {
-    jFLocalToURL();
+    if (Check()) {
+        jFLocalToURL();
+    };
 };
 
 let jFLocalToURL = () => {
