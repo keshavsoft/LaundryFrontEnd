@@ -10,3 +10,5 @@ npm run BranchAll
 npm run AllReports
 npm run TodayQrCodes
 npm run TodayOrders
+npm run Today-QrCodes
+npm run Today-Orders
