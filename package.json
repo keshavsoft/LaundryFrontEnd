@@ -20,7 +20,9 @@
     "TodayQrCodes": "vite build --config src/Clients/TodayQrCodes/Branch/vite.config.js",
     "TodayOrders": "vite build --config src/Clients/TodayOrders/Branch/vite.config.js",
     "Today-QrCodes": "vite build --config src/Clients/Today/QrCodes/vite.config.js",
-    "Today-Orders": "vite build --config src/Clients/Today/Orders/vite.config.js"
+    "Today-Orders": "vite build --config src/Clients/Today/Orders/vite.config.js",
+    "AdminToday-QrCodes": "vite build --config src/Clients/AdminToday/QrCodes/vite.config.js"
+
   },
   "author": "",
   "license": "ISC",
