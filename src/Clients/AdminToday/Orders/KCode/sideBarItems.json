@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../NewOrders/HtmlFiles/Customer.html"
+    },
+    {
+        "name": "All",
+        "url": "QrAll.html",
+        "icon": "bi bi-circle-fill"
+    }
+]
