@@ -42,57 +42,84 @@
 
         <div class="card mt-3">
             <div class="card-header">
-                <div class="row">
-                    <div class="col-3">
+                <div class="row g-2">
+                    <!-- Customer Name Search Input and Button -->
+                    <div class="col-12 col-sm-6 col-md-3">
                         <div class="input-group">
                             <input type="text" class="form-control" id="CustomerNameInputId" list="CustomersDataListId"
-                                autofocus autocomplete="off">
-
-                            <button class="btn btn-outline-secondary" type="button" id="CustomerNameSearchButtonId"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                placeholder="Search Customer" autofocus autocomplete="off">
+                            <button class="btn btn-outline-secondary" type="button" id="CustomerNameSearchButtonId">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-search" viewBox="0 0 16 16">
                                     <path
                                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                                </svg></button>
+                                </svg>
+                            </button>
                         </div>
                     </div>
-                    <div class="col-2">
-                        <button class="btn btn-primary" type="button" id="NewOrderButtonId">
-                            New Order</button>
+            
+                    <!-- New Order Button -->
+                    <div class="col-6 col-md-2">
+                        <button class="btn btn-primary w-100" type="button" id="NewOrderButtonId">
+                            New Order
+                        </button>
                     </div>
-                    <div class="col-1">
-                        <a class="btn btn-large btn-info"
-                            href="../../CustomersToOrders/HtmlFiles/CustomersCreate.html"><i
-                                class="bi bi-person-plus-fill"></i></a>
+            
+                    <!-- Create Customer Button -->
+                    <div class="col-6 col-md-1">
+                        <a class="btn btn-info w-100" href="../../CustomersToOrders/HtmlFiles/CustomersCreate.html">
+                            <i class="bi bi-person-plus-fill"></i>
+                        </a>
                     </div>
-
-                    <div class="col-1">
-                        <a class="btn btn-large btn-info" href="/Laundry/WashtexBranch/HtmlFiles/">Masters</a>
+            
+                    <!-- Masters Button -->
+                    <div class="col-6 col-md-1">
+                        <a class="btn btn-info w-100" href="/Laundry/WashtexBranch/HtmlFiles/">
+                            Masters
+                        </a>
                     </div>
-                    <div class="col-1">
-                        <a class="btn btn-large btn-info" id="MasterButtonId" href="#">Reload</a></button>
+            
+                    <!-- Reload Button -->
+                    <div class="col-6 col-md-1">
+                        <a class="btn btn-info w-100" id="MasterButtonId" href="#">
+                            Reload
+                        </a>
                     </div>
-                    <div class="col-1">
-                        <a class="btn btn-info" href="/Laundry/BranchAll/HtmlFiles/"><svg xmlns="http://www.w3.org/2000/svg"
-                                width="16" height="16" fill="currentColor" class="bi bi-exclude" viewBox="0 0 16 16">
+            
+                    <!-- Exclude Icon Button -->
+                    <div class="col-6 col-md-1">
+                        <a class="btn btn-info w-100" href="/Laundry/BranchAll/HtmlFiles/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-exclude" viewBox="0 0 16 16">
                                 <path
                                     d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2zm12 2H5a1 1 0 0 0-1 1v7h7a1 1 0 0 0 1-1z" />
                             </svg>
                         </a>
                     </div>
-                    <div class="col-1">
-                        <a class="btn btn-large btn-info" id="MasterButtonId"
-                            href="/Laundry/BranchToday/HtmlFiles/QrRaiseAll.html">Today</a></button>
+            
+                    <!-- Today Button -->
+                    <div class="col-6 col-md-1">
+                        <a class="btn btn-info w-100" id="MasterButtonId" href="/Laundry/BranchToday/HtmlFiles/QrRaiseAll.html">
+                            Today
+                        </a>
                     </div>
-                    <div class="col-1">
-                        <a class="btn btn-large btn-info" id="MasterButtonId"
-                            href="/Laundry/ToFactory/HtmlFiles">Factory</a></button>
+            
+                    <!-- Factory Button -->
+                    <div class="col-6 col-md-1">
+                        <a class="btn btn-info w-100" id="MasterButtonId" href="/Laundry/ToFactory/HtmlFiles">
+                            Factory
+                        </a>
                     </div>
-                    <div class="col-1">
-                        <a class="btn btn-secondary fs-4" id="BranchButtonId" href="#">{{Branch}}</a></button>
+            
+                    <!-- Branch Button -->
+                    <div class="col-12 col-md-1">
+                        <a class="btn btn-secondary w-100 fs-4" id="BranchButtonId" href="#">
+                            {{Branch}}
+                        </a>
                     </div>
                 </div>
             </div>
+            
             <div class="card-body">
                 <div class="row">
                     <!-- <table id="table"></table> -->
