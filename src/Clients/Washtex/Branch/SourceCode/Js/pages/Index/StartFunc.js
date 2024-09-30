@@ -2,6 +2,7 @@ import { StartFunc as FormLoad } from "./FormLoad/entryFile.js";
 
 const StartFunc = () => {
     FormLoad();
+
     let jVarLocalFromAdmin = true;
 
     if (jVarLocalFromAdmin) {
