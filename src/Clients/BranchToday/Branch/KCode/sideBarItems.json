@@ -1,6 +1,7 @@
 [
     {
-        "name": "Today"
+        "name": "Today",
+        "isTitle": true
     },
     {
         "name": "Home",
@@ -57,7 +58,7 @@
         "name": "Orders",
         "key": "Orders",
         "icon": "bi bi-border-style",
-        "url":"../../Today/TodayOrders/HtmlFiles/Orders.html"
+        "url": "../../Today/TodayOrders/HtmlFiles/Orders.html"
     },
     {
         "name": "Items",
@@ -85,5 +86,9 @@
         "key": "Qr",
         "url": "../../Today/TodayQrCodes/HtmlFiles/QrAll.html",
         "icon": "bi bi-fast-forward-btn"
+    },
+    {
+        "name": "Today",
+        "isHeading": true
     }
 ]

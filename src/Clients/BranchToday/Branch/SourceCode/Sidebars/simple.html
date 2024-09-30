@@ -1,5 +1,12 @@
 <ul class="sidebar-nav" id="sidebar-nav">
     {% for result in sidebarItems %}
+   
+    {% if result.isHeading %}
+    <li class="nav-heading">
+        {{result.name}}
+    </li>
+    {% else %}
+   
     {% if result.isTitle %}
     <li class="nav-item">
         <a class="nav-link collapsed" href="#">
@@ -38,6 +45,8 @@
         </a>
     </li>
     {% endif %}
+    {% endif %}
+
     {% endif %}
 
     {% endfor %}
