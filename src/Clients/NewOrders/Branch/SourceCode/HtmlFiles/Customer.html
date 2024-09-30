@@ -30,6 +30,7 @@
             font-size: 24px;
             line-height: 1.33;
         }
+        
     </style>
 </head>
 
@@ -45,10 +46,11 @@
                 <div class="row g-2">
                     <!-- Customer Name Search Input and Button -->
                     <div class="col-12 col-sm-6 col-md-3">
-                        <div class="input-group">
+                        <div class="input-group w-auto">
                             <input type="text" class="form-control" id="CustomerNameInputId" list="CustomersDataListId"
                                 placeholder="Search Customer" autofocus autocomplete="off">
-                            <button class="btn btn-outline-secondary" type="button" id="CustomerNameSearchButtonId">
+                            <button class="btn" style="background-color: #f39c12; color: white;" type="button"
+                                id="CustomerNameSearchButtonId">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-search" viewBox="0 0 16 16">
                                     <path
@@ -59,67 +61,57 @@
                     </div>
             
                     <!-- New Order Button -->
-                    <div class="col-6 col-md-2">
-                        <button class="btn btn-primary w-100" type="button" id="NewOrderButtonId">
-                            New Order
+                    <div class="col-auto">
+                        <button class="btn" style="background-color: #3498db; color: white; width: 120px;" type="button" id="NewOrderButtonId">
+                           New Order
                         </button>
                     </div>
-            
-                    <!-- Create Customer Button -->
-                    <div class="col-6 col-md-1">
-                        <a class="btn btn-info w-100" href="../../CustomersToOrders/HtmlFiles/CustomersCreate.html">
-                            <i class="bi bi-person-plus-fill"></i>
-                        </a>
-                    </div>
+                     <!-- Create Customer Button -->
+                     
             
                     <!-- Masters Button -->
-                    <div class="col-6 col-md-1">
-                        <a class="btn btn-info w-100" href="/Laundry/WashtexBranch/HtmlFiles/">
-                            Masters
+                    <div class="col-auto">
+                        <a class="btn" style="background-color: #e74c3c; color: white; width: 120px;" href="/Laundry/WashtexBranch/HtmlFiles/">
+                            <i class="bi bi-tools"></i> Masters
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a class="btn" style="background-color: #2ecc71; color: white;" href="../../CustomersToOrders/HtmlFiles/CustomersCreate.html">
+                            <i class="bi bi-person-plus-fill"></i> 
                         </a>
                     </div>
             
                     <!-- Reload Button -->
-                    <div class="col-6 col-md-1">
-                        <a class="btn btn-info w-100" id="MasterButtonId" href="#">
-                            Reload
-                        </a>
-                    </div>
-            
-                    <!-- Exclude Icon Button -->
-                    <div class="col-6 col-md-1">
-                        <a class="btn btn-info w-100" href="/Laundry/BranchAll/HtmlFiles/">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-exclude" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2zm12 2H5a1 1 0 0 0-1 1v7h7a1 1 0 0 0 1-1z" />
-                            </svg>
+                    <div class="col-auto">
+                        <a class="btn" style="background-color: #9b59b6; color: white; width: 120px;" id="MasterButtonId" href="#">
+                            <i class="bi bi-arrow-clockwise"></i> Reload
                         </a>
                     </div>
             
                     <!-- Today Button -->
-                    <div class="col-6 col-md-1">
-                        <a class="btn btn-info w-100" id="MasterButtonId" href="/Laundry/BranchToday/HtmlFiles/QrRaiseAll.html">
-                            Today
+                    <div class="col-auto">
+                        <a class="btn" style="background-color: #1abc9c; color: white; width: 120px;" id="MasterButtonId" href="/Laundry/BranchToday/HtmlFiles/QrRaiseAll.html">
+                            <i class="bi bi-calendar-check"></i> Today
                         </a>
                     </div>
             
                     <!-- Factory Button -->
-                    <div class="col-6 col-md-1">
-                        <a class="btn btn-info w-100" id="MasterButtonId" href="/Laundry/ToFactory/HtmlFiles">
-                            Factory
+                    <div class="col-auto">
+                        <a class="btn" style="background-color: #d35400; color: white; width: 120px;" id="MasterButtonId" href="/Laundry/ToFactory/HtmlFiles">
+                            <i class="bi bi-building"></i> Factory
                         </a>
                     </div>
             
                     <!-- Branch Button -->
-                    <div class="col-12 col-md-1">
-                        <a class="btn btn-secondary w-100 fs-4" id="BranchButtonId" href="#">
-                            {{Branch}}
+                    <div class="col-auto">
+                        <a class="btn" style="background-color: #34495e; color: white; width: 120px;" id="BranchButtonId" href="#">
+                            <i class="bi bi-house"></i>
                         </a>
                     </div>
                 </div>
             </div>
             
+
             <div class="card-body">
                 <div class="row">
                     <!-- <table id="table"></table> -->
