@@ -1,0 +1,25 @@
+{
+    "tableAttributes":{
+        "data-search": "true",
+        "data-search-highlight": "true",
+        "data-searchable": "true"
+    },
+    "coloumnAttributes":{
+        "orderAttributes":{
+            "data-sortable": "true"
+        },
+        "customerAttributes":{
+            "data-sortable": "true"
+        },
+        "mobileAttributes":{
+            "data-sortable": "true"
+        },
+        "dateAttributes":{
+            "data-sortable": "true"
+        },
+        "ItemsAttributes":{
+            "data-sortable": "true"
+        }
+    }
+   
+}

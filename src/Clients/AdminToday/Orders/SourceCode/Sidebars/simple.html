@@ -31,7 +31,8 @@
     </li>
     {% else %}
     <li class="nav-item">
-        <a class="nav-link {{ '' if (result.url == filename or filename|startsWith(result.key)) else 'collapsed' }}" href="./{{ result.url }}">
+        <a class="nav-link {{ '' if (result.url == filename or filename|startsWith(result.key)) else 'collapsed' }}"
+            href="./{{ result.url }}">
             <i class="{{ result.icon }}"></i>
             <span>{{result.name}}</span>
         </a>
