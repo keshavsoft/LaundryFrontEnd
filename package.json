@@ -23,7 +23,6 @@
     "Today-Orders": "vite build --config src/Clients/Today/Orders/vite.config.js",
     "AdminToday-QrCodes": "vite build --config src/Clients/AdminToday/QrCodes/vite.config.js",
     "AdminToday-Orders": "vite build --config src/Clients/AdminToday/Orders/vite.config.js"
-
   },
   "author": "",
   "license": "ISC",

@@ -5,8 +5,23 @@
         "url": "../../NewOrders/HtmlFiles/Customer.html"
     },
     {
+        "name": "Simple",
+        "url": "QrSimple.html",
+        "icon": "bi bi-slash-circle"
+    },
+    {
         "name": "All",
         "url": "QrAll.html",
         "icon": "bi bi-circle-fill"
+    },
+    {
+        "name": "InBranch",
+        "url": "QrInBranch.html",
+        "icon": "bi bi-circle-half"
+    },
+    {
+        "name": "ToFactory",
+        "url": "QrToFactory.html",
+        "icon": "bi bi-circle"
     }
 ]
