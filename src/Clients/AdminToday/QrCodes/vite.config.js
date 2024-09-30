@@ -12,9 +12,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SourceFolderName = "SourceCode";
-const SrcFolder = "src/Clients/TodayQrCodes/Branch";
+const SrcFolder = "src/Clients/AdminToday/QrCodes";
 
-const FrontEndDistFolder = "publicDir/Today/TodayQrCodes";
+const FrontEndDistFolder = "publicDir/AdminToday/QrCodes";
 
 const root = resolve(__dirname, `${SrcFolder}/${SourceFolderName}`);
 
