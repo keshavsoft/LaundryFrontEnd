@@ -33,7 +33,7 @@
     {
         "name": "QrPrint",
         "key": "PrintQr",
-        "icon": "bi bi-qr-code",
+        "icon": "bi bi-qr-code-scan",
         "children": [
             {
                 "name": "QRPrint",
