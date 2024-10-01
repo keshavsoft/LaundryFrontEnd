@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SourceFolderName = "SourceCode";
-const SrcFolder = "src/Clients/TodayOrders/Branch";
+const SrcFolder = "src/Clients/Today/Orders";
 
 const FrontEndDistFolder = "publicDir/Today/TodayOrders";
 
