@@ -73,7 +73,8 @@
         ]
     },
     {
-        "name": "----Reports----"
+        "name": "Reports",
+        "isHeading": true
     },
     {
         "name": "Reports",
@@ -83,12 +84,8 @@
     },
     {
         "name": "QrCodes",
-        "key": "Qr",
+        "key": "Today",
         "url": "../../Today/TodayQrCodes/HtmlFiles/QrAll.html",
         "icon": "bi bi-fast-forward-btn"
-    },
-    {
-        "name": "Today",
-        "isHeading": true
     }
 ]
