@@ -34,7 +34,8 @@
         },
         {
             "field": "AggValues.ItemDetails",
-            "title": "Items"
+            "title": "Items",
+            "footerFormatter": "pcsFormatter"
         },
         {
             "field": "AggValues.SettlementAmount",
