@@ -1,5 +1,5 @@
 import { StartFunc as StartFuncDCDetails } from "./DCDetails/Entry.js";
-// import { StartFunc as StartFuncDCCount } from "./DCCount/Entry.js";
+import { StartFunc as StartFuncDCCount } from "./DCCount/Entry.js";
 import { StartFunc as StartFuncParams } from "./Params/EntryFile.js";
 import { StartFunc as StartFuncQrTable } from "./QrTable/EntryFile.js";
 import { StartFunc as StartFuncFromUrlParams } from "./FromUrlParams/EntryFile.js";
@@ -11,7 +11,7 @@ let StartFunc = () => {
     JFlocalShowAlertFunc();
     JFlocalNewPkAlertFunc();
     StartFuncDCDetails();
-    // StartFuncDCCount();
+    StartFuncDCCount();
     jFLocalToInputBranchName();
     jFLocalBranchName()
     StartFuncQrTable();
