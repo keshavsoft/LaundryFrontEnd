@@ -22,6 +22,11 @@
                 "name": "Show All",
                 "url": "showAll.html",
                 "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "AdminTodayOrders",
+                "url": "AdminTodayOrders.html",
+                "icon": "bi bi-plus-square-fill"
             }
         ]
     }
