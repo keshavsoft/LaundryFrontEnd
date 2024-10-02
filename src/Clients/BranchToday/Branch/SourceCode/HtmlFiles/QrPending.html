@@ -158,6 +158,21 @@
         return data.map(ele => ele.TotalItems).reduce((a, b) => a + b, 0)
 
     }
+    function pcsFormatter(data) {
+        var field = this.field
+        var tPcs = data.map(function (row) {
+            return +row.AggValues.ItemDetails.split(' / ')[1]
+        }).reduce(function (sum, i) {
+            return sum + i
+        }, 0)
+        var tPTpes = data.map(function (row) {
+            return +row.AggValues.ItemDetails.split(' / ')[0]
+        }).reduce(function (sum, i) {
+            return sum + i
+        }, 0)
+
+        return `${tPTpes}/${tPcs}`
+    };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
