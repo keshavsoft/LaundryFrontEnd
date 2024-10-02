@@ -34,7 +34,8 @@
         },
         {
             "title": "Items",
-            "formatter": "ItemsFormatter"
+            "formatter": "ItemsFormatter",
+            "footerFormatter": "priceFormatter"
         },
         {
             "title": "Scan",

@@ -87,6 +87,14 @@
             '</a>  '
         ].join('')
     }
+    function priceFormatter(data) {
+        var field = this.field
+        return '' + data.map(function (row) {
+            return +row.ItemDetails
+        }).reduce(function (sum, i) {
+            return sum + i
+        }, 0)
+    }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
