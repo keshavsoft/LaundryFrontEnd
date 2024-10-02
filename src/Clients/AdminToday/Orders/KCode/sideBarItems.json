@@ -24,8 +24,8 @@
                 "icon": "bi bi-plus-square-fill"
             },
             {
-                "name": "AdminTodayOrders",
-                "url": "AdminTodayOrders.html",
+                "name": "Filters",
+                "url": "showFilters.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
