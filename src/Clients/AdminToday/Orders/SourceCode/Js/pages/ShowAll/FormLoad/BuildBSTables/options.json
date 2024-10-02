@@ -11,7 +11,7 @@
     "icons": "",
     "columns": [
         {
-            "field": "KS-",
+            "field": "KS-Serial",
             "title": "#",
             "formatter": ""
         },
@@ -30,7 +30,7 @@
         {
             "field": "DateTime",
             "title": "Time Span",
-            "formatter": "TimeDiff"
+            "formatter": ""
         },
         {
             "field": "AggValues.ItemDetails",

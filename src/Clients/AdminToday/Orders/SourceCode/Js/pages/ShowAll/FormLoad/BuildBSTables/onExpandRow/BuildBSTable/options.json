@@ -1,5 +1,24 @@
 {
     "data": [],
     "detailView": true,
-    "onExpandRow": ""
+    "onExpandRow": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": ""
+        },
+        {
+            "field": "ItemName",
+            "title": "Item Name"
+        },
+        {
+            "field": "Rate",
+            "title": "Rate"
+        },
+        {
+            "field": "Pcs",
+            "title": "Pcs"
+        }
+    ]
 }

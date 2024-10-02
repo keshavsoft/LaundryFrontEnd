@@ -12,5 +12,17 @@
         "key": "Orders",
         "icon": "bi bi-people-fill",
         "url": "Orders.html"
+    },
+    {
+        "name": "Show",
+        "key": "show",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Show All",
+                "url": "showAll.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
     }
 ]
