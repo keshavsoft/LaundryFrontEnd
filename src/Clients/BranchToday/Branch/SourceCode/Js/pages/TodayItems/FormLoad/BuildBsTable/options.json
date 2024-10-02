@@ -27,7 +27,8 @@
         },
         {
             "title": "Pcs",
-            "field": "Pcs"
+            "field": "Pcs",
+            "footerFormatter": "totalFormatter1"
         }
     ]
 }

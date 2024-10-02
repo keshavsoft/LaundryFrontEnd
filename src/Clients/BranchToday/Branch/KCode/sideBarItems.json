@@ -80,12 +80,12 @@
         "name": "Payments",
         "key": "Reports",
         "url": "../../TodayReports/HtmlFiles/",
-        "icon": "bi bi-journal-bookmark-fill"
+        "icon": "bi bi-currency-exchange"
     },
     {
         "name": "QrCodes",
         "key": "Today",
         "url": "../../Today/TodayQrCodes/HtmlFiles/QrAll.html",
-        "icon": "bi bi-fast-forward-btn"
+        "icon": "bi bi-upc-scan"
     }
 ]

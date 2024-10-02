@@ -48,6 +48,19 @@
 
         return LocalTotal.toFixed(2);
     };
+    function totalFormatter1(data) {
+        var field = this.field;
+        let LocalTotal = data.map(function (row) {
+            if (row[field] === undefined) {
+                return 0;
+            };
+            return +row[field];
+        }).reduce(function (sum, i) {
+            return sum + i
+        }, 0);
+
+        return Math.floor(LocalTotal);;
+    };
     function TimeSpan(value, row, index) {
         var diffMs = (new Date() - new Date(row.DateTime)); // milliseconds between now & Christmas
         var diffDays = Math.floor(diffMs / 86400000); // days
