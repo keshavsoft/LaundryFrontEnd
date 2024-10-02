@@ -33,7 +33,8 @@
         {
             "title": "Pcs",
             "formatter": "jFLocalOrderDetails",
-            "width": "100"
+            "width": "100",
+            "footerFormatter": "pcsFormatter"
         },
         {
             "title": "Settlement",

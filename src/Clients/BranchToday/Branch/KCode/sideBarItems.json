@@ -77,7 +77,7 @@
         "isHeading": true
     },
     {
-        "name": "Reports",
+        "name": "Payments",
         "key": "Reports",
         "url": "../../TodayReports/HtmlFiles/",
         "icon": "bi bi-journal-bookmark-fill"
