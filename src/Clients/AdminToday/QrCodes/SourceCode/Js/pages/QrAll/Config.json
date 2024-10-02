@@ -1,1 +1,3 @@
-{"routePath":"bin","tableName":"Openings"}
+{
+    "GetUrl": "/Custom/Clients/AdminLaundry/Today/QrCodes"
+}

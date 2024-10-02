@@ -4,16 +4,8 @@ let StartFunc = async () => {
     let jVarLocalDataNeeded = await StartFuncFetchFuncs();
 
     if (jVarLocalDataNeeded.status === 200) {
-        return jFLocalAddVoucherName({ inData: await jVarLocalDataNeeded.json() });
+        return await jVarLocalDataNeeded.json();
     };
 };
 
-const jFLocalAddVoucherName = ({ inData }) => {
-    let jVarLocalWithVoucherName = inData.map(element => {
-        return element;
-    });
-
-    return jVarLocalWithVoucherName;
-};
-
-export { StartFunc }
+export { StartFunc };
