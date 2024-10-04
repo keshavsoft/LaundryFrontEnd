@@ -27,6 +27,11 @@
                 "name": "Filters",
                 "url": "showFilters.html",
                 "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "BranchWise",
+                "url": "BranchWise.html",
+                "icon": "bi bi-plus-square-fill"
             }
         ]
     }
