@@ -33,6 +33,14 @@
     function jFLocalSerialColumn(value, row, index) {
         return index + 1;
     };
+    function jFTimeSpan(value, row, index) {
+        var diffMs = (new Date() - new Date(row.DateTime)); // milliseconds between now & Christmas
+        var diffDays = Math.floor(diffMs / 86400000); // days
+        var diffHrs = Math.floor((diffMs % 86400000) / 3600000); // hours
+        var diffMins = Math.round(((diffMs % 86400000) % 3600000) / 60000); // minutes
+
+        return diffDays + " days, " + diffHrs + " hours, " + diffMins + " min...";
+    };
 </script>
 
 <script
