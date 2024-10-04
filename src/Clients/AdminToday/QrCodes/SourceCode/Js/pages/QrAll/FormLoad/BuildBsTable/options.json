@@ -43,6 +43,11 @@
             "filtercontrol": "select"
         },
         {
+            "field": "OrderData.BranchName",
+            "title": "BranchName",
+            "filtercontrol": "select"
+        },
+        {
             "field": "Status",
             "title": "Status",
             "filtercontrol": "select"
