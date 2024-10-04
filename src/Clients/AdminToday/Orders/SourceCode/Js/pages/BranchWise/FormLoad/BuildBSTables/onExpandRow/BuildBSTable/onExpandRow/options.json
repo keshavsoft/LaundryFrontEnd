@@ -1,0 +1,19 @@
+{
+    "data": [],
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": ""
+        },
+        {
+            "field": "AddOnService",
+            "title": "AddOnService"
+        },
+        {
+            "field": "AddOnRate",
+            "title": "AddOnRate",
+            "align": "right"
+        }
+    ]
+}
