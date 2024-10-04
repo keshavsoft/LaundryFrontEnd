@@ -13,7 +13,7 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "QrCodeId",
+            "field": "pk",
             "title": "QrCode",
             "filtercontrol": "select"
         },
@@ -28,7 +28,7 @@
             "filtercontrol": "select"
         },
         {
-            "field": "OrderDateTime",
+            "field": "BookingData.OrderData.Currentdateandtime",
             "title": "Order DateTime",
             "filtercontrol": "select"
         },
@@ -55,6 +55,7 @@
         {
             "title": "TimeSpan",
             "field": "TimeSpan",
+            "formatter":"jFTimeSpan",
             "filtercontrol": "select"
         }
     ]
