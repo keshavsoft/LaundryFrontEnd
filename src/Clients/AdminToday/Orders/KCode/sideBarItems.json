@@ -27,10 +27,17 @@
                 "name": "Filters",
                 "url": "showFilters.html",
                 "icon": "bi bi-plus-square-fill"
-            },
+            }
+        ]
+    },
+    {
+        "name": "BranchWise",
+        "key": "BranchWise",
+        "icon": "bi bi-people-fill",
+        "children": [
             {
-                "name": "BranchWise",
-                "url": "BranchWise.html",
+                "name": "ShowAll",
+                "url": "BranchWiseShowAll.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
