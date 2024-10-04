@@ -23,5 +23,17 @@
         "name": "ToFactory",
         "url": "QrToFactory.html",
         "icon": "bi bi-circle"
+    },
+    {
+        "name": "BranchWise",
+        "key": "BranchWise",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "All",
+                "url": "QrBranchWiseAll.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
     }
 ]
