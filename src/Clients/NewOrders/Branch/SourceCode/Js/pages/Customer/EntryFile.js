@@ -15,6 +15,4 @@ const StartFunc = async () => {
     StartFuncShowOnDom();
 };
 
-
-
 StartFunc().then();

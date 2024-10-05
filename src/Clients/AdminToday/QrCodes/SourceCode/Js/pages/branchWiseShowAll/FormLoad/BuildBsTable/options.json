@@ -14,12 +14,12 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "QrCodeId",
+            "field": "pk",
             "title": "QrCode"
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item Name"
         },
         {
             "field": "Rate",
@@ -40,7 +40,7 @@
         {
             "field": "BookingData.OrderData.BranchName",
             "title": "BranchName",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "field": "Status",

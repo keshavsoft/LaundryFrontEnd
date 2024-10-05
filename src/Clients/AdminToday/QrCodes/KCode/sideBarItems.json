@@ -26,12 +26,12 @@
     },
     {
         "name": "BranchWise",
-        "key": "BranchWise",
+        "key": "branchWise",
         "icon": "bi bi-people-fill",
         "children": [
             {
-                "name": "All",
-                "url": "QrBranchWiseAll.html",
+                "name": "Show All",
+                "url": "branchWiseShowAll.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
