@@ -25,6 +25,11 @@
                 "name": "ShowAll",
                 "url": "QrAll.html",
                 "icon": "bi bi-circle"
+            },
+            {
+                "name": "LaundryAll",
+                "url": "LaundryAll.html",
+                "icon": "bi bi-circle"
             }
         ]
     },
