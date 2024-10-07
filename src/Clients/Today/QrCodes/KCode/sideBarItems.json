@@ -6,7 +6,7 @@
     },
     {
         "name": "Simple",
-        "key": "Simple",
+        "key": "QrSimple",
         "icon": "bi bi-slash-circle",
         "children": [
             {
@@ -18,7 +18,7 @@
     },
     {
         "name": "All",
-        "key": "All",
+        "key": "QrAll",
         "icon": "bi bi-circle-fill",
         "children": [
             {
@@ -27,15 +27,15 @@
                 "icon": "bi bi-circle"
             },
             {
-                "name": "LaundryAll",
-                "url": "LaundryAll.html",
+                "name": "Status",
+                "url": "QrAllStatus.html",
                 "icon": "bi bi-circle"
             }
         ]
     },
     {
         "name": "InBranch",
-        "key": "InBranch",
+        "key": "QrIn",
         "icon": "bi bi-circle-half",
         "children": [
             {
@@ -47,7 +47,7 @@
     },
     {
         "name": "ToFactory",
-        "key": "ToFactory",
+        "key": "QrTo",
         "icon": "bi bi-circle",
         "children": [
             {
