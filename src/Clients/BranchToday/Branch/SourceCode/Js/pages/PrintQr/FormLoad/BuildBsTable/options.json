@@ -33,11 +33,13 @@
         {
             "title": "Pcs",
             "field":"AggValues.ItemDetails",
-            "width": "100"
+            "width": "100",
+            "footerFormatter": "pcsFormatter"
         },
         {
             "title": "Settlement",
-            "field":"AggValues.SettlementAmount"
+            "field":"AggValues.SettlementAmount",
+            "footerFormatter": "priceFormatter"
         }
     ]
 }
