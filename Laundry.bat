@@ -10,3 +10,5 @@ call npm run BranchAll
 call npm run AllReports
 call npm run Today-QrCodes
 call npm run Today-Orders
+call npm run Admin-AdminToday-QrCodes
+call npm run Admin-AdminToday-Orders
