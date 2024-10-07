@@ -22,16 +22,16 @@ let jFLocalToInnerHtmlVoucherNumberTextId = ({ inVoucherNumberTextId }) => {
     jVarLocalVoucherNumberTextId.innerHTML = inVoucherNumberTextId;
 };
 
-let jFLocalToInnerHtmlDescriptionTextId = ({ inDescriptionTextId }) => {
-    let jVarLocalHtmlId = 'DescriptionTextId';
-    let jVarLocalDescriptionTextId = document.getElementById(jVarLocalHtmlId);
-    jVarLocalDescriptionTextId.innerHTML = inDescriptionTextId;
-};
-
 let jFLocalToInnerHtmlDateTextId = ({ inDateTextId }) => {
     let jVarLocalHtmlId = 'DateTextId';
     let jVarLocalDateTextId = document.getElementById(jVarLocalHtmlId);
     jVarLocalDateTextId.innerHTML = inDateTextId;
+};
+
+let jFLocalToInnerHtmlDescriptionTextId = ({ inDescriptionTextId }) => {
+    let jVarLocalHtmlId = 'DescriptionTextId';
+    let jVarLocalDescriptionTextId = document.getElementById(jVarLocalHtmlId);
+    jVarLocalDescriptionTextId.innerHTML = inDescriptionTextId;
 };
 
 let jFLocalToInnerHtmlFactoryTextId = ({ inFactoryTextId }) => {
