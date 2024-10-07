@@ -27,11 +27,13 @@
     
         {
             "title": "Settlement",
-            "field":"AggValues.SettlementAmount"
+            "field":"AggValues.SettlementAmount",
+            "footerFormatter": "priceFormatter"
         },
         {
             "title": "QrCodes",
-            "field":"TotalItems"
+            "field":"TotalItems",
+            "footerFormatter": "QrFormatter"
         },
         {
             "title": "Print",
