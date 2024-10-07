@@ -4,6 +4,7 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
+    "pagination":"true",
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -38,13 +39,13 @@
             "filtercontrol": "select"
         },
         {
-            "field": "VoucherNumber",
+            "field": "VocherNumber",
             "title": "DC #",
             "filtercontrol": "select"
         },
         {
             "title": "DC Date",
-            "field": "DCDate",
+            "field": "VoucherDate",
             "filtercontrol": "select"
         },
         {
