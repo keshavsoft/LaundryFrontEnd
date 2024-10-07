@@ -27,14 +27,11 @@
     
         {
             "title": "Settlement",
-            "formatter": "jFLocalSettlementDetails",
-            "footerFormatter": "priceFormatter"
+            "field":"AggValues.SettlementAmount"
         },
         {
             "title": "QrCodes",
-            "field":"QRRaise",
-            "formatter": "jFLocalQrCodeDetails",
-            "footerFormatter": "QrFormatter"
+            "field":"TotalItems"
         },
         {
             "title": "Print",
