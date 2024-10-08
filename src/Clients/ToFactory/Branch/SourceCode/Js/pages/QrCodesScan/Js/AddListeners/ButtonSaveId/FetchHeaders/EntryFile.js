@@ -4,15 +4,15 @@ let StartFunc = () => {
 
     let inDataToInsert = {};
     inDataToInsert.QrCodeId = jFLocalFromDomInputPkId();
-    inDataToInsert.ItemName = jFLocalFromDomInputProductNameId();
-    inDataToInsert.Rate = jFLocalFromDomInputSalePriceId();
-    inDataToInsert.FactorySelected = jFLocalFromDomInputFactorySelectedId();
+    // inDataToInsert.ItemName = jFLocalFromDomInputProductNameId();
+    // inDataToInsert.Rate = jFLocalFromDomInputSalePriceId();
+    // inDataToInsert.FactorySelected = jFLocalFromDomInputFactorySelectedId();
     inDataToInsert.VoucherRef = jFLocalFromDomInputVoucherRefId();
     inDataToInsert.BranchName = jFLocalFromDomInputBranchNameId();
-    inDataToInsert.VoucherNumber = jFLocalFromDomVoucherNumberTextId();
+    // inDataToInsert.VoucherNumber = jFLocalFromDomVoucherNumberTextId();
     inDataToInsert.DCFactory = jFLocalFromDomDCFactoryTextId();
-    inDataToInsert.DCDate = jFLocalFromDomDateTextId();
-    inDataToInsert.DCDescription = jFLocalFromDomDescriptionTextId();
+    // inDataToInsert.DCDate = jFLocalFromDomDateTextId();
+    // inDataToInsert.DCDescription = jFLocalFromDomDescriptionTextId();
 
     KeysJson.body = JSON.stringify(inDataToInsert);
 
