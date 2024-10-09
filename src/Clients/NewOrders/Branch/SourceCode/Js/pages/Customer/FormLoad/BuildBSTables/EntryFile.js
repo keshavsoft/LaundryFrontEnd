@@ -5,7 +5,7 @@ import optionsJson from './options.json' with {type: 'json'};
 const StartFunc = () => {
     var $table = $('#table');
     optionsJson.icons = IconsJson;
-    optionsJson.onExpandRow = StartFuncOnExpandRow();
+    optionsJson.onExpandRow = StartFuncOnExpandRow;
     $table.bootstrapTable(optionsJson);
 };
 
