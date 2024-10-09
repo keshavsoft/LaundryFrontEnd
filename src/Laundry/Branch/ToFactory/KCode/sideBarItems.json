@@ -1,0 +1,33 @@
+[
+    {
+        "name": "ToFactory-DC"
+    },
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../NewOrders/HtmlFiles/Customer.html"
+    },
+    {
+        "name": "Create",
+        "key": "Create",
+        "icon": "bi bi-people-fill",
+        "url": "Create.html"
+    },
+    {
+        "name": "DC",
+        "key": "ToFactory",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Vouchers",
+                "url": "ToFactoryVouchers.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "QrPrint",
+                "url": "ToFactoryQrPrint.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    }
+]

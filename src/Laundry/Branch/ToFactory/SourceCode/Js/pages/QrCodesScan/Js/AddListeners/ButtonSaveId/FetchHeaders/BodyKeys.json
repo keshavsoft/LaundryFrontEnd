@@ -1,0 +1,11 @@
+{
+    "inFolderName": "ToFactory",
+    "inFileNameOnly": "12-10-23",
+    "inItemName": "QrCodeDetails",
+    "inScreenName":"Create",
+    "inDataToInsert": {
+        "pk": "",
+        "ItemName": "",
+        "VoucherRef": ""
+    }
+}

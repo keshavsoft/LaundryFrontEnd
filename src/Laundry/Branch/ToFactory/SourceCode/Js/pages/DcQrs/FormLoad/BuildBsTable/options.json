@@ -1,0 +1,51 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
+    "pagination":"true",
+    "data": [],
+    "onClickRow": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "QrCodeId",
+            "title": "QrCode"
+        },
+        {
+            "field": "OrderNumber",
+            "title": "Order #",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "OrderDate",
+            "field": "OrderDate",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "DeliveryDate",
+            "field": "DeliveryDate",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "BranchName",
+            "title": "Branch Name",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "ItemName",
+            "title": "ItemName",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "Time Span",
+            "field": "TimeSpan"
+        }
+    ]
+}
