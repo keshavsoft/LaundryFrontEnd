@@ -1,8 +1,8 @@
 import KeysJson from './Keys.json' with {type: 'json'};
 
 let StartFunc = () => {
-
     let inDataToInsert = {};
+
     inDataToInsert.QrCodeId = jFLocalFromDomInputPkId();
     // inDataToInsert.ItemName = jFLocalFromDomInputProductNameId();
     // inDataToInsert.Rate = jFLocalFromDomInputSalePriceId();
@@ -23,7 +23,7 @@ let jFLocalFromDomInputPkId = () => {
     let jVarLocalHtmlInputPkId = 'InputPkId';
     let jVarHtmlInputPkId = document.getElementById(jVarLocalHtmlInputPkId);
     let jVarHtmlInputPkIdValue = jVarHtmlInputPkId.value.trim();
-    return jVarHtmlInputPkIdValue;
+    return parseInt(jVarHtmlInputPkIdValue);
 };
 
 let jFLocalFromDomInputProductNameId = () => {

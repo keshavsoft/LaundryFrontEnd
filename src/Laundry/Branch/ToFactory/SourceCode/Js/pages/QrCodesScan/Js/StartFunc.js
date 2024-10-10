@@ -6,6 +6,7 @@ const StartFunc = () => {
    StartFuncFormLoadBeforeAdmin();
 
    let jVarLocalFromAdmin = true;
+
    if (jVarLocalFromAdmin) {
       StartFuncFormLoad();
       StartFuncAddListeners();
