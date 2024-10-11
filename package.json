@@ -24,7 +24,7 @@
     "Admin-AdminToday-QrCodes": "vite build --config src/Laundry/Admin/AdminToday/QrCodes/vite.config.js",
     "Admin-AdminToday-Orders": "vite build --config src/Laundry/Admin/AdminToday/Orders/vite.config.js",
     "ToFactory": "vite build --config src/Laundry/Branch/ToFactory/vite.config.js",
-    "Admin-Masters": "vite build --config src/Laundry/Admin/AdminToday/Orders/vite.config.js"
+    "Admin-Masters": "vite build --config src/Laundry/Admin/Masters/vite.config.js"
   },
   "author": "",
   "license": "ISC",
