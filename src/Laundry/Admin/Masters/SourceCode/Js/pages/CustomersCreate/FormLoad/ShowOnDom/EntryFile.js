@@ -1,10 +1,17 @@
-import { StartFunc as FetchGet } from "./FetchGet/Entry.js";
-import { StartFunc as ToHtml } from "./ToHtml/EntryFile.js";
-
-let StartFunc = async () => {
-    let jVarLocalResponse = await FetchGet();
-
-    ToHtml({ inFetchData: jVarLocalResponse });
+const StartFunc = () => {
+    jFLocalToInputBranchName();
 };
 
-export { StartFunc }
+let jFLocalToInputBranchName = () => {
+    let jVarLocalFromBranchName = localStorage.getItem("BranchName");
+
+    let jVarLocalHtmlId = 'BranchName';
+    let jVarLocalBranchName = document.getElementById(jVarLocalHtmlId);
+
+    if (jVarLocalBranchName === null === false) {
+        jVarLocalBranchName.value = jVarLocalFromBranchName;
+    };
+};
+
+
+export { StartFunc };

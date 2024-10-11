@@ -4,20 +4,21 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
+    "pagination": "true",
     "data": [],
-   "columns": [
-    {
-        "field": "KS-Serial",
-        "title": "#",
-        "formatter": "jFGlobalSerialColumn"
-    },
-    {
-        "field": "AddOnService",
-        "title": "AddOnService"
-    },
-    {
-        "field": "AddOnRate",
-        "title": "AddOnRate"
-    }
-]
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
+        {
+            "field": "AddOnService",
+            "title": "AddOnService"
+        },
+        {
+            "field": "AddOnRate",
+            "title": "AddOnRate"
+        }
+    ]
 }

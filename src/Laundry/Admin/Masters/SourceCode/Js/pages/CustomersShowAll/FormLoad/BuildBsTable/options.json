@@ -4,44 +4,45 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
+    "pagination": "true",
     "data": [],
-   "columns": [
-    {
-        "field": "KS-Serial",
-        "title": "#",
-        "formatter": "jFGlobalSerialColumn"
-    },
-    {
-        "field": "CustomerName",
-        "title": "CustomerName"
-    },
-    {
-        "field": "Mobile",
-        "title": "Mobile"
-    },
-    {
-        "field": "DOB",
-        "title": "DOB"
-    },
-    {
-        "field": "GSTNumber",
-        "title": "GSTNumber"
-    },
-    {
-        "field": "City",
-        "title": "City"
-    },
-    {
-        "field": "Occupation",
-        "title": "Occupation"
-    },
-    {
-        "field": "CompanyName",
-        "title": "CompanyName"
-    },
-    {
-        "field": "BranchName",
-        "title": "BranchName"
-    }
-]
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
+        {
+            "field": "CustomerName",
+            "title": "CustomerName"
+        },
+        {
+            "field": "Mobile",
+            "title": "Mobile"
+        },
+        {
+            "field": "DOB",
+            "title": "DOB"
+        },
+        {
+            "field": "GSTNumber",
+            "title": "GSTNumber"
+        },
+        {
+            "field": "City",
+            "title": "City"
+        },
+        {
+            "field": "Occupation",
+            "title": "Occupation"
+        },
+        {
+            "field": "CompanyName",
+            "title": "CompanyName"
+        },
+        {
+            "field": "BranchName",
+            "title": "BranchName"
+        }
+    ]
 }

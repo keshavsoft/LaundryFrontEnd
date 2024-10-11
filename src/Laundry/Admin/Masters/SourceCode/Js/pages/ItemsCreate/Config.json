@@ -1,4 +1,4 @@
 {
-    "routePath": "binV3",
-    "tableName":"MastersCustomers"
+    "routePath": "binV4",
+    "tableName":"MastersItems"
 }

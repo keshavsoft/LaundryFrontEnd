@@ -12,9 +12,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SourceFolderName = "SourceCode";
-const SrcFolder = "src/Laundry/Admin/Masters";
+const SrcFolder = "src/Clients/Washtex/Masters";
 
-const FrontEndDistFolder = "publicDir/Admin/Masters";
+const FrontEndDistFolder = "publicDir/WashtexBranch";
 
 const root = resolve(__dirname, `${SrcFolder}/${SourceFolderName}`);
 

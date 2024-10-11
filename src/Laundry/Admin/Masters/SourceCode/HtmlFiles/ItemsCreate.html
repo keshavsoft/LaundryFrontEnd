@@ -1,15 +1,16 @@
 {% set title = 'Account Profile' %}
 
-{% extends 'src/Laundry/Admin/Masters/SourceCode/Masters/simple.html' %}
+{% extends 'src/Clients/Washtex/Branch/SourceCode/Masters/simple.html' %}
 {% block content %}
 <div class="pagetitle">
-    <h1 class="d-block d-sm-none">New Customer</h1>
-    <h1 class="d-none d-sm-block">CreateNew</h1>
+    <h1 class="d-block d-sm-none">New Item</h1>
+    <h1 class="d-none d-sm-block">New Item</h1>
     <nav class="d-none d-sm-block">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item">Masters</li>
-            <li class="breadcrumb-item active">New Customer</li>
+            <li class="breadcrumb-item">Items</li>
+            <li class="breadcrumb-item active">Create</li>
         </ol>
     </nav>
 </div><!-- End Page Title -->
@@ -22,8 +23,12 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">Category</label>
                         <div class="col-md-8">
-                            <input name="Category" type="text" class="form-control" autocomplete="off" required
-                                autofocus>
+                            <select name="Category" class="form-select" required>
+                                <option value="">Select Category</option>
+                                <option value="Men">Men</option>
+                                <option value="Women">Women</option>
+                                <option value="Others">Others</option>
+                            </select>
                             <div class="invalid-feedback">
                                 Category Should not be empty!!
                             </div>
@@ -32,7 +37,7 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">ItemName</label>
                         <div class="col-md-8">
-                            <input name="ItemName" type="text" class="form-control" autocomplete="off">
+                            <input name="ItemName" type="text" class="form-control" autocomplete="off" required autofocus>
                             <div class="invalid-feedback">
                                 ItemName Should not be empty!!
                             </div>
@@ -59,9 +64,9 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <label class="col-md-4 col-form-label">WashRate</label>
+                        <label class="col-md-4 col-form-label">Rate</label>
                         <div class="col-md-8">
-                            <input name="WashType" type="text" class="form-control" autocomplete="off">
+                            <input name="DryWashRate" type="number" class="form-control" autocomplete="off" required>
                             <div class="invalid-feedback">
 
                                 WashRate Should not be empty!!
