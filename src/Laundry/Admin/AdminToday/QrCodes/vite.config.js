@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 const SourceFolderName = "SourceCode";
 const SrcFolder = "src/Laundry/Admin/AdminToday/QrCodes";
 
-const FrontEndDistFolder = "publicDir/AdminToday/QrCodes";
+const FrontEndDistFolder = "publicDir/Admin/AdminToday/QrCodes";
 
 const root = resolve(__dirname, `${SrcFolder}/${SourceFolderName}`);
 
