@@ -6,7 +6,6 @@
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
-    "pagination":"true",
     "columns": [
         {
             "field": "KS-Serial",
@@ -39,13 +38,18 @@
             "filtercontrol": "select"
         },
         {
-            "field": "location",
-            "title": "DC Factory",
+            "field": "VoucherNumber",
+            "title": "DC #",
             "filtercontrol": "select"
         },
         {
-            "field": "BookingData.OrderData.BranchName",
-            "title": "BranchName",
+            "title": "DC Date",
+            "field": "DCDate",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "location",
+            "title": "DC Factory",
             "filtercontrol": "select"
         },
         {
