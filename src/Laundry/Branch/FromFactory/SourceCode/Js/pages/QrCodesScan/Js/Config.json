@@ -1,0 +1,10 @@
+{
+    "routePath": "binV4",
+    "folderName": "Masters",
+    "tableName": "CustomerNames",
+    "localStorageKeys": {
+        "OrderKey": "CustomerNames",
+        "ItemNamesKey": "ItemNames",
+        "AddOnsKey": "AddOns"
+    }
+}

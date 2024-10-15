@@ -1,0 +1,153 @@
+{% extends 'src/Laundry/Branch/ToFactory/SourceCode/Masters/Scan.html' %}
+
+{% block content %}
+<div class="container">
+    <div id="AlertSuccessId" class="alert alert-success alert-dismissible fade show mt-2" role="alert"
+        style="display: none;">
+        <strong id="AlertSuccessIdUserName">SavedPk</strong> Scan Sucessfully.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-12">
+            <div class="card mt-2 border-primary">
+                <div class="card-header">
+                    <h3>Scan Qrcode - <label id="BranchNameId"></label></h3>
+                </div>
+
+                <div class="card-body">
+                    <div class="row">
+                        <label for="InputPkId" class="col-sm-12 col-form-label col-form-label-lg fs-3">QrCode</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control form-control-lg" id="InputPkId"
+                                placeholder="Scan QrCode" autofocus="">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="InputProductNameId" class="form-label">Item Name</label>
+                        <input type="text" class="form-control" id="InputProductNameId" disabled>
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputSalePriceId" class="form-label">Rate</label>
+                        <input type="text" class="form-control" id="InputSalePriceId" disabled>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="InputFactorySelectedId" class="form-label">Factory Selected</label>
+                        <input type="text" class="form-control" id="InputFactorySelectedId" disabled>
+                    </div>
+
+                    <div class="mb-3 d-none">
+                        <label for="InputVoucherRefId" class="form-label">Voucher Ref</label>
+                        <input type="text" class="form-control" id="InputVoucherRefId" disabled>
+                    </div>
+
+                    <div class="mb-3 d-none">
+                        <label for="InputBranchNameId" class="form-label">Branch Name</label>
+                        <input type="text" class="form-control" id="InputBranchNameId" disabled>
+                    </div>
+
+                    <div class="mb-3 d-none">
+                        <label for="VoucherNumberTextId" class="form-label">Voucher Number</label>
+                        <input type="text" class="form-control" id="VoucherNumberTextId" disabled>
+                    </div>
+
+                    <div class="mb-3 d-none">
+                        <label for="DCFactoryTextId" class="form-label">DC Factory</label>
+                        <input type="text" class="form-control" id="DCFactoryTextId" disabled>
+                    </div>
+
+                    <div class="mb-3 d-none">
+                        <label for="DescriptionTextId" class="form-label">Description</label>
+                        <input type="text" class="form-control" id="DescriptionTextId" disabled>
+                    </div>
+
+                    <div class="mb-3 d-none">
+                        <label for="DateTextId" class="form-label">DC Date</label>
+                        <input type="text" class="form-control" id="DateTextId" disabled>
+                    </div>
+                </div>
+                <div class="card-footer d-none">
+                    <button type="button" class="btn btn-primary" id="ButtonSaveId">Save</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col m-3">
+            <!-- <div class="row">
+                    <div class="col-2">
+                        <h6 style="display: inline;">Pk</h6>
+                    </div>
+                    <div class="col-1">:</div>
+
+                    <div class="col-9">
+                        <p style="display: inline;" id="pkDCDetailsTextId">Not found</p>
+                    </div>
+                </div> -->
+            <div class="row">
+                <div class="col-2">
+                    <h6 style="display: inline;">DC No </h6>
+                </div>
+                <div class="col-1">:</div>
+                <div class="col-9">
+                    <b>
+                        <p style="display: inline;" id="VoucherNumberDCDetailsTextId">Not found</p>
+                    </b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h6 style="display: inline;">Date: </h6>
+                </div>
+                <div class="col-1">:</div>
+
+                <div class="col-9">
+                    <b>
+                        <p style="display: inline;" id="DateTextDCDetailsId">Not found</p>
+                    </b>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h6 style="display: inline;">Description</h6>
+                </div>
+                <div class="col-1">:</div>
+                <div class="col-9">
+                    <b>
+                        <p style="display: inline;" id="DescriptionTextDCDetailsId">Not found</p>
+                    </b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h6 style="display: inline;">ToFactory</h6>
+                </div>
+                <div class="col-1">:</div>
+                <div class="col-9">
+                    <b>
+                        <p style="display: inline;" id="DCFactoryDCDetailsTextId">Not found</p>
+                    </b>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <button type="button" class="btn btn-primary mt-3 RowCountClass" style="font-size: 50px;"
+                    id="RowCountId">0</button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+{% endblock %}
+
+{% block js %}
+<!-- <script type="module" src="../Js/pages/QrCodesScan/Js/StartFunc.js"></script> -->
+<script type="module" src="../Js/pages/QrCodesScan/Js/StartFunc.js"></script>
+{% endblock %}
