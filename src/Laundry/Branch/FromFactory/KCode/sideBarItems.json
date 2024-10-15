@@ -8,18 +8,6 @@
         "url": "../../NewOrders/HtmlFiles/Customer.html"
     },
     {
-        "name": "Create",
-        "key": "Create",
-        "icon": "bi bi-people-fill",
-        "children": [
-            {
-                "name": "Cancel-DC",
-                "url": "CreateCancelDC.html",
-                "icon": "bi bi-plus-square-fill"
-            }
-        ]
-    },
-    {
         "name": "Insert",
         "key": "FromFactory",
         "icon": "bi bi-people-fill",
