@@ -11,21 +11,27 @@
         "name": "Create",
         "key": "Create",
         "icon": "bi bi-people-fill",
-        "url": "Create.html"
+        "children": [
+            {
+                "name": "Cancel-DC",
+                "url": "CreateCancelDC.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
     },
     {
-        "name": "DC",
-        "key": "ToFactory",
+        "name": "Insert",
+        "key": "FromFactory",
         "icon": "bi bi-people-fill",
         "children": [
             {
-                "name": "Vouchers",
-                "url": "ToFactoryVouchers.html",
+                "name": "To-DC",
+                "url": "FromFactoryToDC.html",
                 "icon": "bi bi-plus-square-fill"
             },
             {
-                "name": "QrPrint",
-                "url": "ToFactoryQrPrint.html",
+                "name": "ToReturn-DC",
+                "url": "FromFactoryToReturnDC.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
