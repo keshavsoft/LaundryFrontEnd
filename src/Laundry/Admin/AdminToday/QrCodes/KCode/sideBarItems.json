@@ -29,6 +29,18 @@
         ]
     },
     {
+        "name": "Status",
+        "key": "QrStatus",
+        "icon": "bi bi-circle-fill",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "QrStatus.html",
+                "icon": "bi bi-circle"
+            }
+        ]
+    },
+    {
         "name": "InBranch",
         "key": "QrIn",
         "icon": "bi bi-circle-half",
