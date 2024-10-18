@@ -30,12 +30,17 @@
     },
     {
         "name": "Status",
-        "key": "QrStatus",
+        "key": "status",
         "icon": "bi bi-circle-fill",
         "children": [
             {
-                "name": "ShowAll",
-                "url": "QrStatus.html",
+                "name": "Show All",
+                "url": "statusShowAll.html",
+                "icon": "bi bi-circle"
+            },
+            {
+                "name": "Branch Filter",
+                "url": "statusShowAllBranchFilter.html",
                 "icon": "bi bi-circle"
             }
         ]
