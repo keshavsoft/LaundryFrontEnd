@@ -6,24 +6,24 @@
     },
     {
         "name": "Simple",
-        "key": "QrSimple",
+        "key": "Simple",
         "icon": "bi bi-slash-circle",
         "children": [
             {
                 "name": "ShowAll",
-                "url": "QrSimple.html",
+                "url": "Simple.html",
                 "icon": "bi bi-circle"
             }
         ]
     },
     {
         "name": "All",
-        "key": "QrAll",
+        "key": "All",
         "icon": "bi bi-circle-fill",
         "children": [
             {
                 "name": "ShowAll",
-                "url": "QrAll.html",
+                "url": "All.html",
                 "icon": "bi bi-circle"
             }
         ]
@@ -47,24 +47,24 @@
     },
     {
         "name": "InBranch",
-        "key": "QrIn",
+        "key": "In",
         "icon": "bi bi-circle-half",
         "children": [
             {
                 "name": "ShowAll",
-                "url": "QrInBranch.html",
+                "url": "InBranch.html",
                 "icon": "bi bi-circle"
             }
         ]
     },
     {
         "name": "ToFactory",
-        "key": "QrTo",
+        "key": "To",
         "icon": "bi bi-circle",
         "children": [
             {
                 "name": "ShowAll",
-                "url": "QrToFactory.html",
+                "url": "ToFactory.html",
                 "icon": "bi bi-circle"
             }
         ]

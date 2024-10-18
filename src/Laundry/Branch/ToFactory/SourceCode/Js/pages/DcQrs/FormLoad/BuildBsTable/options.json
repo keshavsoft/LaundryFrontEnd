@@ -5,7 +5,7 @@
     "searchHighlight": true,
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
-    "pagination":"true",
+    "pagination": "true",
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -31,11 +31,6 @@
         {
             "title": "DeliveryDate",
             "field": "DeliveryDate",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "BranchName",
-            "title": "Branch Name",
             "filtercontrol": "select"
         },
         {
