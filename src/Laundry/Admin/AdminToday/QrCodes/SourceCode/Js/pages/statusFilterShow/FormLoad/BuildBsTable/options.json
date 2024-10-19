@@ -25,11 +25,6 @@
             "filtercontrol": "select"
         },
         {
-            "field": "Rate",
-            "title": "Rate",
-            "filtercontrol": "select"
-        },
-        {
             "field": "OrderDateTime",
             "title": "Order DateTime",
             "filtercontrol": "select"
@@ -41,22 +36,17 @@
         },
         {
             "field": "location",
-            "title": "DC Factory",
+            "title": "Factory",
             "filtercontrol": "select"
         },
         {
-            "field": "BookingData.OrderData.BranchName",
+            "field": "BranchName",
             "title": "BranchName",
             "filtercontrol": "select"
         },
         {
             "field": "Status",
-            "title": "Status",
-            "filtercontrol": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan",
+            "title": "ToFactoryScan",
             "filtercontrol": "select"
         },
         {
