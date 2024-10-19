@@ -42,6 +42,11 @@
                 "name": "Branch Filter",
                 "url": "statusShowAllBranchFilter.html",
                 "icon": "bi bi-circle"
+            },
+            {
+                "name": "FilterShow",
+                "url": "statusFilterShow.html",
+                "icon": "bi bi-circle"
             }
         ]
     },
