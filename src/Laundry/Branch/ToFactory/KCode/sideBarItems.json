@@ -5,7 +5,7 @@
     {
         "name": "Home",
         "icon": "bi bi-grid",
-        "url": "../../NewOrders/HtmlFiles/Customer.html"
+        "url": "/Laundry/NewOrders/HtmlFiles/Customer.html"
     },
     {
         "name": "Create",
