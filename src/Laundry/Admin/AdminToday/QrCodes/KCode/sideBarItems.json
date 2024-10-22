@@ -1,88 +1,124 @@
 [
     {
         "name": "Home",
-        "icon": "bi bi-grid",
+        "icon": "bi bi-house-door",
         "url": "../../../BranchToday/HtmlFiles/QrRaiseAll.html"
     },
     {
         "name": "Simple",
         "key": "Simple",
-        "icon": "bi bi-slash-circle",
+        "icon": "bi bi-file-earmark",
         "children": [
             {
                 "name": "ShowAll",
                 "url": "Simple.html",
-                "icon": "bi bi-circle"
+                "icon": "bi bi-list"
             }
         ]
     },
     {
         "name": "All",
         "key": "All",
-        "icon": "bi bi-circle-fill",
+        "icon": "bi bi-grid-fill",
         "children": [
             {
                 "name": "ShowAll",
                 "url": "All.html",
-                "icon": "bi bi-circle"
+                "icon": "bi bi-list-check"
             }
         ]
     },
     {
         "name": "Status",
         "key": "status",
-        "icon": "bi bi-circle-fill",
+        "icon": "bi bi-bar-chart",
         "children": [
             {
                 "name": "Show All",
                 "url": "statusShowAll.html",
-                "icon": "bi bi-circle"
+                "icon": "bi bi-list-ul"
             },
             {
                 "name": "Branch Filter",
                 "url": "statusShowAllBranchFilter.html",
-                "icon": "bi bi-circle"
+                "icon": "bi bi-funnel"
             },
             {
                 "name": "FilterShow",
                 "url": "statusFilterShow.html",
-                "icon": "bi bi-circle"
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
     {
         "name": "InBranch",
         "key": "In",
-        "icon": "bi bi-circle-half",
+        "icon": "bi bi-building",
         "children": [
             {
                 "name": "ShowAll",
                 "url": "InBranch.html",
-                "icon": "bi bi-circle"
+                "icon": "bi bi-building"
             }
         ]
     },
     {
         "name": "ToFactory",
         "key": "To",
-        "icon": "bi bi-circle",
+        "icon": "bi bi-arrow-right-circle",
         "children": [
             {
                 "name": "ShowAll",
                 "url": "ToFactory.html",
-                "icon": "bi bi-circle"
+                "icon": "bi bi-arrow-right"
+            }
+        ]
+    },
+    {
+        "name": "Washing",
+        "key": "Washing",
+        "icon": "bi bi-droplet-half",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Washing.html",
+                "icon": "bi bi-droplet-half"
+            }
+        ]
+    },
+    {
+        "name": "Pressing",
+        "key": "Pressing",
+        "icon": "bi bi-align-bottom",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Pressing.html",
+                "icon": "bi bi-gear"
+            }
+        ]
+    },
+    {
+        "name": "Completion",
+        "key": "Completion",
+        "icon": "bi bi-check2-circle",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Completion.html",
+                "icon": "bi bi-check-circle"
             }
         ]
     },
     {
         "name": "BranchWise",
         "key": "branchWise",
-        "icon": "bi bi-people-fill",
+        "icon": "bi bi-diagram-2",
         "children": [
             {
                 "name": "Show All",
                 "url": "branchWiseShowAll.html",
-                "icon": "bi bi-plus-square-fill"
+                "icon": "bi bi-diagram-3"
             }
         ]
     }
