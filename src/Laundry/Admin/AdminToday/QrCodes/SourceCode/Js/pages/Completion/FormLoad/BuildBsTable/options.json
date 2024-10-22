@@ -3,6 +3,7 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
+    "pagination": "true",
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
@@ -45,6 +46,10 @@
         {
             "title": "DC Date",
             "field": "DCDate",
+            "filtercontrol": "select"
+        }, {
+            "title": "BranchName",
+            "field": "BranchName",
             "filtercontrol": "select"
         },
         {
