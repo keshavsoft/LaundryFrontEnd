@@ -26,7 +26,8 @@
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select"
+            "filtercontrol": "select",
+            "footerFormatter": "totalFormatter"
         },
         {
             "field": "OrderDateTime",
@@ -59,7 +60,7 @@
             "filtercontrol": "select"
         },
         {
-            "field": "Status",
+            "field": "PressingScan",
             "title": "Status",
             "filtercontrol": "select"
         },

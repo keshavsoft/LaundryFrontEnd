@@ -5,6 +5,7 @@
     "idfield": "pk",
     "showFooter": "true",
     "pagination": "true",
+    "filtercontrol": true,
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -20,23 +21,20 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
-            "filtercontrol": "select"
+            "title": "ItemName"
         },
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select"
+            "footerFormatter": "totalFormatter"
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime",
-            "filtercontrol": "select"
+            "title": "Order DateTime"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime",
-            "filtercontrol": "select"
+            "title": "DeliveryDateTime"
         },
         {
             "field": "location",
@@ -50,8 +48,7 @@
         },
         {
             "title": "TimeSpan",
-            "field": "TimeSpan",
-            "filtercontrol": "select"
+            "field": "TimeSpan"
         }
     ]
 }
