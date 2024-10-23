@@ -17,6 +17,11 @@
                 "icon": "bi bi-plus-square-fill"
             },
             {
+                "name": "CreateNew",
+                "url": "CustomersCreateNew.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
                 "name": "Show",
                 "url": "CustomersShowAll.html",
                 "icon": "bi bi-grid-3x3"

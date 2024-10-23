@@ -5,6 +5,7 @@
     "idfield": "pk",
     "showFooter": "true",
     "pagination": "true",
+    "filterControl": true,
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -41,12 +42,12 @@
         {
             "field": "location",
             "title": "DC Factory",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "field": "Status",
             "title": "Status",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "title": "TimeSpan",
