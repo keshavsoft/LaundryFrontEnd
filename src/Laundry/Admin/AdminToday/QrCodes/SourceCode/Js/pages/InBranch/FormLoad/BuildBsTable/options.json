@@ -4,6 +4,7 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
+    "filterControl": true,
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -30,28 +31,25 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime",
-            "filtercontrol": "select"
+            "title": "Order DateTime"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime",
-            "filtercontrol": "select"
+            "title": "DeliveryDateTime"
         },
         {
             "field": "location",
             "title": "DC Factory",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "field": "Status",
             "title": "Status",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "title": "TimeSpan",
-            "field": "TimeSpan",
-            "filtercontrol": "select"
+            "field": "TimeSpan"
         }
     ]
 }
