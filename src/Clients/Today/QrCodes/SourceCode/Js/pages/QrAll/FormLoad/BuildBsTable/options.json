@@ -5,7 +5,7 @@
     "idfield": "pk",
     "showFooter": "true",
     "pagination": "true",
-    "filtercontrol": true,
+    "filterControl": true,
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -21,34 +21,38 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "ItemName",
+            "filtercontrol": "select"
         },
         {
             "field": "Rate",
             "title": "Rate",
-            "footerFormatter": "totalFormatter"
+            "filtercontrol": "select"
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order DateTime",
+            "filtercontrol": "select"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "DeliveryDateTime",
+            "filtercontrol": "select"
         },
         {
             "field": "location",
             "title": "DC Factory",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "field": "Status",
             "title": "Status",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "title": "TimeSpan",
-            "field": "TimeSpan"
+            "field": "TimeSpan",
+            "filtercontrol": "select"
         }
     ]
 }
