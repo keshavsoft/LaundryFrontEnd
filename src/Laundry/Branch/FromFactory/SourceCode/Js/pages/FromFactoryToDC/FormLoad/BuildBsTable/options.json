@@ -17,7 +17,7 @@
             "title": "Dc #"
         },
         {
-            "field": "Factory",
+            "field": "FactoryName",
             "title": "To Factory"
         },
         {

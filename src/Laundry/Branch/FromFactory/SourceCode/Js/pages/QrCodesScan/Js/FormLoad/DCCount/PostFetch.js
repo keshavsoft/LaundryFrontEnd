@@ -1,7 +1,7 @@
 let StartFunc = async () => {
     let jVarLocalFilterString = getUrlQueryParams({ inGetKey: "VoucherRef" });
     let jVarLocalBranchName = localStorage.getItem("BranchName");
-    let jVarLocalFetchUrl = `/Custom/Clients/Laundry/Today/Send/QrCodes/RowCount/${jVarLocalFilterString}/${jVarLocalBranchName}`;
+    let jVarLocalFetchUrl = `/Custom/Clients/Laundry/Branch/FromFactory/Scan/QrCode/RowCount/${jVarLocalFilterString}/${jVarLocalBranchName}`;
     let response = await fetch(jVarLocalFetchUrl);
     let data = await response.json();
 
