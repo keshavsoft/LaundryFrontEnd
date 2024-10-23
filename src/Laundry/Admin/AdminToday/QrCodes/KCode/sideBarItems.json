@@ -75,6 +75,18 @@
         ]
     },
     {
+        "name": "FactoryScan",
+        "key": "Factory",
+        "icon": "bi bi-geo-fill",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "FactoryScan.html",
+                "icon": "bi bi-arrow-right"
+            }
+        ]
+    },
+    {
         "name": "Washing",
         "key": "Washing",
         "icon": "bi bi-droplet-half",
