@@ -2,7 +2,7 @@ import { StartFunc as StartFuncShowOnDom } from "./ShowOnDom.js";
 
 let StartFunc = async ({ inFetchResonse }) => {
     let localData = await inFetchResonse.json();
-    let localinFetchResonse = localData[0];
+    let localinFetchResonse = localData;
     // let jVarLocalBranchName = getUrlQueryParams({ inGetKey: "BranchName" });
     let jVarLocalBranchName = localStorage.getItem("BranchName");
 
