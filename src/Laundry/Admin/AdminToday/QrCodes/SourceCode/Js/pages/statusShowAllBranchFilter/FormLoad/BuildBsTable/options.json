@@ -24,7 +24,8 @@
         },
         {
             "field": "Rate",
-            "title": "Rate"
+            "title": "Rate",
+            "footerFormatter": "totalFormatter"
         },
         {
             "field": "OrderDateTime",
