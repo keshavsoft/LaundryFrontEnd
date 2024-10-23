@@ -5,6 +5,7 @@
     "idfield": "pk",
     "showFooter": "true",
     "pagination": "true",
+    "filterControl": "select",
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -26,8 +27,7 @@
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select",
-            "footerFormatter": "totalFormatter"
+            "filtercontrol": "select"
         },
         {
             "field": "OrderDateTime",
@@ -36,18 +36,17 @@
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime",
-            "filtercontrol": "select"
+            "title": "DeliveryDateTime"
         },
         {
             "field": "location",
             "title": "DC Factory",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "field": "Status",
             "title": "Status",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "title": "TimeSpan",
