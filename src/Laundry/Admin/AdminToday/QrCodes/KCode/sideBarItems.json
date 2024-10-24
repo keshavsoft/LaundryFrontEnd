@@ -25,6 +25,11 @@
                 "name": "ShowAll",
                 "url": "All.html",
                 "icon": "bi bi-list-check"
+            },
+            {
+                "name": "BranchWise",
+                "url": "AllBranchWise.html",
+                "icon": "bi bi-list-check"
             }
         ]
     },
@@ -59,6 +64,11 @@
                 "name": "ShowAll",
                 "url": "InBranch.html",
                 "icon": "bi bi-building"
+            },
+            {
+                "name": "BranchWise",
+                "url": "InBranchBranchWise.html",
+                "icon": "bi bi-building"
             }
         ]
     },
@@ -70,6 +80,11 @@
             {
                 "name": "ShowAll",
                 "url": "ToFactory.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "BranchWise",
+                "url": "ToFactoryBranchWise.html",
                 "icon": "bi bi-arrow-right"
             }
         ]
@@ -83,6 +98,11 @@
                 "name": "ShowAll",
                 "url": "FactoryScan.html",
                 "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "BranchWise",
+                "url": "FactoryScanBranchWise.html",
+                "icon": "bi bi-arrow-right"
             }
         ]
     },
@@ -94,6 +114,11 @@
             {
                 "name": "ShowAll",
                 "url": "Washing.html",
+                "icon": "bi bi-droplet-half"
+            },
+            {
+                "name": "BranchWise",
+                "url": "WashingBranchWise.html",
                 "icon": "bi bi-droplet-half"
             }
         ]
@@ -107,6 +132,11 @@
                 "name": "ShowAll",
                 "url": "Pressing.html",
                 "icon": "bi bi-gear"
+            },
+            {
+                "name": "BranchWise",
+                "url": "PressingBranchWise.html",
+                "icon": "bi bi-gear"
             }
         ]
     },
@@ -118,6 +148,11 @@
             {
                 "name": "ShowAll",
                 "url": "Completion.html",
+                "icon": "bi bi-check-circle"
+            },
+            {
+                "name": "BranchWise",
+                "url": "CompletionBranchWise.html",
                 "icon": "bi bi-check-circle"
             }
         ]
