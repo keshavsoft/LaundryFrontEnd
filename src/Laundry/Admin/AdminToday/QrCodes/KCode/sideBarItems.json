@@ -91,6 +91,11 @@
                 "name": "Branch Filter",
                 "url": "ToFactoryBranchWise.html",
                 "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Short Filter",
+                "url": "ToFactoryShortBranchWise.html",
+                "icon": "bi bi-arrow-right"
             }
         ]
     },
@@ -105,8 +110,18 @@
                 "icon": "bi bi-arrow-right"
             },
             {
+                "name": "Short",
+                "url": "FactoryScanShort.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
                 "name": "Branch Filter",
                 "url": "FactoryScanBranchWise.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Short Filter",
+                "url": "FactoryScanShortBranchWise.html",
                 "icon": "bi bi-arrow-right"
             }
         ]
@@ -122,9 +137,19 @@
                 "icon": "bi bi-droplet-half"
             },
             {
+                "name": "Short",
+                "url": "WashingShort.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
                 "name": "Branch Filter",
                 "url": "WashingBranchWise.html",
                 "icon": "bi bi-droplet-half"
+            },
+            {
+                "name": "Short Filter",
+                "url": "WashingShortBranchWise.html",
+                "icon": "bi bi-arrow-right"
             }
         ]
     },
@@ -139,9 +164,19 @@
                 "icon": "bi bi-gear"
             },
             {
+                "name": "Short",
+                "url": "PressingShort.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
                 "name": "Branch Filter",
                 "url": "PressingBranchWise.html",
                 "icon": "bi bi-gear"
+            },
+            {
+                "name": "Short Filter",
+                "url": "PressingShortBranchWise.html",
+                "icon": "bi bi-arrow-right"
             }
         ]
     },
@@ -156,9 +191,19 @@
                 "icon": "bi bi-check-circle"
             },
             {
+                "name": "Short",
+                "url": "CompletionShort.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
                 "name": "Branch Filter",
                 "url": "CompletionBranchWise.html",
                 "icon": "bi bi-check-circle"
+            },
+            {
+                "name": "Short Filter",
+                "url": "CompletionShortBranchWise.html",
+                "icon": "bi bi-arrow-right"
             }
         ]
     },
