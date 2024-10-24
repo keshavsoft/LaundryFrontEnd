@@ -5,7 +5,6 @@
     "idfield": "pk",
     "showFooter": "true",
     "pagination": "true",
-    "filterControl": true,
     "data": [],
     "onClickRow": "",
     "columns": [

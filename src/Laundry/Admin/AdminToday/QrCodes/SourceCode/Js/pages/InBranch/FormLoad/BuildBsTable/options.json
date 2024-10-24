@@ -4,7 +4,6 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
-    "filterControl": true,
     "data": [],
     "onClickRow": "",
     "columns": [
