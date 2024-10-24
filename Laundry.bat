@@ -13,4 +13,6 @@ call npm run Today-Orders
 call npm run Admin-AdminToday-QrCodes
 call npm run Admin-AdminToday-Orders
 call npm run Branch-FromFactory
+call npm run Branch-FromFactoryQrCodes
+
 

@@ -2,13 +2,13 @@
 
 {% block content %}
 <div class="pagetitle">
-    <h1 class="d-block d-sm-none">Qr All Show</h1>
-    <h1 class="d-none d-sm-block"><a id="RefreshBSTableId">Qr All Show</a></h1>
+    <h1 class="d-block d-sm-none">StatusFilterShow</h1>
+    <h1 class="d-none d-sm-block"><a id="RefreshBSTableId">StatusFilterShow</a></h1>
     <nav class="d-none d-sm-block">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Laundry</a></li>
             <li class="breadcrumb-item">AdminToday</li>
-            <li class="breadcrumb-item active">QrshowAll</li>
+            <li class="breadcrumb-item active">showAll</li>
         </ol>
     </nav>
 </div>
@@ -27,13 +27,7 @@
 {% endblock %}
 
 {% block js %}
-<script>
-    function jFLocalSerialColumn(value, row, index) {
-        return index + 1;
-    };
-</script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
 <script type="module" src="../Js/pages/statusFilterShow/StartFunc.js"></script>
 <!-- <script type="module" src="../Js/pages/statusShowAllBranchFilter/StartFunc.js"></script> -->
 {% endblock %}

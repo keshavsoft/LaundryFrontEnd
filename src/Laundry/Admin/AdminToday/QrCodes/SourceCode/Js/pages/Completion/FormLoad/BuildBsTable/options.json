@@ -15,57 +15,50 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
-            "filtercontrol": "select"
+            "title": "QrCode"
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
-            "filtercontrol": "select"
+            "title": "ItemName"
         },
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select"
+            "footerFormatter": ""
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime",
-            "filtercontrol": "select"
+            "title": "Order DateTime"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime",
-            "filtercontrol": "select"
+            "title": "DeliveryDateTime"
         },
         {
             "field": "VoucherNumber",
-            "title": "DC #",
-            "filtercontrol": "select"
+            "title": "DC #"
         },
         {
             "title": "DC Date",
-            "field": "DCDate",
-            "filtercontrol": "select"
+            "field": "DCDate"
         }, {
             "title": "BranchName",
             "field": "BranchName",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "field": "location",
             "title": "DC Factory",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
-            "field": "Status",
+            "field": "CompletionScan",
             "title": "Status",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "title": "TimeSpan",
-            "field": "TimeSpan",
-            "filtercontrol": "select"
+            "field": "TimeSpan"
         }
     ]
 }

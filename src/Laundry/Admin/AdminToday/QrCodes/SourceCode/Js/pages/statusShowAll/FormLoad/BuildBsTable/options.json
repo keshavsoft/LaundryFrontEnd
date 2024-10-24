@@ -7,6 +7,7 @@
     "data": [],
     "onClickRow": "",
     "pagination": "true",
+    "filterControl":true,
     "columns": [
         {
             "field": "KS-Serial",
@@ -15,48 +16,42 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
-            "filtercontrol": "select"
+            "title": "QrCode"
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
-            "filtercontrol": "select"
+            "title": "ItemName"
         },
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select"
+            "footerFormatter": ""
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime",
-            "filtercontrol": "select"
+            "title": "Order DateTime"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime",
-            "filtercontrol": "select"
+            "title": "DeliveryDateTime"
         },
         {
             "field": "location",
             "title": "DC Factory",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "field": "BranchName",
             "title": "BranchName",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "field": "Status",
-            "title": "Status",
-            "filtercontrol": "select"
+            "title": "Status"
         },
         {
             "title": "TimeSpan",
-            "field": "TimeSpan",
-            "filtercontrol": "select"
+            "field": "TimeSpan"
         },
         {
             "field": "FactoryScan",

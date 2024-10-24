@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Dashboard",
+      "icon": "bi bi-grid",
+      "url": "../../FromFactory/HtmlFiles/"
+    },
+    {
+      "name": "All",
+      "url": "QRShowAll.html",
+      "icon": "bi bi-list-ul"
+    },
+    {
+      "name": "Pending",
+      "url": "QRPending.html",
+      "icon": "bi bi-hourglass-split"
+    },
+    {
+      "name": "Scanned",
+      "url": "QRCompleted.html",
+      "icon": "bi bi-check-circle"
+    },
+    {
+      "name": "Return",
+      "url": "QRReturn.html",
+      "icon": "bi bi-arrow-counterclockwise"
+    }
+  ]

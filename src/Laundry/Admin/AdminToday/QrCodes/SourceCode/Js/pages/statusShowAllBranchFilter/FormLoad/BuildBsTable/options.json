@@ -24,7 +24,8 @@
         },
         {
             "field": "Rate",
-            "title": "Rate"
+            "title": "Rate",
+            "footerFormatter": ""
         },
         {
             "field": "OrderDateTime",
@@ -36,7 +37,8 @@
         },
         {
             "field": "location",
-            "title": "DC Factory"
+            "title": "DC Factory",
+            "filterControl": "select"
         },
         {
             "field": "BranchName",
