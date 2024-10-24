@@ -3,6 +3,8 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
+    "pageList":"[5, 10, 25 ]",
+    "pageSize":"5",
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
