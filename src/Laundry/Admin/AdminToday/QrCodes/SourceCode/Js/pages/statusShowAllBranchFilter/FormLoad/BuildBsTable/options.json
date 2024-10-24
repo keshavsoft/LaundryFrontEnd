@@ -37,7 +37,8 @@
         },
         {
             "field": "location",
-            "title": "DC Factory"
+            "title": "DC Factory",
+            "filterControl": "select"
         },
         {
             "field": "BranchName",
