@@ -7,7 +7,6 @@
     "data": [],
     "onClickRow": "",
     "pagination": "true",
-    "filterControl":true,
     "columns": [
         {
             "field": "KS-Serial",
@@ -37,13 +36,11 @@
         },
         {
             "field": "location",
-            "title": "DC Factory",
-            "filterControl": "select"
+            "title": "DC Factory"
         },
         {
             "field": "BranchName",
-            "title": "BranchName",
-            "filterControl": "select"
+            "title": "BranchName"
         },
         {
             "field": "Status",
