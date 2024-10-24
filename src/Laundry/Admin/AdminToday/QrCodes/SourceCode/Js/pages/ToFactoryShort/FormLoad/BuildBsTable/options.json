@@ -15,41 +15,34 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr",
+            "width": "100"
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "ItemName",
+            "width": "300"
         },
         {
             "field": "Rate",
             "title": "Rate",
+            "width": "200",
             "footerFormatter": ""
         },
         {
             "field": "OrderNo",
-            "title": "Order #"
-        },
-        {
-            "field": "OrderDateTime",
-            "title": "Order DateTime"
-        },
-        {
-            "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Order #",
+            "width": "100"
         },
         {
             "field": "BranchScan_DC",
-            "title": "BranchScan_DC"
+            "title": "Branch DC",
+            "width": "100"
         },
         {
-            "title": "DC Date",
-            "field": "DCDate"
-        },
-        {
-            "title": "BranchName",
+            "title": "Branch",
             "field": "BranchName",
-            "filterControl": "select"
+            "width": "200"
         },
         {
             "field": "location",
@@ -57,12 +50,8 @@
         },
         {
             "field": "BranchScan_FactoryName",
-            "title": "Branch Factory"
-        },
-        {
-            "field": "Status",
-            "title": "Status",
-            "filterControl": "select"
+            "title": "Factory",
+            "width": "200"
         },
         {
             "title": "TimeSpan",

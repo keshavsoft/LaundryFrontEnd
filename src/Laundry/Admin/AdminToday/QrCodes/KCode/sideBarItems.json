@@ -83,6 +83,11 @@
                 "icon": "bi bi-arrow-right"
             },
             {
+                "name": "Short",
+                "url": "ToFactoryShort.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
                 "name": "Branch Filter",
                 "url": "ToFactoryBranchWise.html",
                 "icon": "bi bi-arrow-right"
