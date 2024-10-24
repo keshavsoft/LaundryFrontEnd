@@ -43,15 +43,11 @@
             "title": "BranchName"
         },
         {
-            "field": "Status",
-            "title": "Status"
-        },
-        {
             "title": "TimeSpan",
             "field": "TimeSpan"
         },
         {
-            "field": "FactoryScan",
+            "field": "EntryScan",
             "title": "FactoryScan"
         },
         {
