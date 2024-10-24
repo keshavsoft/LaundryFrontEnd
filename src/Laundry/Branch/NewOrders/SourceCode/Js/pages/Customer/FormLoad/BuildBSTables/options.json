@@ -1,0 +1,42 @@
+{
+    "toolbar": "#toolbar",
+    "idfield": "pk",
+    "showFooter": "true",
+    "data": [],
+    "detailView": true,
+    "onClickRow": "",
+    "onExpandRow":"",
+    "icons":"",
+    "columns": [
+        {
+            "field": "pk",
+            "title": "Order#"
+        },
+        {
+            "field": "OrderData.Currentdateandtime",
+            "title": "Date",
+            "formatter":"LocalDate"
+        },
+        {
+            "field": "DateTime",
+            "title": "Time Span",
+            "formatter":"TimeDiff"
+        },
+        {
+            "field": "AggValues.ItemDetails",
+            "title": "Items"
+        },
+        {
+            "field": "AggValues.SettlementAmount",
+            "title": "Settlement"
+        },
+        {
+            "field": "IsSettled",
+            "title": "IsSettled"
+        },
+        {
+            "title": "Opts.",
+            "formatter":"jFLocalOptsFormater"
+        }
+    ]
+}
