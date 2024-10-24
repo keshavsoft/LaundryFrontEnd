@@ -54,7 +54,7 @@
             "filterControl": "select"
         },
         {
-            "field": "Status",
+            "field": "EntryScan",
             "title": "Status",
             "filterControl": "select"
         },
