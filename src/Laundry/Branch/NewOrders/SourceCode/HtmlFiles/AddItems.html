@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.6/dist/bootstrap-table.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-2">
+                <button type="button" class="btn btn-primary fs-1" id="OrderNumberId">16</button>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Customer Name</label>
+                            <input type="email" class="form-control" id="CustomerNameId" placeholder="name@example.com"
+                                value="CustomerNameId" disabled>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Customer Mobile</label>
+                            <input type="email" class="form-control" id="CustomerMobileId"
+                                placeholder="name@example.com" value="CustomerMobileId" disabled>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-2">
+                <a id="BranchNameAnchorId" href="#" class="btn btn-secondary fs-1">Kakinada</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <datalist id="ItemsDataListId">
+                    <option value="M Shirt DW">
+                    <option value="W Shirt DW">
+                    <option value="K Shirt DW">
+                    <option value="M Jeans DW">
+                </datalist>
+                <div class="table-responsive">
+                    <table id="table" class="table" data-show-footer="true">
+                        <thead>
+                            <tr>
+                                <th data-formatter="jFLocalSerialColumn">#</th>
+                                <th data-field="Category">Category</th>
+                                <th data-field="ItemName">Item Name</th>
+                                <th data-formatter="jFLocalAddOnFormater">Add Ons</th>
+                                <th data-field="Rate" class="text-end">Rate</th>
+                                <th data-field="Pcs" class="text-end">Pcs</th>
+                                <th data-formatter="jFLocalTotal" class="text-end">Amount</th>
+                                <th data-field="location" class="text-center">Factory</th>
+                                <th data-field="DeliveryDateTime" data-formatter="JFDeliveryDateFormat">Delivery</th>
+                                <th data-formatter="jFLocalOptsFormater">Opts.</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th></th>
+                                <th>
+                                    <select class="form-select" aria-label="Default select example" id="TableFooterCategoryId">
+                                        <option selected value="Men">Men</option>
+                                        <option value="Women">Women</option>
+                                        <option value="Kids">Kids</option>
+                                        <option value="Others">Others</option>
+                                    </select>
+                                </th>
+                                <th>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="TableFooterItemNameId" list="ItemsDataListId"
+                                            autocomplete="off" autofocus>
+                                        <button class="btn btn-outline-secondary" type="button" id="TableFooterItemNameSearchButtonId">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                class="bi bi-search" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                            </svg>
+                                        </button>
+                                        <div class="invalid-feedback">
+                                            Select Item Name...
+                                        </div>
+                                    </div>
+                                </th>
+                                <th></th>
+                                <th>
+                                    <input type="text" class="form-control" id="TableFooterRateInputId" tabindex="-1" readonly>
+                                </th>
+                                <th>
+                                    <input class="form-control" id="TableFooterPcsInputId" type="number" min="1" max="100" step="1" value="1">
+                                </th>
+                                <th></th>
+                                <th>
+                                    <select class="form-select" aria-label="Default select example" id="TableFooterFactoryInputId" tabindex="-1">
+                                        <option value="Vizag" selected>Vizag</option>
+                                        <option value="GD">GD</option>
+                                        <option value="Vzm">Vzm</option>
+                                    </select>
+                                </th>
+                                <th>
+                                    <input class="form-control" tabindex="-1" type="date" id="TableFooterdateInputId">
+                                </th>
+                                <th>
+                                    <button class="btn btn-outline-success" type="button" id="TableFooterSaveButtonId">Save</button>
+                                </th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                
+
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <a id="CheckOutButtonId" href="#" class="btn btn-warning fs-1">CheckOut</a>
+            </div>
+        </div>
+    </div>
+    <!--     
+    <div class="modal fade" id="LoginModalId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="login-form">
+                        <h2 class="text-center mb-4">Login</h2>
+
+                        <div class="mb-3">
+                            <input type="text" id="UsernameId" class="form-control" placeholder="User name" autofocus>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" id="PasswordId" class="form-control" id="password"
+                                placeholder="Password">
+                        </div>
+                        <div class="mb-3 text-center mt-3">
+                            <button type="button" id="LoginButtonId"
+                                class="btn btn-primary btn-block w-100">Login</button>
+                        </div>
+                        <div class="text-center mt-3">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- modal popup with bootstrap for addons -->
+    <div class="modal fade" id="AddOnModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">#</label>
+                                    <input type="email" class="form-control" id="AddOnModalItemSerialId"
+                                        placeholder="name@example.com" value="Keshav" readonly>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Item Name</label>
+                                    <input type="email" class="form-control" id="AddOnModalItemNameId"
+                                        placeholder="name@example.com" value="Keshav" readonly>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Rate</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com" value="9848163021" readonly>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-body">
+
+                    <table id="AddOnTable" data-show-footer="true">
+                        <thead>
+                            <tr id="tableHeadRow">
+                                <th data-formatter="jFLocalSerialColumn" data-width="75">#</th>
+                                <!-- <th data-field="AddOnItemSerial">AddOnItem #</th> -->
+                                <th data-field="AddOnService" data-width="400">AddOn Item</th>
+                                <th data-field="AddOnRate" data-width="200">Rate</th>
+                                <th data-formatter="jFLocalOptsForAddOnOnModalFormater" data-width="100">Options</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th></th>
+                                <th>
+
+
+                                </th>
+                                <th>
+
+                                </th>
+                                <th>
+
+
+                                </th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <select class="form-select" aria-label="Select AddOn" id="TableFooterAddOnSelectId">
+                            </select>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-primary" id="AddOnModalSaveButtonId">
+                                Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End AddOnModal Modal-->
+
+    <div class="modal fade" id="ItemsOnModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 id="SearchString"></h1>
+                </div>
+                <div class="modal-body">
+                    <table data-search="true" data-search-align="left" data-sort-name="ItemName" data-sort-order="asc">
+                        <thead>
+                            <tr>
+                                <th data-formatter="jFLocalSerialColumn" data-width="75">#</th>
+                                <!-- <th data-field="AddOnItemSerial">AddOnItem #</th> -->
+                                <th data-field="Category" data-width="200" data-sortable="true">Category</th>
+                                <th data-field="ItemName" data-width="400" data-sortable="true">Item Name</th>
+                                <th data-field="DryWashRate" data-width="100" data-sortable="true" class="text-end">Rate
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div><!-- End ItemsOnModal Modal-->
+
+    <div class="modal fade" id="ItemsWithSearchOnModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h1>Search results for - <span id="SearchString"></span></h1> -->
+                </div>
+                <div class="modal-body">
+                    <table data-searchable="true" id="myTable">
+                        <thead>
+                            <tr>
+                                <th data-formatter="jFLocalSerialColumn" data-width="75">#</th>
+                                <!-- <th data-field="AddOnItemSerial">AddOnItem #</th> -->
+                                <th data-field="Category" data-width="200">Category</th>
+                                <th data-field="ItemName" data-width="400">Item Name</th>
+                                <th data-field="DryWashRate" data-width="100">Rate</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="LoginModalId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="login-form">
+                        <h2 class="text-center mb-4">Login</h2>
+
+                        <div class="mb-3">
+                            <input type="text" id="UsernameId" class="form-control" placeholder="User name"
+                                autofocus>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" id="PasswordId" class="form-control" id="password"
+                                placeholder="Password">
+                        </div>
+                        <div class="mb-3 text-center mt-3">
+                            <button type="button" id="LoginButtonId"
+                                class="btn btn-primary btn-block w-100">Login</button>
+                        </div>
+                        <div class="text-center mt-3">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.js"></script>
+
+    <script>
+        function jFLocalSerialColumn(value, row, index) {
+            return index + 1;
+        };
+
+        function jFLocalAddOnFormater(value, row, index) {
+            let JVarLocalFromStrogeAddOnData = localStorage.getItem("PresentOrder");
+            let JvarLocalData = JSON.parse(JVarLocalFromStrogeAddOnData);
+            let jVarLocalItemSerial = row.ItemSerial;
+            let jVarLocalFilterData = Object.values(JvarLocalData.AddOnData).filter(e => e.AddOnItemSerial === jVarLocalItemSerial);
+
+            if (jVarLocalFilterData.length > 0) {
+                let jVarLocalAddOnPrice = jVarLocalFilterData.map(e => e.AddOnRate).reduce((a, b) => a + b, 0);
+
+                return [
+                    `<a href="#" class="btn btn-primary ">`,
+                    `${jVarLocalFilterData.length} -${jVarLocalAddOnPrice}`,
+                    `</a>`
+                ].join('');
+            } else {
+                let jVarLocalAddOnPrice = jVarLocalFilterData.map(e => e.AddOnRate).reduce((a, b) => a + b, 0);
+
+                return [
+                    `<a href="#" class="btn btn-outline-primary ">`,
+                    `Click`,
+                    `</a>`
+                ].join('')
+            };
+        };
+
+        function jFLocalOptsFormater(value, row, index) {
+            return [
+                `<a href="#" class="btn btn-danger ">`,
+                `<i class="bi bi-trash3"></i>`,
+                `</a>`
+            ].join('');
+        };
+
+        function jFLocalTotal(value, row, index) {
+            let JVarLocalFromStrogeAddOnData = localStorage.getItem("PresentOrder");
+            let JvarLocalData = JSON.parse(JVarLocalFromStrogeAddOnData);
+            let jVarLocalItemSerial = row.ItemSerial;
+            let jVarLocalFilterData = Object.values(JvarLocalData.AddOnData).filter(e => e.AddOnItemSerial === jVarLocalItemSerial);
+
+            if (jVarLocalFilterData.length > 0) {
+                let jVarLocalAddOnPrice = jVarLocalFilterData.map(e => e.AddOnRate).reduce((a, b) => a + b, 0);
+                return (jVarLocalAddOnPrice * row.Pcs) + row.Total
+            } else {
+                return row.Total;
+            };
+        };
+
+        function jFLocalOptsFormater(value, row, index) {
+            return [
+                `<a href="#" class="btn btn-danger ">`,
+                `<i class="bi bi-trash3"></i>`,
+                `</a>`
+            ].join('');
+        };
+
+        function jFLocalOptsForAddOnOnModalFormater(value, row, index) {
+            return [
+                `<a href="#" class="btn btn-danger ">`,
+                `<i class="bi bi-trash3"></i>`,
+                `</a>`
+            ].join('');
+        };
+
+        const myModalEl = document.getElementById('AddOnModal');
+
+        myModalEl.addEventListener('shown.bs.modal', event => {
+            let jVarLocalTableFooterAddOnSelectId = document.getElementById("TableFooterAddOnSelectId");
+
+            jVarLocalTableFooterAddOnSelectId.focus();
+        });
+
+        function JFDeliveryDateFormat(value, row, index) {
+            return value.split('-').reverse().join('-');
+        }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.6/dist/bootstrap-table.min.js"></script>
+
+    <script type="module" src="../Js/pages/AddItems/StartFunc.js"></script>
+</body>
+
+</html>
