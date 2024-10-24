@@ -27,7 +27,7 @@
                 "icon": "bi bi-list-check"
             },
             {
-                "name": "BranchWise",
+                "name": "Branch Filter",
                 "url": "AllBranchWise.html",
                 "icon": "bi bi-list-check"
             }
@@ -66,7 +66,7 @@
                 "icon": "bi bi-building"
             },
             {
-                "name": "BranchWise",
+                "name": "Branch Filter",
                 "url": "InBranchBranchWise.html",
                 "icon": "bi bi-building"
             }
@@ -83,7 +83,7 @@
                 "icon": "bi bi-arrow-right"
             },
             {
-                "name": "BranchWise",
+                "name": "Branch Filter",
                 "url": "ToFactoryBranchWise.html",
                 "icon": "bi bi-arrow-right"
             }
@@ -100,7 +100,7 @@
                 "icon": "bi bi-arrow-right"
             },
             {
-                "name": "BranchWise",
+                "name": "Branch Filter",
                 "url": "FactoryScanBranchWise.html",
                 "icon": "bi bi-arrow-right"
             }
@@ -117,7 +117,7 @@
                 "icon": "bi bi-droplet-half"
             },
             {
-                "name": "BranchWise",
+                "name": "Branch Filter",
                 "url": "WashingBranchWise.html",
                 "icon": "bi bi-droplet-half"
             }
@@ -134,7 +134,7 @@
                 "icon": "bi bi-gear"
             },
             {
-                "name": "BranchWise",
+                "name": "Branch Filter",
                 "url": "PressingBranchWise.html",
                 "icon": "bi bi-gear"
             }
@@ -151,7 +151,7 @@
                 "icon": "bi bi-check-circle"
             },
             {
-                "name": "BranchWise",
+                "name": "Branch Filter",
                 "url": "CompletionBranchWise.html",
                 "icon": "bi bi-check-circle"
             }
