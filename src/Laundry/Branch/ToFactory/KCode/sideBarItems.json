@@ -5,7 +5,7 @@
     {
         "name": "Home",
         "icon": "bi bi-grid",
-        "url": "/Laundry/NewOrders/HtmlFiles/Customer.html"
+        "url": "../../NewOrders/HtmlFiles/Customer.html"
     },
     {
         "name": "Create",
@@ -21,6 +21,11 @@
             {
                 "name": "Vouchers",
                 "url": "ToFactoryVouchers.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "ToScan",
+                "url": "ToFactoryToScan.html",
                 "icon": "bi bi-plus-square-fill"
             },
             {
