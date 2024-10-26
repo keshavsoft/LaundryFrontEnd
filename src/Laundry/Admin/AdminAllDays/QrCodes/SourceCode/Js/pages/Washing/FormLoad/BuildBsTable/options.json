@@ -1,0 +1,65 @@
+{
+    "toolbar": "#toolbar",
+    "search": "true",
+    "searchable": "true",
+    "idfield": "pk",
+    "showFooter": "true",
+    "pagination": "true",
+    "data": [],
+    "onClickRow": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "QrCodeId",
+            "title": "QrCode"
+        },
+        {
+            "field": "ItemName",
+            "title": "ItemName"
+        },
+        {
+            "field": "Rate",
+            "title": "Rate",
+            "footerFormatter": ""
+        },
+        {
+            "field": "OrderDateTime",
+            "title": "Order DateTime"
+        },
+        {
+            "field": "DeliveryDateTime",
+            "title": "DeliveryDateTime"
+        },
+        {
+            "field": "VoucherNumber",
+            "title": "DC #"
+        },
+        {
+            "title": "DC Date",
+            "field": "DCDate"
+        },
+        {
+            "title": "BranchName",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
+        {
+            "field": "location",
+            "title": "DC Factory",
+            "filterControl": "select"
+        },
+        {
+            "field": "WashingScan",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        }
+    ]
+}
