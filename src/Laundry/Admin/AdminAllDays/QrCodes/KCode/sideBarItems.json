@@ -208,7 +208,7 @@
         ]
     },
     {
-        "name": "BranchWise",
+        "name": "FRomFactory",
         "key": "branchWise",
         "icon": "bi bi-diagram-2",
         "children": [
