@@ -2,5 +2,5 @@
     "routePath": "bin",
     "StartRoute": "binV4",
     "tableName": "Openings",
-    "GetUrl": "/Custom/Cleaning/Dasboard/Admin/Reports/Pos/AllDays/AllBranches/ToFactory"
+    "GetUrl": "Custom/Cleaning/Dasboard/Admin/Reports/Pos/AllDays/AllBranches/ToFactory"
 }
