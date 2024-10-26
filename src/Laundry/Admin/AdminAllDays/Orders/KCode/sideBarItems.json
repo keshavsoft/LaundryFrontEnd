@@ -1,0 +1,45 @@
+[
+    {
+        "name": "AdminTodayOrders"
+    },
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../../BranchToday/HtmlFiles/QrRaiseAll.html"
+    },
+    {
+        "name": "Orders",
+        "key": "Orders",
+        "icon": "bi bi-people-fill",
+        "url": "Orders.html"
+    },
+    {
+        "name": "Show",
+        "key": "show",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Show All",
+                "url": "showAll.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Filters",
+                "url": "showFilters.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "BranchWise",
+        "key": "BranchWise",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "BranchWiseShowAll.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    }
+]

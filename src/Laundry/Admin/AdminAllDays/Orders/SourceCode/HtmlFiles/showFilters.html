@@ -1,0 +1,68 @@
+{% set title = 'Account Profile' %}
+
+{% extends 'src/Laundry/Admin/AdminToday/Orders/SourceCode/Masters/simple.html' %}
+
+{% block content %}
+<div class="pagetitle">
+    <h1 class="d-block d-sm-none">Orders</h1>
+    <h1 class="d-none d-sm-block"><a id="RefreshBSTableId">Orders</a></h1>
+    <nav class="d-none d-sm-block">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">AdminToday</a></li>
+            <li class="breadcrumb-item">Orders</li>
+            <li class="breadcrumb-item active">Filters</li>
+        </ol>
+    </nav>
+</div>
+<section class="section">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="spinner-border" id="SpinnerId" role="status">
+                        <span class="visually-hidden">Loading...</span>
+
+                    </div>
+                    <table id="table">
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<template id="TemplateForItemNames">
+    <table class="table-sm table-success">
+        <thead>
+            <tr>
+                <th data-formatter="jFLocalSerialColumn">#</th>
+                <th data-field="ItemName">ItemName</th>
+                <th data-field="Rate" data-align="right">Rate</th>
+                <th data-field="Pcs" data-align="right">Pcs</th>
+            </tr>
+        </thead>
+    </table>
+</template>
+
+<template id="TemplateForAddOns">
+    <table class="table-warning table-sm">
+        <thead>
+            <tr>
+                <th data-formatter="jFLocalSerialColumn">#</th>
+                <th data-field="AddOnService">AddOnService</th>
+                <th data-field="AddOnRate" data-align="right">AddOnRate</th>
+            </tr>
+        </thead>
+    </table>
+</template>
+
+{% endblock %}
+
+{% block js %}
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.6/dist/extensions/export/bootstrap-table-export.min.js"></script>
+<!-- <script type="module" src="../Js/pages/ShowFilters/StartFunc.js"></script> -->
+<script type="module" src="../Js/pages/ShowFilters/StartFunc.js"></script>
+{% endblock %}

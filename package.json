@@ -27,7 +27,9 @@
     "Admin-Masters": "vite build --config src/Laundry/Admin/Masters/vite.config.js",
     "Branch-FromFactory": "vite build --config src/Laundry/Branch/FromFactory/vite.config.js",
     "Branch-FromFactoryQrCodes": "vite build --config src/Laundry/Branch/FromFactoryQrCodes/vite.config.js",
-    "Branch-NewOrders": "vite build --config src/Laundry/Branch/NewOrders/vite.config.js"
+    "Branch-NewOrders": "vite build --config src/Laundry/Branch/NewOrders/vite.config.js",
+    "Admin-AdminAllDays-QrCodes": "vite build --config src/Laundry/Admin/AdminAllDays/QrCodes/vite.config.js"
+
   },
   "author": "",
   "license": "ISC",
