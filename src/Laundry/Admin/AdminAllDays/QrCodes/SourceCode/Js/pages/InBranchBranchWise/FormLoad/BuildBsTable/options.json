@@ -4,6 +4,7 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
+    "pagination":"true",
     "filterControl": true,
     "data": [],
     "onClickRow": "",
@@ -40,6 +41,11 @@
         {
             "field": "location",
             "title": "DC Factory",
+            "filterControl": "select"
+        },
+        {
+            "field": "BranchName",
+            "title": "BranchName",
             "filterControl": "select"
         },
         {
