@@ -44,13 +44,8 @@
             "filtercontrol": "select"
         },
         {
-            "field": "BookingData.OrderData.BranchName",
+            "field": "BranchName",
             "title": "BranchName",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "Status",
-            "title": "Status",
             "filtercontrol": "select"
         },
         {
