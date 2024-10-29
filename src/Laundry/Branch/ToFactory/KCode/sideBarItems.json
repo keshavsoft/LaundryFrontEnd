@@ -29,6 +29,11 @@
                 "icon": "bi bi-plus-square-fill"
             },
             {
+                "name": "ToFactoryDc",
+                "url": "ToFactoryVoucher.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
                 "name": "QrPrint",
                 "url": "ToFactoryQrPrint.html",
                 "icon": "bi bi-plus-square-fill"
