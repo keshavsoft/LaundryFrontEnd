@@ -6,11 +6,12 @@
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
+    "url": "get Url",
     "columns": [
         {
-            "field": "id",
+            "field": "KS-Serial",
             "title": "#",
-            "formatter": "jFGlobalSerialColumn"
+            "formatter": ""
         },
         {
             "field": "pk",
