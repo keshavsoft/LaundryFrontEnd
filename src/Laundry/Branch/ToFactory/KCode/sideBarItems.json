@@ -24,7 +24,7 @@
                 "icon": "bi bi-plus-square-fill"
             },
             {
-                "name": "ToScan",
+                "name": "toScanShowFactory",
                 "url": "ToFactoryToScan.html",
                 "icon": "bi bi-plus-square-fill"
             },

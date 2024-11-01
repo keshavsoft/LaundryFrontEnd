@@ -20,7 +20,8 @@
         },
         {
             "field": "QrCount",
-            "title": "QrCount"
+            "title": "QrCount",
+            "footerFormatter": ""
         }
     ]
 }
