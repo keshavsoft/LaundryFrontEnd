@@ -14,42 +14,12 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "QrCodeId",
-            "title": "QrCode",
-            "filtercontrol": "select"
+            "field": "BranchName",
+            "title": "BranchName"
         },
         {
-            "field": "ItemName",
-            "title": "ItemName",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "Rate",
-            "title": "Rate",
-            "filtercontrol": "select",
-            "footerFormatter": ""
-        },
-        {
-            "field": "OrderDateTime",
-            "title": "Order DateTime"
-        },
-        {
-            "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
-        },
-        {
-            "field": "location",
-            "title": "DC Factory",
-            "filterControl": "select"
-        },
-        {
-            "field": "Status",
-            "title": "Status",
-            "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
+            "field": "QrCount",
+            "title": "QrCount"
         }
     ]
 }

@@ -16,53 +16,12 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "QrCodeId",
-            "title": "QrCode"
-        },
-        {
-            "field": "ItemName",
-            "title": "ItemName"
-        },
-        {
-            "field": "Rate",
-            "title": "Rate",
-            "footerFormatter": ""
-        },
-        {
-            "field": "OrderDateTime",
-            "title": "Order DateTime"
-        },
-        {
-            "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
-        },
-        {
-            "field": "location",
-            "title": "DC Factory"
-        },
-        {
             "field": "BranchName",
             "title": "BranchName"
         },
         {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
-        },
-        {
-            "field": "EntryScan",
-            "title": "FactoryScan"
-        },
-        {
-            "field": "WashingScan",
-            "title": "WashingScan"
-        },
-        {
-            "field": "PressingScan",
-            "title": "PressingScan"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "CompletionScan"
+            "field": "QrCount",
+            "title": "QrCount"
         }
     ]
 }

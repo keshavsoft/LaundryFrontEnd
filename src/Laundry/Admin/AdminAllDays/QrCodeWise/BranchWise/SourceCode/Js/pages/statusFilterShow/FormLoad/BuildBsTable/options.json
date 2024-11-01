@@ -15,50 +15,12 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "QrCodeId",
-            "title": "QrCode"
-        },
-        {
-            "field": "ItemName",
-            "title": "ItemName"
-        },
-        {
-            "field": "OrderDateTime",
-            "title": "Order DateTime"
-        },
-        {
-            "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
-        },
-        {
-            "field": "location",
-            "title": "Factory",
-            "filterControl": "select"
-        },
-        {
             "field": "BranchName",
-            "title": "BranchName",
-            "filterControl": "select"
+            "title": "BranchName"
         },
         {
-            "field": "Status",
-            "title": "ToFactoryScan"
-        },
-        {
-            "field": "FactoryScan",
-            "title": "FactoryScan"
-        },
-        {
-            "field": "WashingScan",
-            "title": "WashingScan"
-        },
-        {
-            "field": "PressingScan",
-            "title": "PressingScan"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "CompletionScan"
+            "field": "QrCount",
+            "title": "QrCount"
         }
     ]
 }
