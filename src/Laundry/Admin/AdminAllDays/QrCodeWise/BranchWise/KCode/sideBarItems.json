@@ -25,11 +25,6 @@
                 "name": "ShowAll",
                 "url": "All.html",
                 "icon": "bi bi-list-check"
-            },
-            {
-                "name": "Branch Filter",
-                "url": "AllBranchWise.html",
-                "icon": "bi bi-list-check"
             }
         ]
     },
@@ -42,16 +37,6 @@
                 "name": "Show All",
                 "url": "statusShowAll.html",
                 "icon": "bi bi-list-ul"
-            },
-            {
-                "name": "Branch Filter",
-                "url": "statusShowAllBranchFilter.html",
-                "icon": "bi bi-funnel"
-            },
-            {
-                "name": "FilterShow",
-                "url": "statusFilterShow.html",
-                "icon": "bi bi-filter-circle"
             }
         ]
     },
@@ -63,11 +48,6 @@
             {
                 "name": "ShowAll",
                 "url": "InBranch.html",
-                "icon": "bi bi-building"
-            },
-            {
-                "name": "Branch Filter",
-                "url": "InBranchBranchWise.html",
                 "icon": "bi bi-building"
             }
         ]
@@ -86,16 +66,6 @@
                 "name": "Short",
                 "url": "ToFactoryShort.html",
                 "icon": "bi bi-arrow-right"
-            },
-            {
-                "name": "Branch Filter",
-                "url": "ToFactoryBranchWise.html",
-                "icon": "bi bi-arrow-right"
-            },
-            {
-                "name": "Short Filter",
-                "url": "ToFactoryShortBranchWise.html",
-                "icon": "bi bi-arrow-right"
             }
         ]
     },
@@ -112,16 +82,6 @@
             {
                 "name": "Short",
                 "url": "FactoryScanShort.html",
-                "icon": "bi bi-arrow-right"
-            },
-            {
-                "name": "Branch Filter",
-                "url": "FactoryScanBranchWise.html",
-                "icon": "bi bi-arrow-right"
-            },
-            {
-                "name": "Short Filter",
-                "url": "FactoryScanShortBranchWise.html",
                 "icon": "bi bi-arrow-right"
             }
         ]
@@ -140,16 +100,6 @@
                 "name": "Short",
                 "url": "WashingShort.html",
                 "icon": "bi bi-arrow-right"
-            },
-            {
-                "name": "Branch Filter",
-                "url": "WashingBranchWise.html",
-                "icon": "bi bi-droplet-half"
-            },
-            {
-                "name": "Short Filter",
-                "url": "WashingShortBranchWise.html",
-                "icon": "bi bi-arrow-right"
             }
         ]
     },
@@ -167,16 +117,6 @@
                 "name": "Short",
                 "url": "PressingShort.html",
                 "icon": "bi bi-arrow-right"
-            },
-            {
-                "name": "Branch Filter",
-                "url": "PressingBranchWise.html",
-                "icon": "bi bi-gear"
-            },
-            {
-                "name": "Short Filter",
-                "url": "PressingShortBranchWise.html",
-                "icon": "bi bi-arrow-right"
             }
         ]
     },
@@ -193,16 +133,6 @@
             {
                 "name": "Short",
                 "url": "CompletionShort.html",
-                "icon": "bi bi-arrow-right"
-            },
-            {
-                "name": "Branch Filter",
-                "url": "CompletionBranchWise.html",
-                "icon": "bi bi-check-circle"
-            },
-            {
-                "name": "Short Filter",
-                "url": "CompletionShortBranchWise.html",
                 "icon": "bi bi-arrow-right"
             }
         ]

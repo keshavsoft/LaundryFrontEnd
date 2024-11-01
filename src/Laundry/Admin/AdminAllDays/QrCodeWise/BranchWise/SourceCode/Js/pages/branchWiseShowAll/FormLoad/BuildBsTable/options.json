@@ -14,42 +14,12 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "pk",
-            "title": "QrCode"
+            "field": "BranchName",
+            "title": "BranchName"
         },
         {
-            "field": "ItemName",
-            "title": "Item Name"
-        },
-        {
-            "field": "Rate",
-            "title": "Rate",
-            "footerFormatter": ""
-        },
-        {
-            "field": "OrderDateTime",
-            "title": "Order DateTime"
-        },
-        {
-            "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
-        },
-        {
-            "field": "location",
-            "title": "DC Factory"
-        },
-        {
-            "field": "BookingData.OrderData.BranchName",
-            "title": "BranchName",
-            "filterControl": "select"
-        },
-        {
-            "field": "Status",
-            "title": "Status"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
+            "field": "QrCount",
+            "title": "QrCount"
         }
     ]
 }

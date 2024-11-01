@@ -14,54 +14,12 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "QrCodeId",
-            "title": "QrCode",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "ItemName",
-            "title": "ItemName",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "Rate",
-            "title": "Rate",
-            "footerFormatter": ""
-        },
-        {
-            "field": "OrderDateTime",
-            "title": "Order DateTime"
-        },
-        {
-            "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
-        },
-        {
-            "field": "VoucherNumber",
-            "title": "DC #"
-        },
-        {
-            "title": "DC Date",
-            "field": "DCDate"
-        },
-        {
-            "title": "BranchName",
             "field": "BranchName",
-            "filterControl": "select"
+            "title": "BranchName"
         },
         {
-            "field": "location",
-            "title": "DC Factory",
-            "filterControl": "select"
-        },
-        {
-            "field": "FactoryScan",
-            "title": "Status",
-            "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
+            "field": "QrCount",
+            "title": "QrCount"
         }
     ]
 }
