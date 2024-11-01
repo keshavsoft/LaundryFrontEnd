@@ -6,7 +6,7 @@
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
-    "pagination":"true",
+    "pagination": "true",
     "columns": [
         {
             "field": "KS-Serial",
@@ -18,38 +18,8 @@
             "title": "BranchName"
         },
         {
-            "field": "ItemName",
-            "title": "ItemName"
-        },
-        {
-            "field": "Rate",
-            "title": "Rate",
-            "footerFormatter": ""
-        },
-        {
-            "field": "OrderDateTime",
-            "title": "Order DateTime",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "location",
-            "title": "DC Factory",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "BranchName",
-            "title": "BranchName",
-            "filtercontrol": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan",
-            "filtercontrol": "select"
+            "field": "QrCount",
+            "title": "QrCount"
         }
     ]
 }
