@@ -21,7 +21,7 @@
             data-bs-parent="#sidebar-nav">
             {% for sub in result.children %}
             <li>
-                <a class="{{ 'active' if (sub.url == filename) else '' }}" href="./{{ sub.url }}">
+                <a class="{{ 'active' if (sub.url == filename) else '' }}" href="{{ sub.url }}">
                     <i class="bi bi-circle"></i><span>{{ sub.name }}</span>
                 </a>
             </li>
@@ -31,7 +31,7 @@
     </li>
     {% else %}
     <li class="nav-item">
-        <a class="nav-link {{ '' if (result.url == filename or filename|startsWith(result.key)) else 'collapsed' }}" href="./{{ result.url }}">
+        <a class="nav-link {{ '' if (result.url == filename or filename|startsWith(result.key)) else 'collapsed' }}" href="{{ result.url }}">
             <i class="{{ result.icon }}"></i>
             <span>{{result.name}}</span>
         </a>
