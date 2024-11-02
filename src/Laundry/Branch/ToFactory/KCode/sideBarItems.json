@@ -51,5 +51,17 @@
                 "icon": "bi bi-plus-square-fill"
             }
         ]
+    },
+    {
+        "name": "ToScanPending",
+        "key": "ShowFactoryPending",
+        "icon": "bi bi-amd",
+        "children": [
+            {
+                "name": "ShowFactoryPending",
+                "url": "ShowFactoryPending.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
     }
 ]
