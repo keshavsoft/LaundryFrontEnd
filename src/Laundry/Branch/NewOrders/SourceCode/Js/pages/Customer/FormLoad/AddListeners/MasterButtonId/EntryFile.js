@@ -16,6 +16,7 @@ const jFLocalToDataList = () => {
     if (jVarLocalCustomersFromLocslstroge === null === false) {
         let LocaCustomerData = JSON.parse(jVarLocalCustomersFromLocslstroge);
         let jVatLocalCustomersDataListId = document.getElementById("CustomersDataListId")
+        jVatLocalCustomersDataListId.innerHTML = "";
 
         LocaCustomerData.forEach(element => {
             let LocalOption = document.createElement("option");

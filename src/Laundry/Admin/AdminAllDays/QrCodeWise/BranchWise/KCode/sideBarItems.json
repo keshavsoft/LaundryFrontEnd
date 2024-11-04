@@ -34,7 +34,7 @@
         "icon": "bi bi-bar-chart",
         "children": [
             {
-                "name": "Show All",
+                "name": "ShowAll",
                 "url": "statusShowAll.html",
                 "icon": "bi bi-list-ul"
             }
@@ -61,11 +61,6 @@
                 "name": "ShowAll",
                 "url": "ToFactory.html",
                 "icon": "bi bi-arrow-right"
-            },
-            {
-                "name": "Short",
-                "url": "ToFactoryShort.html",
-                "icon": "bi bi-arrow-right"
             }
         ]
     },
@@ -77,11 +72,6 @@
             {
                 "name": "ShowAll",
                 "url": "FactoryScan.html",
-                "icon": "bi bi-arrow-right"
-            },
-            {
-                "name": "Short",
-                "url": "FactoryScanShort.html",
                 "icon": "bi bi-arrow-right"
             }
         ]
@@ -95,11 +85,6 @@
                 "name": "ShowAll",
                 "url": "Washing.html",
                 "icon": "bi bi-droplet-half"
-            },
-            {
-                "name": "Short",
-                "url": "WashingShort.html",
-                "icon": "bi bi-arrow-right"
             }
         ]
     },
@@ -112,11 +97,6 @@
                 "name": "ShowAll",
                 "url": "Pressing.html",
                 "icon": "bi bi-gear"
-            },
-            {
-                "name": "Short",
-                "url": "PressingShort.html",
-                "icon": "bi bi-arrow-right"
             }
         ]
     },
@@ -129,11 +109,6 @@
                 "name": "ShowAll",
                 "url": "Completion.html",
                 "icon": "bi bi-check-circle"
-            },
-            {
-                "name": "Short",
-                "url": "CompletionShort.html",
-                "icon": "bi bi-arrow-right"
             }
         ]
     },

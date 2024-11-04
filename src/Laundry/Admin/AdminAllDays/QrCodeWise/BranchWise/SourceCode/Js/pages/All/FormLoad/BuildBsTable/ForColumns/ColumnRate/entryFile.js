@@ -3,7 +3,7 @@ let StartFunc = ({ inFindColumn }) => {
 };
 
 let jVarLocalFormatterFunc = (data) => {
-    var field = "Rate";
+    var field = "QrCount";
     let LocalTotal = data.map(function (row) {
         if (row[field] === undefined) {
             return 0;
