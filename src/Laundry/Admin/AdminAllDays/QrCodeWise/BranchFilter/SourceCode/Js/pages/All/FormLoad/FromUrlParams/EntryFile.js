@@ -1,7 +1,7 @@
-import { StartFunc as popup } from "./popup.js";
+// import { StartFunc as popup } from "./popup.js";
 
 let StartFunc = () => {
-    popup()
+    // popup()
     let jVarLocalBranchId = 'BranchNameId';
     let jVarlocalBranch = document.getElementById(jVarLocalBranchId);
     let jVarLocalBranchName = localStorage.getItem("BranchName");
