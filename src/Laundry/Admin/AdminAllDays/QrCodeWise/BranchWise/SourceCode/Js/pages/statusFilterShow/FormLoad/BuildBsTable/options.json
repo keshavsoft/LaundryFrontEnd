@@ -22,6 +22,10 @@
             "field": "QrCount",
             "title": "QrCount",
             "footerFormatter": ""
+        },
+        {
+            "title": "QrShow",
+            "field": "QrShow"
         }
     ]
 }
