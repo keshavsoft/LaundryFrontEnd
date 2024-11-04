@@ -1,9 +1,9 @@
-import { StartFunc as Receipts } from "./Receipts/Entry.js";
+import { StartFunc as FromServer } from "./FromServer/Entry.js";
 import { StartFunc as StartFuncAfterFetch } from "./AfterFetch/EntryFile.js";
 
 let StartFunc = async () => {
     try {
-        let jVarLocalData = await Receipts();
+        let jVarLocalData = await FromServer();
 
         StartFuncAfterFetch({ inData: jVarLocalData });
     } catch (e) {
