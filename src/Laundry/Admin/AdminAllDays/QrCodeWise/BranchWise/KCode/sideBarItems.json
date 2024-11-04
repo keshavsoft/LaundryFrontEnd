@@ -2,7 +2,7 @@
     {
         "name": "Home",
         "icon": "bi bi-house-door",
-        "url": "../../../BranchToday/HtmlFiles/QrRaiseAll.html"
+        "url": "/laundryAdminQrCodes.html"
     },
     {
         "name": "Simple",
