@@ -10,57 +10,93 @@
     {
         "name": "Create",
         "key": "Create",
-        "icon": "bi bi-people-fill",
+        "icon": "bi bi-plus-circle",
         "url": "Create.html"
     },
     {
         "name": "DC",
         "key": "ToFactory",
-        "icon": "bi bi-people-fill",
+        "icon": "bi bi-box-seam",
         "children": [
             {
                 "name": "Vouchers",
                 "url": "ToFactoryVouchers.html",
-                "icon": "bi bi-plus-square-fill"
+                "icon": "bi bi-file-earmark-text"
             },
             {
                 "name": "ToScan",
                 "url": "ToFactoryToScan.html",
-                "icon": "bi bi-plus-square-fill"
+                "icon": "bi bi-upc-scan"
             },
             {
                 "name": "ToFactoryDc",
                 "url": "ToFactoryVoucher.html",
-                "icon": "bi bi-plus-square-fill"
+                "icon": "bi bi-file-earmark-zip"
             },
             {
                 "name": "QrPrint",
                 "url": "ToFactoryQrPrint.html",
-                "icon": "bi bi-plus-square-fill"
+                "icon": "bi bi-printer"
             }
         ]
     },
     {
         "name": "ToScan",
         "key": "ToScan",
-        "icon": "bi bi-amd",
+        "icon": "bi bi-search",
         "children": [
             {
                 "name": "ShowFactory",
                 "url": "ToScanShowFactory.html",
-                "icon": "bi bi-plus-square-fill"
+                "icon": "bi bi-eye"
             }
         ]
     },
     {
         "name": "ToScanPending",
         "key": "ShowFactoryPending",
-        "icon": "bi bi-amd",
+        "icon": "bi bi-hourglass-split",
         "children": [
             {
                 "name": "ShowFactoryPending",
                 "url": "ShowFactoryPending.html",
-                "icon": "bi bi-plus-square-fill"
+                "icon": "bi bi-hourglass-bottom"
+            }
+        ]
+    },
+    {
+        "name": "ToScanOnly",
+        "key": "ScanOnly",
+        "icon": "bi bi-camera",
+        "children": [
+            {
+                "name": "Show",
+                "url": "ScanOnly.html",
+                "icon": "bi bi-eye"
+            }
+        ]
+    },
+    {
+        "name": "ToFactorySent",
+        "key": "FactorySent",
+        "icon": "bi bi-send",
+        "children": [
+            {
+                "name": "Show",
+                "url": "FactorySent.html",
+                "icon": "bi bi-check-circle"
+            }
+        ]
+    },
+    {
+        "name": "SentAndFactoryScan",
+        "key": "SentAndFactoryScan",
+        "icon": "bi bi-clipboard-check",
+        "children": [
+            {
+                "name": "Show",
+                "url": "SentAndFactoryScan.html",
+                "icon": "bi bi-eye-fill"
             }
         ]
     }
