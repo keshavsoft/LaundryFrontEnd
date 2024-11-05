@@ -1,7 +1,12 @@
 let StartFunc = ({ inFromFetch }) => {
     let jVarLocalFetchData = inFromFetch;
+    console.log("nnnnnnnnnn : ", jVarLocalFetchData);
+
     if (jVarLocalFetchData.KTF === true) {
-        jFLocalForSuccess(jVarLocalFetchData);
+        jFLocalToInputAlertSuccessIdUserName(jVarLocalFetchData.ScanNo);
+        jFLocalToInputInputPkId("");
+        JFlocalShowAlertFunc();
+        // jFLocalForSuccess(jVarLocalFetchData);
     } else {
         Swal.fire({
             icon: 'error',
@@ -27,6 +32,32 @@ let jFLocalForSuccess = (jVarLocalFetchData) => {
     window.location.href = `${url.origin}${url.pathname}?${params1}`;
 
     window.location.href = new_url.href;
+};
+
+let jFLocalToInputAlertSuccessIdUserName = (inValue) => {
+    let jVarLocalHtmlId = 'AlertSuccessIdUserName';
+    let jVarLocalAlertSuccessIdUserName = document.getElementById(jVarLocalHtmlId);
+
+    if (jVarLocalAlertSuccessIdUserName === null === false) {
+        jVarLocalAlertSuccessIdUserName.innerHTML = inValue;
+    };
+};
+
+let jFLocalToInputInputPkId = (inValue) => {
+    let jVarLocalHtmlId = 'InputPkId';
+    let jVarLocalInputPkId = document.getElementById(jVarLocalHtmlId);
+
+    if (jVarLocalInputPkId === null === false) {
+        jVarLocalInputPkId.value = inValue;
+    };
+};
+
+const JFlocalShowAlertFunc = () => {
+    let jvarLocalAlertId = document.getElementById("AlertSuccessId");
+
+    if (jvarLocalAlertId === null === false) {
+        jvarLocalAlertId.style.display = "";
+    };
 };
 
 export { StartFunc };

@@ -8,29 +8,15 @@ let StartFunc = () => {
     StartFuncFromUrlParams();
     StartFuncParams();
     jFLocalToInputInputVoucherRefId()
-    JFlocalShowAlertFunc();
-    JFlocalNewPkAlertFunc();
+    // JFlocalShowAlertFunc();
+
+    // JFlocalNewPkAlertFunc();
+    
     StartFuncDCDetails();
     StartFuncDCCount();
     jFLocalToInputBranchName();
     jFLocalBranchName()
     StartFuncQrTable();
-};
-
-const JFlocalShowAlertFunc = () => {
-    let jVarLocalVoucherRefValue = getUrlQueryParams({ inGetKey: "ShowAlert" });
-    let jvarLocalAlertId = document.getElementById("AlertSuccessId");
-
-    if (jVarLocalVoucherRefValue) {
-        jvarLocalAlertId.style.display = ""
-
-    };
-};
-
-const JFlocalNewPkAlertFunc = () => {
-    let jVarLocalVoucherRefValue = getUrlQueryParams({ inGetKey: "NewPk" });
-    let jvarLocalAlertId = document.getElementById("AlertSuccessIdUserName");
-    jvarLocalAlertId.innerHTML = jVarLocalVoucherRefValue;
 };
 
 let jFLocalToInputInputVoucherRefId = () => {
