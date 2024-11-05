@@ -11,7 +11,7 @@
         "NewOrderButtonId": {
             "PostFetch": "/Custom/Clients/Laundry/Orders/NewOrder",
             "RedirectUrl": {
-                "500Status": "/Laundry/NewOrders/HtmlFiles/AddItems.html"
+                "500Status": "/Laundry/Branch/NewOrders/HtmlFiles/AddItems.html"
             }
         }
     }

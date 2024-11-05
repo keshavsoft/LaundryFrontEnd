@@ -5,11 +5,6 @@
         "url": "/laundryAdminQrCodes.html"
     },
     {
-        "name": "Back",
-        "icon": "bi bi-house-door",
-        "url": "/laundryAdminQrCodes.html"
-    },
-    {
         "name": "Simple",
         "key": "Simple",
         "icon": "bi bi-file-earmark",
