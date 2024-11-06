@@ -4,7 +4,7 @@ let StartFunc = ({ inFindColumn }) => {
 };
 
 let jVarLocalFormatterFunc = (value, row, index) => {
-    if (row.FactoryScanCount !== 0) {
+    if (row.EntryScanCount !== 0) {
         return [
             `<a class="like btn btn-primary" href="./DcQrs.html?VoucherRef=${row.pk}" title="Show">`,
             '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">',
