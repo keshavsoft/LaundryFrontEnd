@@ -29,6 +29,11 @@
                 "icon": "bi bi-upc-scan"
             },
             {
+                "name": "ToScanDelete",
+                "url": "ToFactoryToScanDelete.html",
+                "icon": "bi bi-upc-scan"
+            },
+            {
                 "name": "ToFactoryDc",
                 "url": "ToFactoryVoucher.html",
                 "icon": "bi bi-file-earmark-zip"
