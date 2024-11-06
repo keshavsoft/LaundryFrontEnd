@@ -11,20 +11,18 @@
         {
             "field": "KS-Serial",
             "title": "#",
-            "formatter": "jFLocalSerialColumn"
+            "formatter": "jFLocalSerialColumn",
+            "footerFormatter": "Total"
         },
         {
             "field": "BranchName",
             "title": "BranchName"
         },
         {
-            "field": "QrCount",
-            "title": "QrCount",
-            "footerFormatter": ""
-        },
-        {
             "title": "QrShow",
-            "field": "QrShow"
+            "field": "QrShow",
+            "footerFormatter": "",
+             "align":"right"
         }
     ]
 }

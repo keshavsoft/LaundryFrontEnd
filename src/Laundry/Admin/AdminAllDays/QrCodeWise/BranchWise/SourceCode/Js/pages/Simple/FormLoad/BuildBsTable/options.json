@@ -10,37 +10,18 @@
         {
             "field": "KS-Serial",
             "title": "#",
-            "formatter": "jFLocalSerialColumn"
+            "formatter": "jFLocalSerialColumn",
+            "footerFormatter": "Total"
         },
         {
-            "field": "QrCodeId",
-            "title": "QrCode",
-            "filtercontrol": "select"
+            "field": "BranchName",
+            "title": "BranchName"
         },
         {
-            "field": "ItemName",
-            "title": "ItemName",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "Rate",
-            "title": "Rate",
-            "footerFormatter": ""
-        },
-        {
-            "field": "location",
-            "title": "DC Factory",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "Status",
-            "title": "Status",
-            "filtercontrol": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan",
-            "filtercontrol": "select"
+            "title": "QrShow",
+            "field": "QrShow",
+            "footerFormatter": "",
+             "align":"right"
         }
     ]
 }
