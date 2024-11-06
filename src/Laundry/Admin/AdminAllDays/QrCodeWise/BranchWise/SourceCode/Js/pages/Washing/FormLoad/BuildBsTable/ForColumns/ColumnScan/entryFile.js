@@ -8,7 +8,7 @@ let jVarLocalFormatterFunc = (value, row, index) => {
     const jVarLocalBranchName = row.BranchName;
         return [
             `<a class="like btn btn-primary" target="blank" href="../../BranchFilter/HtmlFiles/Washing.html?BranchName=${jVarLocalBranchName}" title="Show">`,
-            '<i class="bi bi-qr-code"></i>',
+            `<i class="bi bi-qr-code"></i> `,
             row.QrCount,
             '</a>',
 
@@ -29,7 +29,7 @@ function priceFormatter(data) {
     let total= Math.floor(LocalTotal);
     return [
         `<a class="like btn btn-info" target="blank" href="../../AsArray/HtmlFiles/Washing.html" title="Show">`,
-        '<i class="bi bi-qr-code"></i>',
+        `<i class="bi bi-qr-code"></i> `,
         total,
         '</a>',
 
