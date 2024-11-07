@@ -16,8 +16,7 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
-            "filtercontrol": "select"
+            "title": "QrCode"
         },
         {
             "field": "ItemName",
@@ -27,7 +26,6 @@
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select",
             "footerFormatter": ""
         },
         {
@@ -40,13 +38,11 @@
         },
         {
             "field": "location",
-            "title": "DC Factory",
-            "filterControl": "select"
+            "title": "DC Factory"
         },
         {
             "field": "Status",
-            "title": "Status",
-            "filterControl": "select"
+            "title": "Status"
         },
         {
             "title": "TimeSpan",
