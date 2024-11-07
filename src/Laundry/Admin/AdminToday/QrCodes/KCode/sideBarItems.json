@@ -5,18 +5,6 @@
         "url": "/laundryAdmin.html"
     },
     {
-        "name": "Simple",
-        "key": "Simple",
-        "icon": "bi bi-file-earmark",
-        "children": [
-            {
-                "name": "ShowAll",
-                "url": "Simple.html",
-                "icon": "bi bi-list"
-            }
-        ]
-    },
-    {
         "name": "All",
         "key": "All",
         "icon": "bi bi-grid-fill",
@@ -47,11 +35,6 @@
                 "name": "Branch Filter",
                 "url": "statusShowAllBranchFilter.html",
                 "icon": "bi bi-funnel"
-            },
-            {
-                "name": "FilterShow",
-                "url": "statusFilterShow.html",
-                "icon": "bi bi-filter-circle"
             }
         ]
     },
@@ -208,7 +191,7 @@
         ]
     },
     {
-        "name": "BranchWise",
+        "name": "FromFactory",
         "key": "branchWise",
         "icon": "bi bi-diagram-2",
         "children": [
