@@ -42,13 +42,17 @@
     },
     {
         "name": "InBranch",
-        "key": "In",
+        "key": "in",
         "icon": "bi bi-building",
         "children": [
             {
                 "name": "ShowAll",
-                "url": "InBranch.html",
+                "url": "inBranch.html",
                 "icon": "bi bi-building"
+            },
+            {
+                "name": "ItemFilter",
+                "url": "inBranchItemFilter.html"
             }
         ]
     },
