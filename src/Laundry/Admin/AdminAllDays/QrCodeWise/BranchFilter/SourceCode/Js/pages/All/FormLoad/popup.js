@@ -9,9 +9,14 @@ let StartFunc = () => {
         // });
 
         Swal.fire({
-            title: "An input!",
-            text: "Write something interesting:",
-            input: 'text',
+            title: "WelCome!",
+            text: "Choose a BranchName",
+            input: 'select',
+            inputOptions: {
+                'KKD': 'KKD',
+                'ANR': 'ANR'
+            },
+            inputPlaceholder: 'Select a branch',
             showCancelButton: true,
             confirmButtonColor: 'green'
         }).then((result) => {
@@ -22,12 +27,6 @@ let StartFunc = () => {
 
                 addURLSearchParams({ name: 'BranchName', value: jVarLocalBranchName });
 
-
-                // let url = new URL("https://example.com?foo=1&bar=2");
-                // let params = new URLSearchParams(url.search);
-
-                // //Add a second foo parameter.
-                // params.append("foo", 4);
             };
         });
     };
