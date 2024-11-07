@@ -9,17 +9,19 @@ let StartFunc = () => {
         // });
 
         Swal.fire({
-            title: "An input!",
-            text: "Write something interesting:",
-            input: 'text',
+            title: "WelCome!",
+            text: "Choose a BranchName",
+            input: 'select',
+            inputOptions: {
+                'KKD': 'KKD',
+                'ANR': 'ANR'
+            },
+            inputPlaceholder: 'Select a branch',
             showCancelButton: true,
             confirmButtonColor: 'green'
         }).then((result) => {
             if (result.value) {
                 const jVarLocalBranchName = result.value;
-
-                console.log("aaaaaaaa : ", jVarLocalBranchName);
-
                 addURLSearchParams({ name: 'BranchName', value: jVarLocalBranchName });
 
 

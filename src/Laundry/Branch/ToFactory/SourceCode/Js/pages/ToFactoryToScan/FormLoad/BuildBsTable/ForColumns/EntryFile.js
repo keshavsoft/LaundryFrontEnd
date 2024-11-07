@@ -1,5 +1,7 @@
 import { StartFunc as ColumnOperate } from "./ColumnSerial/entryFile.js";
 import { StartFunc as ColumnScan } from "./ColumnScan/entryFile.js";
+import { StartFunc as ItemsDetails } from "./ItemsDetails/entryFile.js";
+
 
 let StartFunc = ({ inColumns }) => {
     let LocalColumns = inColumns;
@@ -13,6 +15,11 @@ let StartFunc = ({ inColumns }) => {
 
     if (LocalScanColumn === undefined === false) {
         ColumnScan({ inFindColumn: LocalScanColumn });
+    };
+    let LocalItemDetails = LocalColumns.find(element => element.field === "ItemDetails");
+
+    if (LocalItemDetails === undefined === false) {
+        ItemsDetails({ inFindColumn: LocalItemDetails });
     };
 };
 
