@@ -42,7 +42,7 @@
     },
     {
         "name": "InBranch",
-        "key": "in",
+        "key": "inBranch",
         "icon": "bi bi-building",
         "children": [
             {
@@ -53,6 +53,10 @@
             {
                 "name": "ItemFilter",
                 "url": "inBranchItemFilter.html"
+            },
+            {
+                "name": "FactoryFilter",
+                "url": "inBranchFactoryFilter.html"
             }
         ]
     },
@@ -64,6 +68,11 @@
             {
                 "name": "ShowAll",
                 "url": "ToFactory.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "ItemsFilter",
+                "url": "ToFactoryItemsFilter.html",
                 "icon": "bi bi-arrow-right"
             }
         ]

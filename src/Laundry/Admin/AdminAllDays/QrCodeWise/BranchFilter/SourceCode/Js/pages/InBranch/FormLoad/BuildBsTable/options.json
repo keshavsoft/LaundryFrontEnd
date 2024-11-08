@@ -24,6 +24,10 @@
             "filtercontrol": "select"
         },
         {
+            "field": "OrderNo",
+            "title": "Order#"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "filtercontrol": "select",
@@ -39,12 +43,7 @@
         },
         {
             "field": "location",
-            "title": "DC Factory",
-            "filterControl": "select"
-        },
-        {
-            "field": "Status",
-            "title": "Status",
+            "title": "OrderFactory",
             "filterControl": "select"
         },
         {
