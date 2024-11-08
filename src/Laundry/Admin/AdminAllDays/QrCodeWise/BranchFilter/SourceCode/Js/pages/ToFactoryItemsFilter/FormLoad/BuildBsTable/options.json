@@ -4,7 +4,8 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
-    "pagination":"true",
+    "pagination": "true",
+    "filterControl": true,
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -15,23 +16,21 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
-            "filtercontrol": "select"
+            "title": "QrCode"
         },
         {
             "field": "ItemName",
             "title": "ItemName",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "OrderNo",
-            "title": "Order#"
+            "filterControl": "select"
         },
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select",
             "footerFormatter": ""
+        },
+        {
+            "field": "OrderNo",
+            "title": "Order #"
         },
         {
             "field": "OrderDateTime",
@@ -42,8 +41,29 @@
             "title": "DeliveryDateTime"
         },
         {
+            "field": "BranchScan_DC",
+            "title": "BranchScan_DC"
+        },
+        {
+            "title": "DC Date",
+            "field": "DCDate"
+        },
+        {
+            "title": "BranchName",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
+        {
             "field": "location",
-            "title": "OrderFactory",
+            "title": "Location"
+        },
+        {
+            "field": "BranchScan_FactoryName",
+            "title": "Branch Factory"
+        },
+        {
+            "field": "EntryScan",
+            "title": "Status",
             "filterControl": "select"
         },
         {
