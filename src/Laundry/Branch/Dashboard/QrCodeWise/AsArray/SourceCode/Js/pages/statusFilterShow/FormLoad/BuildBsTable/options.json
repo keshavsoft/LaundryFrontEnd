@@ -36,11 +36,6 @@
             "filterControl": "select"
         },
         {
-            "field": "BranchName",
-            "title": "BranchName",
-            "filterControl": "select"
-        },
-        {
             "field": "Status",
             "title": "ToFactoryScan"
         },

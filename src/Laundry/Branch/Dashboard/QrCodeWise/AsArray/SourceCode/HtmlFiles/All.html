@@ -1,4 +1,4 @@
-{% extends 'src/Laundry/Admin/AdminAllDays/QrCodeWise/BranchFilter/SourceCode/Masters/simple.html' %}
+{% extends 'src/Laundry/Branch/Dashboard/QrCodeWise/AsArray/SourceCode/Masters/simple.html' %}
 
 {% block content %}
 <div class="pagetitle">
@@ -27,6 +27,8 @@
 {% endblock %}
 
 {% block js %}
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.6/dist/extensions/export/bootstrap-table-export.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

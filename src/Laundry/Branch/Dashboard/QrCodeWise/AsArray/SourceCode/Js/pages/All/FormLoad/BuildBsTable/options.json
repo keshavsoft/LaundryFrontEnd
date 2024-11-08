@@ -6,7 +6,7 @@
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
-    "pagination":"true",
+    "pagination": "true",
     "columns": [
         {
             "field": "KS-Serial",
@@ -41,11 +41,6 @@
         {
             "field": "location",
             "title": "DC Factory",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "BranchName",
-            "title": "BranchName",
             "filtercontrol": "select"
         },
         {

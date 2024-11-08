@@ -45,11 +45,6 @@
             "field": "DCDate"
         },
         {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filterControl": "select"
-        },
-        {
             "field": "location",
             "title": "DC Factory",
             "filterControl": "select"
