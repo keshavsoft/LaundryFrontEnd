@@ -12,9 +12,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SourceFolderName = "SourceCode";
-const SrcFolder = "src/Clients/Today/QrCodes";
+const SrcFolder = "src/Laundry/Branch/Pos/Today/QrCodes";
 
-const FrontEndDistFolder = "publicDir/Today/TodayQrCodes";
+const FrontEndDistFolder = "publicDir/Branch/Pos/Today/QrCodes";
 
 const root = resolve(__dirname, `${SrcFolder}/${SourceFolderName}`);
 
@@ -26,7 +26,7 @@ build({
     configFile: false,
     build: {
         emptyOutDir: false,
-        outDir: resolve(__dirname, `../../../../${FrontEndDistFolder}/assets/compiled/js`),
+        outDir: resolve(__dirname, `../../../../../../${FrontEndDistFolder}/assets/compiled/js`),
         lib: {
             name: 'app',
             formats: ['umd'],
@@ -44,11 +44,11 @@ build({
 export default defineConfig((env) => ({
     publicDir: 'static',
     base: './',
-    root: resolve(__dirname, `../../../../${SrcFolder}/${SourceFolderName}`),
+    root: resolve(__dirname, `../../../../../../${SrcFolder}/${SourceFolderName}`),
     plugins: [
         viteStaticCopy({
             targets: [
-                { src: normalizePath(resolve(__dirname, `../../../../${SrcFolder}/${SourceFolderName}/assets/static`)), dest: "assets" }
+                { src: normalizePath(resolve(__dirname, `../../../../../../${SrcFolder}/${SourceFolderName}/assets/static`)), dest: "assets" }
             ],
             watch: {
                 reloadPageOnChange: true
@@ -84,7 +84,7 @@ export default defineConfig((env) => ({
         emptyOutDir: false,
         manifest: true,
         target: "chrome58",
-        outDir: resolve(__dirname, `../../../../${FrontEndDistFolder}`),
+        outDir: resolve(__dirname, `../../../../../../${FrontEndDistFolder}`),
         rollupOptions: {
             input: files,
             output: {
