@@ -24,6 +24,10 @@
             "filterControl": "select"
         },
         {
+            "field": "OrderNo",
+            "title": "Order#"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "footerFormatter": ""
@@ -38,11 +42,7 @@
         },
         {
             "field": "location",
-            "title": "DC Factory"
-        },
-        {
-            "field": "Status",
-            "title": "Status"
+            "title": "OrderFactory"
         },
         {
             "title": "TimeSpan",

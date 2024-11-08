@@ -4,9 +4,10 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
-    "pagination":"true",
+    "pagination": "true",
     "data": [],
     "onClickRow": "",
+    "filterControl": "true",
     "columns": [
         {
             "field": "KS-Serial",
@@ -15,13 +16,12 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
-            "filtercontrol": "select"
+            "title": "QrCode"
         },
         {
             "field": "ItemName",
             "title": "ItemName",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "field": "OrderNo",
@@ -30,7 +30,6 @@
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select",
             "footerFormatter": ""
         },
         {
