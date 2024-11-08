@@ -1,5 +1,3 @@
-// import { StartFunc as runSaveClick } from "./runSaveClick.js";
-
 let StartFunc = ({ inFetchResonse }) => {
     let jVarLocalResponseData = inFetchResonse;
 
@@ -11,8 +9,6 @@ let StartFunc = ({ inFetchResonse }) => {
         jFLocalToInputInputProductNameId({ inInputProductNameId: jVarLocalFetchData.ItemName });
         jFLocalToInputInputSalePriceId({ inInputSalePriceId: jVarLocalFetchData.Rate });
         jFLocalToInputFactorySelectedId({ inInputFactorySelectedId: jVarLocalFetchData.location });
-
-        // runSaveClick();
     };
 };
 
