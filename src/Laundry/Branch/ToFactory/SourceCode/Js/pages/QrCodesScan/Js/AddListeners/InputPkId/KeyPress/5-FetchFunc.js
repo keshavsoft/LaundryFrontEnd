@@ -1,11 +1,14 @@
-import { StartFunc as StartFuncRowpk } from "./FetchHeaders/EntryFile.js";
-import ConfigJson from "../../../Config.json" with{type: 'json'};
+import { StartFunc as StartFuncFetchHeaders } from "./FetchHeaders/EntryFile.js";
 
 let StartFunc = async () => {
-    let jVarLocalRowPk = StartFuncRowpk();
-    let jVarLocalFetchUrl = `/${ConfigJson.routePath}/QrCodes/Show/Filter/pk/${jVarLocalRowPk}`;
+    let jVarLocalFetchHeaders = StartFuncFetchHeaders();
 
-    let response = await fetch(jVarLocalFetchUrl);
+    let jVarLocalbranchName = localStorage.getItem("BranchName")
+    let jVarLocalFetchUrl = `/Custom/Cleaning/Branch/Factory/ToFactory/Scan/${jVarLocalbranchName}`;
+
+    let response = await fetch(jVarLocalFetchUrl, jVarLocalFetchHeaders);
+    // let data = await response.json();
+
     return await response;
 };
 

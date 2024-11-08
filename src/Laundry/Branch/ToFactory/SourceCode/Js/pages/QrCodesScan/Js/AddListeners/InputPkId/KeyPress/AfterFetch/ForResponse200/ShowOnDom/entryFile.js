@@ -1,46 +1,84 @@
-import { StartFunc as runSaveClick } from "./runSaveClick.js";
+import { StartFunc as InputValues } from "./InputValues.js";
 
-let StartFunc = async ({ inFetchResonse }) => {
-    let jVarLocalResponseData = await inFetchResonse;
+let StartFunc = ({ inFromFetch }) => {
+    let jVarLocalFetchData = inFromFetch;
+    console.log("nnnnnnnnnn : ", jVarLocalFetchData);
 
-    if (Object.values(jVarLocalResponseData).length > 0) {
-        let jVarLocalFetchData = jVarLocalResponseData;
-        jVarGlobalPresentViewData2 = jVarLocalFetchData;
+    if (jVarLocalFetchData.KTF === true) {
+        jFLocalToInputAlertSuccessIdUserName(jVarLocalFetchData.ScanNo);
+        jFLocalToInputInputPkId("");
+        JFlocalShowAlertFunc();
+        jFLocalToInputRowCountId(jVarLocalFetchData.QrCount)
+        InputValues({ inFetchResonse: jVarLocalFetchData.QrData });
+        InputPkId()
+        // jFLocalForSuccess(jVarLocalFetchData);
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: `${jVarLocalFetchData.KReason}`,
+            confirmButtonText: "ok",
+        }).then((result) => {
+            if (result.isConfirmed) {
+                let jVarLocalHtmlId = 'InputPkId';
+                let jVarLocalInputPkId = document.getElementById(jVarLocalHtmlId);
+                let jVarLocalLength = jVarLocalInputPkId.value.trim().length;
+                jVarLocalInputPkId.setSelectionRange(0, jVarLocalLength);
+            }
+        });
+    }
+};
 
-        jFLocalToInputInputPkId({ inInputPkId: jVarLocalFetchData.pk });
-        jFLocalToInputInputProductNameId({ inInputProductNameId: jVarLocalFetchData.ItemName });
-        jFLocalToInputInputSalePriceId({ inInputSalePriceId: jVarLocalFetchData.Rate });
-        jFLocalToInputFactorySelectedId({ inInputFactorySelectedId: jVarLocalFetchData.location });
+let jFLocalForSuccess = (jVarLocalFetchData) => {
+    const url = new URL(window.location.href);
+    const params1 = new URLSearchParams(url.search);
 
-        runSaveClick();
+    params1.set("NewPk", jVarLocalFetchData.ScanNo);
+    params1.set("ShowAlert", true);
+    window.location.href = `${url.origin}${url.pathname}?${params1}`;
+
+    window.location.href = new_url.href;
+};
+
+let jFLocalToInputAlertSuccessIdUserName = (inValue) => {
+    let jVarLocalHtmlId = 'AlertSuccessIdUserName';
+    let jVarLocalAlertSuccessIdUserName = document.getElementById(jVarLocalHtmlId);
+
+    if (jVarLocalAlertSuccessIdUserName === null === false) {
+        jVarLocalAlertSuccessIdUserName.innerHTML = inValue;
     };
 };
 
-let jFLocalToInputInputProductNameId = ({ inInputProductNameId }) => {
-    let jVarLocalHtmlId = 'InputProductNameId';
-    let jVarLocalInputProductNameId = document.getElementById(jVarLocalHtmlId);
-
-    if (jVarLocalInputProductNameId === null === false) {
-        jVarLocalInputProductNameId.value = inInputProductNameId;
-    };
-};
-
-let jFLocalToInputInputSalePriceId = ({ inInputSalePriceId }) => {
-    let jVarLocalHtmlId = 'InputSalePriceId';
-    let jVarLocalInputSalePriceId = document.getElementById(jVarLocalHtmlId);
-    jVarLocalInputSalePriceId.value = inInputSalePriceId;
-};
-
-let jFLocalToInputFactorySelectedId = ({ inInputFactorySelectedId }) => {
-    let jVarLocalHtmlId = 'InputFactorySelectedId';
-    let jVarLocalInputFactorySelectedId = document.getElementById(jVarLocalHtmlId);
-    jVarLocalInputFactorySelectedId.value = inInputFactorySelectedId;
-};
-
-let jFLocalToInputInputPkId = ({ inInputPkId }) => {
+let jFLocalToInputInputPkId = (inValue) => {
     let jVarLocalHtmlId = 'InputPkId';
     let jVarLocalInputPkId = document.getElementById(jVarLocalHtmlId);
-    jVarLocalInputPkId.value = inInputPkId;
+
+    if (jVarLocalInputPkId === null === false) {
+        jVarLocalInputPkId.value = inValue;
+    };
 };
+
+const JFlocalShowAlertFunc = () => {
+    let jvarLocalAlertId = document.getElementById("AlertSuccessId");
+
+    if (jvarLocalAlertId === null === false) {
+        jvarLocalAlertId.style.display = "";
+    };
+};
+
+let jFLocalToInputRowCountId = (inValue) => {
+    let jVarLocalHtmlId = 'RowCountId';
+    let jVarLocalRowCountId = document.getElementById(jVarLocalHtmlId);
+
+    if (jVarLocalRowCountId === null === false) {
+        jVarLocalRowCountId.innerHTML = inValue;
+    };
+};
+const InputPkId = () => {
+    let jVarLocalHtmlId = 'InputPkId';
+    let jVarLocalInputPkId = document.getElementById(jVarLocalHtmlId);
+    let jVarLocalLength = jVarLocalInputPkId.value.trim().length;
+    jVarLocalInputPkId.setSelectionRange(0, jVarLocalLength);
+
+}
 
 export { StartFunc };
