@@ -5,7 +5,7 @@ import { StartFunc as StartFuncInputPkId } from "./InputPkId/EntryFile.js";
 let StartFunc = () => {
     NavMenu();
     StartFuncInputPkId();
-    StartFuncButtonSaveId();
+    // StartFuncButtonSaveId();
 };
 
 export { StartFunc };
