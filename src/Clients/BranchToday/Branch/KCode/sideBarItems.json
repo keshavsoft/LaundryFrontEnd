@@ -85,7 +85,7 @@
     {
         "name": "QrCodes",
         "key": "Today",
-        "url": "../../Today/TodayQrCodes/HtmlFiles/QrAll.html",
+        "url": "../../Branch/Pos/Today/QrCodes/HtmlFiles/",
         "icon": "bi bi-upc-scan"
     }
 ]

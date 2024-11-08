@@ -2,7 +2,7 @@
     {
         "name": "Home",
         "icon": "bi bi-grid",
-        "url": "../../../BranchToday/HtmlFiles/QrRaiseAll.html"
+        "url": "../../../../../BranchToday/HtmlFiles/"
     },
     {
         "name": "Simple",
@@ -29,6 +29,16 @@
             {
                 "name": "Status",
                 "url": "QrAllStatus.html",
+                "icon": "bi bi-circle"
+            },
+            {
+                "name": "FactoryFilter",
+                "url": "QrAllFactoryFilter.html",
+                "icon": "bi bi-circle"
+            },
+            {
+                "name": "ItemsFilter",
+                "url": "QrAllitemsFilter.html",
                 "icon": "bi bi-circle"
             }
         ]

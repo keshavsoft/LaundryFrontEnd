@@ -15,6 +15,7 @@ call npm run Admin-AdminToday-Orders
 call npm run Branch-FromFactory
 call npm run Branch-FromFactoryQrCodes
 call npm run Admin-AdminAllDays-QrCodes
+call npm run Branch-Pos-Today-QrCodes
 
 
 
