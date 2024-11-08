@@ -39,17 +39,15 @@
             "formatter": ""
         },
         {
-            "title": "BranchScan",
+            "title": "EntryScanCount",
+            "field": "EntryScanCount",
+            "align":"right"
+        },
+        {
+            "title": "ItemDetails",
             "field": "ItemDetails",
             "align":"right",
             "footerFormatter": ""
-        },
-        {
-            "title": "FactoryScan",
-            "field": "EntryScanCount",
-            "align":"right",
-            "footerFormatter": ""
         }
-       
     ]
 }
