@@ -1,0 +1,60 @@
+[
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../../BranchToday/HtmlFiles/QrRaiseAll.html"
+    },
+    {
+        "name": "Simple",
+        "key": "QrSimple",
+        "icon": "bi bi-slash-circle",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "QrSimple.html",
+                "icon": "bi bi-circle"
+            }
+        ]
+    },
+    {
+        "name": "All",
+        "key": "QrAll",
+        "icon": "bi bi-circle-fill",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "QrAll.html",
+                "icon": "bi bi-circle"
+            },
+            {
+                "name": "Status",
+                "url": "QrAllStatus.html",
+                "icon": "bi bi-circle"
+            }
+        ]
+    },
+    {
+        "name": "InBranch",
+        "key": "QrIn",
+        "icon": "bi bi-circle-half",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "QrInBranch.html",
+                "icon": "bi bi-circle"
+            }
+        ]
+    },
+    {
+        "name": "ToFactory",
+        "key": "QrTo",
+        "icon": "bi bi-circle",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "QrToFactory.html",
+                "icon": "bi bi-circle"
+            }
+        ]
+    }
+]
