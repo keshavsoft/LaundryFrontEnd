@@ -7,8 +7,8 @@ let StartFunc = () => {
     // inDataToInsert.ItemName = jFLocalFromDomInputProductNameId();
     // inDataToInsert.Rate = jFLocalFromDomInputSalePriceId();
     // inDataToInsert.FactorySelected = jFLocalFromDomInputFactorySelectedId();
-    inDataToInsert.VoucherRef = jFLocalFromDomInputVoucherRefId();
-    inDataToInsert.BranchName = jFLocalFromDomInputBranchNameId();
+    inDataToInsert.VoucherRef = getUrlQueryParams({ inGetKey: "VoucherRef" });
+    inDataToInsert.BranchName = localStorage.getItem("BranchName");
     // inDataToInsert.VoucherNumber = jFLocalFromDomVoucherNumberTextId();
     inDataToInsert.DCFactory = jFLocalFromDomDCFactoryTextId();
     // inDataToInsert.DCDate = jFLocalFromDomDateTextId();
@@ -87,5 +87,11 @@ let jFLocalFromDomDateTextId = () => {
     let jVarHtmlDateTextId = document.getElementById(jVarLocalHtmlDateTextId);
     let jVarHtmlDateTextIdValue = jVarHtmlDateTextId.value.trim();
     return jVarHtmlDateTextIdValue;
+};
+let getUrlQueryParams = ({ inGetKey }) => {
+    const queryString = window.location.search;
+    const parameters = new URLSearchParams(queryString);
+    const value = parameters.get(inGetKey);
+    return value;
 };
 export { StartFunc }

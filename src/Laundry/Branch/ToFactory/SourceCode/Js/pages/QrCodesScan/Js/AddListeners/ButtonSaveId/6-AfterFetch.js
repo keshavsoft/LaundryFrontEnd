@@ -6,6 +6,7 @@ let StartFunc = ({ inFromFetch }) => {
         jFLocalToInputAlertSuccessIdUserName(jVarLocalFetchData.ScanNo);
         jFLocalToInputInputPkId("");
         JFlocalShowAlertFunc();
+        jFLocalToInputRowCountId(jVarLocalFetchData.QrCount)
         // jFLocalForSuccess(jVarLocalFetchData);
     } else {
         Swal.fire({
@@ -58,6 +59,15 @@ const JFlocalShowAlertFunc = () => {
     if (jvarLocalAlertId === null === false) {
         jvarLocalAlertId.style.display = "";
     };
+};
+
+let jFLocalToInputRowCountId = (inValue) => {
+    let jVarLocalHtmlId = 'RowCountId';
+   let jVarLocalRowCountId = document.getElementById(jVarLocalHtmlId);
+   
+   if (jVarLocalRowCountId === null === false) {
+      jVarLocalRowCountId.innerHTML = inValue;
+   };
 };
 
 export { StartFunc };
