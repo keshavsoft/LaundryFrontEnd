@@ -54,7 +54,7 @@
             "filtercontrol": "select"
         },
         {
-            "field": "Status",
+            "field": "BranchScan",
             "title": "Status",
             "filtercontrol": "select"
         },

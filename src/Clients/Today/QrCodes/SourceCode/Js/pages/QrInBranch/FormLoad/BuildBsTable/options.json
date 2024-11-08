@@ -44,11 +44,6 @@
             "filtercontrol": "select"
         },
         {
-            "field": "Status",
-            "title": "Status",
-            "filtercontrol": "select"
-        },
-        {
             "title": "TimeSpan",
             "field": "TimeSpan",
             "filtercontrol": "select"
