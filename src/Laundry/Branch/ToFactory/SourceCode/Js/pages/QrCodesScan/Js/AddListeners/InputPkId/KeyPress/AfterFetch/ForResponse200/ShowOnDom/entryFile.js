@@ -2,8 +2,6 @@ import { StartFunc as InputValues } from "./InputValues.js";
 
 let StartFunc = ({ inFromFetch }) => {
     let jVarLocalFetchData = inFromFetch;
-    console.log("nnnnnnnnnn : ", jVarLocalFetchData);
-
     if (jVarLocalFetchData.KTF === true) {
         jFLocalToInputAlertSuccessIdUserName(jVarLocalFetchData.ScanNo);
         jFLocalToInputInputPkId("");
@@ -11,7 +9,6 @@ let StartFunc = ({ inFromFetch }) => {
         jFLocalToInputRowCountId(jVarLocalFetchData.QrCount)
         InputValues({ inFetchResonse: jVarLocalFetchData.QrData });
         InputPkId()
-        // jFLocalForSuccess(jVarLocalFetchData);
     } else {
         Swal.fire({
             icon: 'error',
@@ -19,24 +16,10 @@ let StartFunc = ({ inFromFetch }) => {
             confirmButtonText: "ok",
         }).then((result) => {
             if (result.isConfirmed) {
-                let jVarLocalHtmlId = 'InputPkId';
-                let jVarLocalInputPkId = document.getElementById(jVarLocalHtmlId);
-                let jVarLocalLength = jVarLocalInputPkId.value.trim().length;
-                jVarLocalInputPkId.setSelectionRange(0, jVarLocalLength);
-            }
+                InputPkId();
+            };
         });
     }
-};
-
-let jFLocalForSuccess = (jVarLocalFetchData) => {
-    const url = new URL(window.location.href);
-    const params1 = new URLSearchParams(url.search);
-
-    params1.set("NewPk", jVarLocalFetchData.ScanNo);
-    params1.set("ShowAlert", true);
-    window.location.href = `${url.origin}${url.pathname}?${params1}`;
-
-    window.location.href = new_url.href;
 };
 
 let jFLocalToInputAlertSuccessIdUserName = (inValue) => {
@@ -79,6 +62,6 @@ const InputPkId = () => {
     let jVarLocalLength = jVarLocalInputPkId.value.trim().length;
     jVarLocalInputPkId.setSelectionRange(0, jVarLocalLength);
 
-}
+};
 
 export { StartFunc };
