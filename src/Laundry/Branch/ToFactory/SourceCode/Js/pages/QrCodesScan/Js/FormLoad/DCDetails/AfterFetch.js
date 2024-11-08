@@ -1,6 +1,6 @@
 let StartFunc = ({ inDataToShow }) => {
-    
-    let jVarLocalData = inDataToShow[0];
+
+    let jVarLocalData = inDataToShow;
 
     // jFLocalToInnerHtmlpkTextId({ inpkTextId: jVarLocalData.pk });
     jFLocalToInnerHtmlVoucherNumberTextId({ inVoucherNumberTextId: jVarLocalData.pk })
@@ -14,6 +14,7 @@ let StartFunc = ({ inDataToShow }) => {
     jFLocalToInputDescriptionTextDCDetailsId({ inDescriptionTextDCDetailsId: jVarLocalData.Description });
     jFLocalToInputDCFactoryDCDetailsTextId({ inDCFactoryDCDetailsTextId: jVarLocalData.Factory });
     jFLocalToInputDCBranchNameDCDetailsTextId({ inDCBranchNameDCDetailsTextId: jVarLocalData.BranchName });
+    jFLocalToInputRowCountId(jVarLocalData.QrCount)
 };
 
 let jFLocalToInnerHtmlpkTextId = ({ inpkTextId }) => {
@@ -97,6 +98,15 @@ let jFLocalToInputDCBranchNameDCDetailsTextId = ({ inDCBranchNameDCDetailsTextId
 
     if (jVarLocalDCBranchNameDCDetailsTextId === null === false) {
         jVarLocalDCBranchNameDCDetailsTextId.innerHTML = inDCBranchNameDCDetailsTextId;
+    };
+};
+
+let jFLocalToInputRowCountId = (inValue) => {
+    let jVarLocalHtmlId = 'RowCountId';
+    let jVarLocalRowCountId = document.getElementById(jVarLocalHtmlId);
+
+    if (jVarLocalRowCountId === null === false) {
+        jVarLocalRowCountId.innerHTML = inValue;
     };
 };
 
