@@ -3,11 +3,13 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
+    "pageList": "[5, 10, 25 ]",
+    "pageSize": "5",
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
-    "pagination": "true",
     "filterControl": true,
+    "pagination": "true",
     "columns": [
         {
             "field": "KS-Serial",
@@ -20,8 +22,7 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
-            "filterControl": "select"
+            "title": "ItemName"
         },
         {
             "field": "Rate",
@@ -44,6 +45,22 @@
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
+        },
+        {
+            "field": "EntryScan",
+            "title": "FactoryScan"
+        },
+        {
+            "field": "WashingScan",
+            "title": "WashingScan"
+        },
+        {
+            "field": "PressingScan",
+            "title": "PressingScan"
+        },
+        {
+            "field": "CompletionScan",
+            "title": "CompletionScan"
         }
     ]
 }

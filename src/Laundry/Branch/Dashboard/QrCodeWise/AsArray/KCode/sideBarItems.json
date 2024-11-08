@@ -27,8 +27,13 @@
                 "icon": "bi bi-list-check"
             },
             {
-                "name": "FilterShow",
-                "url": "AllShowFilter.html",
+                "name": "FactoryFilter",
+                "url": "AllFactoryFilter.html",
+                "icon": "bi bi-list-check"
+            },
+            {
+                "name": "ItemFilter",
+                "url": "AllItemFilter.html",
                 "icon": "bi bi-list-check"
             }
         ]
@@ -39,8 +44,18 @@
         "icon": "bi bi-bar-chart",
         "children": [
             {
-                "name": "Show All",
+                "name": "ShowAll",
                 "url": "statusShowAll.html",
+                "icon": "bi bi-list-ul"
+            },
+            {
+                "name": "FactoryFilter",
+                "url": "statusFactoryFiilter.html",
+                "icon": "bi bi-list-ul"
+            },
+            {
+                "name": "ItemFilter",
+                "url": "statusItemFilter.html",
                 "icon": "bi bi-list-ul"
             }
         ]
