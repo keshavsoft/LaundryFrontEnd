@@ -8,7 +8,8 @@ let StartFunc = () => {
             input: 'select',
             inputOptions: {
                 'KKD': 'KKD',
-                'ANR': 'ANR'
+                'ANR': 'ANR',
+                'SP': 'SP'
             },
             inputPlaceholder: 'Select a branch',
             showCancelButton: true,
