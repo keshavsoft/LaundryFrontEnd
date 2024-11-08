@@ -47,11 +47,6 @@
             "field": "DCDate"
         },
         {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filterControl": "select"
-        },
-        {
             "field": "location",
             "title": "Location"
         },

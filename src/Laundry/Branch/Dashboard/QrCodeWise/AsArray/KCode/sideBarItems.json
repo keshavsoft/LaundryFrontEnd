@@ -25,6 +25,11 @@
                 "name": "ShowAll",
                 "url": "All.html",
                 "icon": "bi bi-list-check"
+            },
+            {
+                "name": "FilterShow",
+                "url": "AllShowFilter.html",
+                "icon": "bi bi-list-check"
             }
         ]
     },

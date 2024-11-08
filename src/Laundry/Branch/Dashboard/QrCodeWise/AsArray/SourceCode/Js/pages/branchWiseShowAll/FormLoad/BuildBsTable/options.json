@@ -39,11 +39,6 @@
             "title": "DC Factory"
         },
         {
-            "field": "BookingData.OrderData.BranchName",
-            "title": "BranchName",
-            "filterControl": "select"
-        },
-        {
             "field": "Status",
             "title": "Status"
         },
