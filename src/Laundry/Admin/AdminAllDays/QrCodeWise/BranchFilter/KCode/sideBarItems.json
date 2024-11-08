@@ -47,7 +47,7 @@
         "children": [
             {
                 "name": "ShowAll",
-                "url": "inBranch.html",
+                "url": "inBranchShowAll.html",
                 "icon": "bi bi-building"
             },
             {
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "name": "FRomFactory",
+        "name": "FromFactory",
         "key": "branchWise",
         "icon": "bi bi-diagram-2",
         "children": [
