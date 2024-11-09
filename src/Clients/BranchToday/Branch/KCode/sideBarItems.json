@@ -55,12 +55,6 @@
         ]
     },
     {
-        "name": "Orders",
-        "key": "Orders",
-        "icon": "bi bi-border-style",
-        "url": "../../Today/TodayOrders/HtmlFiles/Orders.html"
-    },
-    {
         "name": "Items",
         "key": "Items",
         "icon": "bi bi-diagram-2",
@@ -81,6 +75,12 @@
         "key": "Reports",
         "url": "../../TodayReports/HtmlFiles/",
         "icon": "bi bi-currency-exchange"
+    },
+    {
+        "name": "Orders",
+        "key": "Orders",
+        "icon": "bi bi-border-style",
+        "url": "../../Today/TodayOrders/HtmlFiles/Orders.html"
     },
     {
         "name": "QrCodes",

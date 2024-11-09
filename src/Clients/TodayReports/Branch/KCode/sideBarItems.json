@@ -8,6 +8,14 @@
         "url": "../../Branch/NewOrders/HtmlFiles/Customer.html"
     },
     {
+        "name": "Parent",
+        "icon": "bi bi-arrow-90deg-left",
+        "url": "../../../Laundry/BranchToday/HtmlFiles/QrRaiseAll.html"
+    },
+    {
+        "name": "Payments"
+    },
+    {
         "name": "ShowAll",
         "url": "PaymentsShowAll.html",
         "icon": "bi bi-border-all"
