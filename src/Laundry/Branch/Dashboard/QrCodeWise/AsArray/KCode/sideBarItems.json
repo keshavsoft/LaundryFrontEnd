@@ -73,6 +73,10 @@
             {
                 "name": "ItemFilter",
                 "url": "inBranchItemFilter.html"
+            },
+            {
+                "name": "FactoryFilter",
+                "url": "inBranchFactoryFilter.html"
             }
         ]
     },
@@ -83,8 +87,15 @@
         "children": [
             {
                 "name": "ShowAll",
-                "url": "ToFactory.html",
-                "icon": "bi bi-arrow-right"
+                "url": "ToFactory.html"
+            },
+            {
+                "name": "ItemFilter",
+                "url": "ToFactoryItemFilter.html"
+            },
+            {
+                "name": "FactoryFilter",
+                "url": "ToFactoryFactoryFilter.html"
             }
         ]
     },
@@ -95,8 +106,15 @@
         "children": [
             {
                 "name": "ShowAll",
-                "url": "FactoryScan.html",
-                "icon": "bi bi-arrow-right"
+                "url": "FactoryScan.html"
+            },
+            {
+                "name": "ItemFilter",
+                "url": "FactoryScanItemFilter.html"
+            },
+            {
+                "name": "FactoryFilter",
+                "url": "FactoryScanFactoryFilter.html"
             }
         ]
     },
@@ -107,8 +125,15 @@
         "children": [
             {
                 "name": "ShowAll",
-                "url": "Washing.html",
-                "icon": "bi bi-droplet-half"
+                "url": "Washing.html"
+            },
+            {
+                "name": "ItemFilter",
+                "url": "WashingItemFilter.html"
+            },
+            {
+                "name": "FactoryFilter",
+                "url": "WashingFactoryFilter.html"
             }
         ]
     },
@@ -119,8 +144,15 @@
         "children": [
             {
                 "name": "ShowAll",
-                "url": "Pressing.html",
-                "icon": "bi bi-gear"
+                "url": "Pressing.html"
+            },
+            {
+                "name": "ItemFilter",
+                "url": "PressingItemFilter.html"
+            },
+            {
+                "name": "FactoryFilter",
+                "url": "PressingFactoryFilter.html"
             }
         ]
     },
@@ -131,8 +163,15 @@
         "children": [
             {
                 "name": "ShowAll",
-                "url": "Completion.html",
-                "icon": "bi bi-check-circle"
+                "url": "Completion.html"
+            },
+            {
+                "name": "ItemFilter",
+                "url": "CompletionItemFilter.html"
+            },
+            {
+                "name": "FactoryFilter",
+                "url": "CompletionFactoryFilter.html"
             }
         ]
     },
