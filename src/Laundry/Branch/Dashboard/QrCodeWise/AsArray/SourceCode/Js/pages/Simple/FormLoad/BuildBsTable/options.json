@@ -6,6 +6,7 @@
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
+    "pagination": "true",
     "columns": [
         {
             "field": "KS-Serial",
@@ -28,13 +29,18 @@
             "footerFormatter": ""
         },
         {
-            "field": "location",
-            "title": "DC Factory",
+            "field": "OrderDateTime",
+            "title": "Order DateTime",
             "filtercontrol": "select"
         },
         {
-            "field": "Status",
-            "title": "Status",
+            "field": "DeliveryDateTime",
+            "title": "DeliveryDateTime",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "location",
+            "title": "DC Factory",
             "filtercontrol": "select"
         },
         {
