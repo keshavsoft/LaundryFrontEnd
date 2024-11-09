@@ -14,7 +14,7 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "pk",
+            "field": "QrCodeId",
             "title": "QrCode"
         },
         {
