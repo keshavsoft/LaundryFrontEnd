@@ -57,23 +57,25 @@
                     <table id="table" class="table" data-show-footer="true">
                         <thead>
                             <tr>
-                                <th data-formatter="jFLocalSerialColumn"  data-width="50">#</th>
-                                <th data-field="Category"  data-width="200">Category</th>
-                                <th data-field="ItemName"  data-width="300">Item Name</th>
-                                <th data-formatter="jFLocalAddOnFormater"  data-width="150">Add Ons</th>
-                                <th data-field="Rate" class="text-end"  data-width="200">Rate</th>
-                                <th data-field="Pcs" class="text-end"  data-width="220">Pcs</th>
-                                <th data-formatter="jFLocalTotal" class="text-end"  data-width="250">Amount</th>
-                                <th data-field="location" class="text-center"  data-width="200">Factory</th>
-                                <th data-field="DeliveryDateTime" data-formatter="JFDeliveryDateFormat"  data-width="120">Delivery</th>
-                                <th data-formatter="jFLocalOptsFormater"  data-width="100">Opts.</th>
+                                <th data-formatter="jFLocalSerialColumn" data-width="50">#</th>
+                                <th data-field="Category" data-width="200">Category</th>
+                                <th data-field="ItemName" data-width="350">Item Name</th>
+                                <th data-formatter="jFLocalAddOnFormater" data-width="100">Add Ons</th>
+                                <th data-field="Rate" class="text-end" data-width="100">Rate</th>
+                                <th data-field="Pcs" class="text-end" data-width="220">Pcs</th>
+                                <th data-formatter="jFLocalTotal" class="text-end" data-width="200">Amount</th>
+                                <th data-field="location" class="text-center" data-width="200">Factory</th>
+                                <th data-field="DeliveryDateTime" data-formatter="JFDeliveryDateFormat"
+                                    data-width="100">Delivery</th>
+                                <th data-formatter="jFLocalOptsFormater" data-width="100">Opts.</th>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
                                 <th></th>
                                 <th>
-                                    <select class="form-select" aria-label="Default select example" id="TableFooterCategoryId">
+                                    <select class="form-select" aria-label="Default select example"
+                                        id="TableFooterCategoryId">
                                         <option selected value="Men">Men</option>
                                         <option value="Women">Women</option>
                                         <option value="Kids">Kids</option>
@@ -82,11 +84,12 @@
                                 </th>
                                 <th>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" id="TableFooterItemNameId" list="ItemsDataListId"
-                                            autocomplete="off" autofocus>
-                                        <button class="btn btn-outline-secondary" type="button" id="TableFooterItemNameSearchButtonId">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                                class="bi bi-search" viewBox="0 0 16 16">
+                                        <input type="text" class="form-control" id="TableFooterItemNameId"
+                                            list="ItemsDataListId" autocomplete="off" autofocus>
+                                        <button class="btn btn-outline-secondary" type="button"
+                                            id="TableFooterItemNameSearchButtonId">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                                 <path
                                                     d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                                             </svg>
@@ -98,14 +101,17 @@
                                 </th>
                                 <th></th>
                                 <th>
-                                    <input type="text" class="form-control" id="TableFooterRateInputId" tabindex="-1" readonly>
+                                    <input type="text" class="form-control" id="TableFooterRateInputId" tabindex="-1"
+                                        readonly>
                                 </th>
                                 <th>
-                                    <input class="form-control" id="TableFooterPcsInputId" type="number" min="1" max="100" step="1" value="1">
+                                    <input class="form-control" id="TableFooterPcsInputId" type="number" min="1"
+                                        max="100" step="1" value="1">
                                 </th>
                                 <th></th>
                                 <th>
-                                    <select class="form-select" aria-label="Default select example" id="TableFooterFactoryInputId" tabindex="-1">
+                                    <select class="form-select" aria-label="Default select example"
+                                        id="TableFooterFactoryInputId" tabindex="-1">
                                         <option value="Vizag" selected>Vizag</option>
                                         <option value="GD">GD</option>
                                         <option value="Vzm">Vzm</option>
@@ -115,13 +121,14 @@
                                     <input class="form-control" tabindex="-1" type="date" id="TableFooterdateInputId">
                                 </th>
                                 <th>
-                                    <button class="btn btn-outline-success" type="button" id="TableFooterSaveButtonId">Save</button>
+                                    <button class="btn btn-outline-success" type="button"
+                                        id="TableFooterSaveButtonId">Save</button>
                                 </th>
                             </tr>
                         </tfoot>
                     </table>
                 </div>
-                
+
 
             </div>
         </div>
@@ -301,8 +308,7 @@
                         <h2 class="text-center mb-4">Login</h2>
 
                         <div class="mb-3">
-                            <input type="text" id="UsernameId" class="form-control" placeholder="User name"
-                                autofocus>
+                            <input type="text" id="UsernameId" class="form-control" placeholder="User name" autofocus>
                         </div>
                         <div class="mb-3">
                             <input type="password" id="PasswordId" class="form-control" id="password"

@@ -52,6 +52,11 @@
                 "name": "FilterShow",
                 "url": "statusFilterShow.html",
                 "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "Emojis",
+                "url": "statusEmojis.html",
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
