@@ -9,6 +9,7 @@
     "data": [],
     "onClickRow": "",
     "pagination": "true",
+    "filterControl": true,
     "columns": [
         {
             "field": "KS-Serial",
@@ -25,7 +26,8 @@
         },
         {
             "field": "BranchScan",
-            "title": "Branch"
+            "title": "Branch",
+            "filterControl":"select"
         },
         {
             "field": "Rate",

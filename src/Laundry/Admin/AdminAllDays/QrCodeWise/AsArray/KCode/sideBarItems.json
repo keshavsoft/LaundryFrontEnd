@@ -57,6 +57,11 @@
                 "name": "Emojis",
                 "url": "statusEmojis.html",
                 "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "statusEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
