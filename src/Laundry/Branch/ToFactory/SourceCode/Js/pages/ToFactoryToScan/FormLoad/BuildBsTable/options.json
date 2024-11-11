@@ -39,13 +39,14 @@
             "formatter": ""
         },
         {
-            "title": "EntryScanCount",
-            "field": "EntryScanCount",
-            "align":"right"
-        },
-        {
             "title": "ItemDetails",
             "field": "ItemDetails",
+            "align":"right",
+            "footerFormatter": ""
+        },
+        {
+            "title": "EntryScanCount",
+            "field": "EntryScanCount",
             "align":"right",
             "footerFormatter": ""
         }

@@ -36,22 +36,22 @@
         {
             "title": "Scan",
             "field": "Scan",
-            "formatter": "QRCodeGenerate",
-            "footerFormatter": "priceFormatter"
-        },
-        {
-            "title": "EntryScanCount",
-            "field": "EntryScanCount"
+            "formatter": "QRCodeGenerate"
         },
         {
             "title": "ItemDetails",
-            "field": "ItemDetails"
+            "field": "ItemDetails",
+            "footerFormatter": " "
+        },
+        {
+            "title": "EntryScanCount",
+            "field": "EntryScanCount",
+            "footerFormatter": " "
         },
         {
             "title": "Delete",
             "field": "Delete",
             "formatter": ""
-
         }
     ]
 }

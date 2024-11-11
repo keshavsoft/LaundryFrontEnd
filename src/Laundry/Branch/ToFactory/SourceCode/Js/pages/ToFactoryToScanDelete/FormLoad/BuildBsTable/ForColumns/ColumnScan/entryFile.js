@@ -1,6 +1,5 @@
 let StartFunc = ({ inFindColumn }) => {
     inFindColumn.formatter = jVarLocalFormatterFunc;
-    inFindColumn.footerFormatter = priceFormatter;
 };
 
 let jVarLocalFormatterFunc = (value, row, index) => {
@@ -31,14 +30,5 @@ let jVarLocalFormatterFunc = (value, row, index) => {
         ].join('')
     };
 };
-
-function priceFormatter(data) {
-    var field = this.field
-    return '' + data.map(function (row) {
-        return +row.ItemDetails
-    }).reduce(function (sum, i) {
-        return sum + i
-    }, 0)
-}
 
 export { StartFunc };
