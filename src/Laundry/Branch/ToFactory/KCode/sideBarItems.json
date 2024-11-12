@@ -40,7 +40,7 @@
             },
             {
                 "name": "QrPrint",
-                "url": "ToFactoryQrPrint.html",
+                "url": "ToFactoryQRPrint.html",
                 "icon": "bi bi-printer"
             }
         ]
