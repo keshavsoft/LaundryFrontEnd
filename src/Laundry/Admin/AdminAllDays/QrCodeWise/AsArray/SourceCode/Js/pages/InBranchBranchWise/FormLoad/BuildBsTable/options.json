@@ -56,6 +56,22 @@
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
+        },
+        {
+            "field": "FactoryScan",
+            "title": "FactoryScan"
+        },
+        {
+            "field": "WashingScan",
+            "title": "WashingScan"
+        },
+        {
+            "field": "PressingScan",
+            "title": "PressingScan"
+        },
+        {
+            "field": "CompletionScan",
+            "title": "CompletionScan"
         }
     ]
 }
