@@ -43,13 +43,28 @@
             "filterControl": "select"
         },
         {
-            "field": "Status",
-            "title": "Status",
-            "filterControl": "select"
+            "field": "BranchName",
+            "title": "BranchName"
         },
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
+        },
+        {
+            "field": "EntryScan",
+            "title": "FactoryScan"
+        },
+        {
+            "field": "WashingScan",
+            "title": "WashingScan"
+        },
+        {
+            "field": "PressingScan",
+            "title": "PressingScan"
+        },
+        {
+            "field": "CompletionScan",
+            "title": "CompletionScan"
         }
     ]
 }

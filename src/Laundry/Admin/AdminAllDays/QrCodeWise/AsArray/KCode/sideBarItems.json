@@ -79,6 +79,16 @@
                 "name": "Branch Filter",
                 "url": "InBranchBranchWise.html",
                 "icon": "bi bi-building"
+            },
+            {
+                "name": "Emojis",
+                "url": "InBranchEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "InBranchEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
