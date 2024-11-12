@@ -35,12 +35,8 @@
             "footerFormatter": ""
         },
         {
-            "field": "OrderDateTime",
-            "title": "Order DateTime"
-        },
-        {
-            "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "field": "TimeSpan",
+            "title": "TimeSpan"
         },
         {
             "field": "location",
@@ -69,6 +65,14 @@
         {
             "field": "CompletionScan",
             "title": "Completion"
+        },
+        {
+            "field": "OrderDateTime",
+            "title": "Order DateTime"
+        },
+        {
+            "field": "DeliveryDateTime",
+            "title": "DeliveryDateTime"
         }
     ]
 }
