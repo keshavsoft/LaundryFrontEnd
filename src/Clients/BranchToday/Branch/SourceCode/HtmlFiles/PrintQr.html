@@ -1,5 +1,3 @@
-{% set title = 'Account Profile' %}
-
 {% extends 'src/Clients/BranchToday/Branch/SourceCode/Masters/simple.html' %}
 
 {% block content %}
@@ -170,60 +168,13 @@
 
         return `${tPTpes}/${tPcs}`
     };
-
 </script>
 
-<template id="TemplateForQrCodePrint1">
-    <div style="width: 100%; height: 350px;">
-        <div class="row">
-            <div style="text-align: center;font-weight: 500;font-size: larger; " class="col ">
-                <label class="BranchClass"></label>-<label class="PkClass"></label>
-            </div>
-        </div>
-        <div style="text-align: center;" class="col">
-            <canvas id="CanvasId" width="1" height="1" style="border:1px solid #fff;visibility:hidden"></canvas>
-        </div>
-
-
-        <div class="row">
-            <div style="text-align: center; " class="col ">
-                <label style="font-size: x-large; font-weight: 500;" class="QrCodeClass"></label>-<label
-                    style="font-size: x-large;" class="OrderNumberClass"></label>
-            </div>
-        </div>
-        <div class="row">
-            <div style="text-align: center;font-weight: 500;" class="col ItemNameClass">
-                {{ItemName}}.{{Pcs}}
-            </div>
-        </div>
-        <div class="row">
-            <div style="text-align: center; font-weight: 500;" class="col ItemSerialClass">
-                {{ItemSerial}}.{{Pcs}}
-            </div>
-        </div>
-
-        <div class="row" style="width: 150px; margin: 0px auto;">
-            <div style="text-align: center; font-weight: 300;" class="col AddOnDataAsStringClass">
-                {{AddOnDataAsString}}
-            </div>
-        </div>
-
-        <div class="col" style="text-align: center; font-weight: 500;">
-
-            <label class=" DateTimeClass"></label> @ <label class=" OrderDateClass"></label>
-
-        </div>
-
-    </div>
-</template>
-
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.6/dist/extensions/export/bootstrap-table-export.min.js"></script>
 
 <script src="../assets/static/vendor/bwip-js-min.js"></script>
 <script src="../assets/static/vendor/print.min.js"></script>
 
+<!-- <script type="module" src="../Js/pages/PrintQr/StartFunc.js"></script> -->
 <script type="module" src="../Js/pages/PrintQr/StartFunc.js"></script>
 {% endblock %}
