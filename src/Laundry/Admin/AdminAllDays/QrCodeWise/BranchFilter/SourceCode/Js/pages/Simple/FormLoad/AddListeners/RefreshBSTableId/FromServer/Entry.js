@@ -8,4 +8,4 @@ let StartFunc = async () => {
     };
 };
 
-export { StartFunc }
+export { StartFunc };

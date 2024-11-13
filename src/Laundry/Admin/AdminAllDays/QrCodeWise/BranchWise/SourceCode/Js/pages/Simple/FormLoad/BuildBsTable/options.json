@@ -6,6 +6,7 @@
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
+    "pagination": "true",
     "columns": [
         {
             "field": "KS-Serial",
