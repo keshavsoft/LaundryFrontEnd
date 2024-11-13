@@ -6,6 +6,7 @@
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
+    "pagination":"true",
     "columns": [
         {
             "field": "KS-Serial",
@@ -33,8 +34,8 @@
             "filtercontrol": "select"
         },
         {
-            "field": "Status",
-            "title": "Status",
+            "field": "BranchName",
+            "title": "BranchName",
             "filtercontrol": "select"
         },
         {
