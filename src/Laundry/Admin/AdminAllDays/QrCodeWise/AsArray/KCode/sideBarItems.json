@@ -143,6 +143,16 @@
                 "name": "Short Filter",
                 "url": "FactoryScanShortBranchWise.html",
                 "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Emojis",
+                "url": "FactoryScanEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "FactoryScanEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
@@ -170,6 +180,16 @@
                 "name": "Short Filter",
                 "url": "WashingShortBranchWise.html",
                 "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Emojis",
+                "url": "WashingEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "WashingEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
@@ -197,6 +217,16 @@
                 "name": "Short Filter",
                 "url": "PressingShortBranchWise.html",
                 "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Emojis",
+                "url": "PressingEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "PressingEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
@@ -224,6 +254,16 @@
                 "name": "Short Filter",
                 "url": "CompletionShortBranchWise.html",
                 "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Emojis",
+                "url": "CompletionEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "CompletionEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
