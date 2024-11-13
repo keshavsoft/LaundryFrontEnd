@@ -2,7 +2,7 @@
     {
         "name": "Home",
         "icon": "bi bi-house-door",
-        "url": "/laundryAdmin.html"
+        "url": "../../../../../laundryAdmin.html"
     },
     {
         "name": "All",
