@@ -16,14 +16,53 @@
 <div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
     <span class="visually-hidden">Loading...</span>
 </div>
-<table id="table">
-    <thead>
-        <tr>
-            <th data-formatter="jFGlobalSerialColumn">#</th>
-        </tr>
 
-    </thead>
+<table id="table">
 </table>
+
+<template id="TemplateForQrCodePrint">
+    <div style="width: 100%; height: 350px;">
+        <div class="row">
+            <div style="text-align: center;font-weight: 500;font-size: larger; " class="col ">
+                <label class="BranchClass"></label>-<label class="PkClass"></label>
+            </div>
+        </div>
+        <div style="text-align: center;" class="col">
+            <canvas id="CanvasId" width="1" height="1" style="border:1px solid #fff;visibility:hidden"></canvas>
+        </div>
+
+
+        <div class="row">
+            <div style="text-align: center; " class="col ">
+                <label style="font-size: x-large; font-weight: 500;" class="QrCodeClass"></label>-<label
+                    style="font-size: x-large;" class="OrderNumberClass"></label>
+            </div>
+        </div>
+        <div class="row">
+            <div style="text-align: center;font-weight: 500;" class="col ItemNameClass">
+                {{ItemName}}.{{Pcs}}
+            </div>
+        </div>
+        <div class="row">
+            <div style="text-align: center; font-weight: 500;" class="col ItemSerialClass">
+                {{ItemSerial}}.{{Pcs}}
+            </div>
+        </div>
+
+        <div class="row" style="width: 150px; margin: 0px auto;">
+            <div style="text-align: center; font-weight: 300;" class="col AddOnDataAsStringClass">
+                {{AddOnDataAsString}}
+            </div>
+        </div>
+
+        <div class="col" style="text-align: center; font-weight: 500;">
+
+            <label class=" DateTimeClass"></label> @ <label class=" OrderDateClass"></label>
+
+        </div>
+
+    </div>
+</template>
 {% endblock %}
 
 {% block js %}

@@ -1,7 +1,7 @@
 let StartFunc = ({ inData }) => {
     let jVarLocalDataNeeded = inData;
 
-    let jVarLocalTemplate = document.getElementById("TemplateForQrCodePrint1");
+    let jVarLocalTemplate = document.getElementById("TemplateForQrCodePrint");
     let clone = jVarLocalTemplate.content.cloneNode("true");
 
     jFLocalTotextContent({

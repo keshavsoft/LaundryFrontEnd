@@ -22,11 +22,7 @@ let StartFunc = ({ inData }) => {
     var myModal = new bootstrap.Modal(document.getElementById(jVarLocalId), { keyboard: true, focus: true });
 
     myModal.show();
-
-
 };
-
-
 
 let GenerateQrCodeOnModal = ({ inQrData = "", inCanvasId }) => {
     var canvas = inCanvasId;

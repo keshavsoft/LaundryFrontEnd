@@ -39,7 +39,7 @@
         {
             "title": "Settlement",
             "field":"AggValues.SettlementAmount",
-            "footerFormatter": "priceFormatter"
+            "footerFormatter": ""
         }
     ]
 }
