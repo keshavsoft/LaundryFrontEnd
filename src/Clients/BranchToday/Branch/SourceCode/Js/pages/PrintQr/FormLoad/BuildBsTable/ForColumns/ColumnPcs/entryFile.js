@@ -14,6 +14,7 @@ let jVarLocalFormatterFunc = (data) => {
     }, 0);
 
     return Math.floor(LocalTotal);
+
 };
 
 export { StartFunc };

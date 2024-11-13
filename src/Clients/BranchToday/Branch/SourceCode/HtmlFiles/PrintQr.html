@@ -151,8 +151,8 @@
     }
     function QrFormatter(data) {
         return data.map(ele => ele.TotalItems).reduce((a, b) => a + b, 0)
+    };
 
-    }
     function pcsFormatter(data) {
         var field = this.field
         var tPcs = data.map(function (row) {
