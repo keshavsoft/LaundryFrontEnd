@@ -7,7 +7,7 @@ let StartFunc = ({ inFindColumn }) => {
 let jVarLocalFormatterFunc = (value, row, index) => {
     const jVarLocalBranchName = row.BranchName;
         return [
-            `<a class="like btn btn-primary" target="blank" href="../../BranchFilter/HtmlFiles/InBranch.html?BranchName=${jVarLocalBranchName}" title="Show">`,
+            `<a class="like btn btn-primary" target="blank" href="../../BranchFilter/HtmlFiles/inBranchShowAll.html?BranchName=${jVarLocalBranchName}" title="Show">`,
             `<i class="bi bi-qr-code"></i> `,
             row.QrCount,
             '</a>',
