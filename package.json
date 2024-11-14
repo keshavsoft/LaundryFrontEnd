@@ -33,7 +33,8 @@
     "Admin-AdminAllDays-QrCodeWise-BranchFilter": "vite build --config src/Laundry/Admin/AdminAllDays/QrCodeWise/BranchFilter/vite.config.js",
     "Branch-Dashboard-QrCodeWise-AsArray": "vite build --config src/Laundry/Branch/Dashboard/QrCodeWise/AsArray/vite.config.js",
     "Branch-Pos-Today-QrCodes": "vite build --config src/Laundry/Branch/Pos/Today/QrCodes/vite.config.js",
-    "Admin-AdminAllDays-CommonConfig-QrCode-AsArray": "vite build --config src/Laundry/Admin/AdminAllDays/CommonConfig/QrCode/AsArray/vite.config.js"
+    "Admin-AdminAllDays-CommonConfig-QrCode-AsArray": "vite build --config src/Laundry/Admin/AdminAllDays/CommonConfig/QrCode/AsArray/vite.config.js",
+    "Branch-Today-Orders": "vite build --config src/Laundry/Branch/Today/Orders/vite.config.js"
   },
   "author": "",
   "license": "ISC",

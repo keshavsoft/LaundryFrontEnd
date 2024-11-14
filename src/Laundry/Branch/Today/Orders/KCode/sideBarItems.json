@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../../../Laundry/Branch/NewOrders/HtmlFiles/Customer.html"
+    },
+    {
+        "name": "Parent",
+        "icon": "bi bi-arrow-90deg-left",
+        "url": "../../../BranchToday/HtmlFiles/QrRaiseAll.html"
+    },
+    {
+        "name": "Today-Orders"
+    },
+    {
+        "name": "Orders",
+        "key": "Orders",
+        "icon": "bi bi-people-fill",
+        "url": "Orders.html"
+    }
+]
