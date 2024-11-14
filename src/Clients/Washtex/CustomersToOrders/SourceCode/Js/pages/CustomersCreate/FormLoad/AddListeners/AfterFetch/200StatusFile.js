@@ -1,5 +1,5 @@
 let StartFunc = () => {
-    window.location.href = `/Laundry/NewOrders/HtmlFiles/AddItems.html`;
+    window.location.href = `/Laundry/Branch/NewOrders/HtmlFiles/AddItems.html`;
 };
 
 export { StartFunc }
