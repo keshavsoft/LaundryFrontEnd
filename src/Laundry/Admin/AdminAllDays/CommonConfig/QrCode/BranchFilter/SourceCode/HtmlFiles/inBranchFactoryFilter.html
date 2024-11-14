@@ -1,0 +1,38 @@
+{% extends 'src/Laundry/Admin/AdminAllDays/QrCodeWise/BranchFilter/SourceCode/Masters/simple.html' %}
+
+{% block content %}
+<div class="pagetitle">
+    <h1 class="d-block d-sm-none">InBranch</h1>
+    <h1 class="d-none d-sm-block"><a id="RefreshBSTableId">InBranch</a></h1>
+    <nav class="d-none d-sm-block">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Laundry</a></li>
+            <li class="breadcrumb-item">Admin</li>
+            <li class="breadcrumb-item">AdminAllDays</li>
+            <li class="breadcrumb-item">QrCodeWise</li>
+            <li class="breadcrumb-item">BranchFilter</li>
+            <li class="breadcrumb-item">InBranch</li>
+            <li class="breadcrumb-item active">ShowAll</li>
+        </ol>
+    </nav>
+</div>
+
+<div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
+    <span class="visually-hidden">Loading...</span>
+</div>
+<table id="table">
+    <thead>
+        <tr>
+            <th data-formatter="jFGlobalSerialColumn">#</th>
+        </tr>
+
+    </thead>
+</table>
+{% endblock %}
+
+{% block js %}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+<!-- <script type="module" src="../Js/pages/inBranchItemFilter/StartFunc.js"></script> -->
+<script type="module" src="../Js/pages/inBranchFactoryFilter/StartFunc.js"></script>
+{% endblock %}

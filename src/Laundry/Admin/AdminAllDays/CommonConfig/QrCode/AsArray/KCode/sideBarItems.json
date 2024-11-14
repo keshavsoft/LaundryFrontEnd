@@ -1,0 +1,282 @@
+[
+    {
+        "name": "Home",
+        "icon": "bi bi-house-door",
+        "url": "/laundryAdminQrCodes.html"
+    },
+    {
+        "name": "Simple",
+        "key": "Simple",
+        "icon": "bi bi-file-earmark",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Simple.html",
+                "icon": "bi bi-list"
+            }
+        ]
+    },
+    {
+        "name": "All",
+        "key": "All",
+        "icon": "bi bi-grid-fill",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "All.html",
+                "icon": "bi bi-list-check"
+            },
+            {
+                "name": "Branch Filter",
+                "url": "AllBranchWise.html",
+                "icon": "bi bi-list-check"
+            }
+        ]
+    },
+    {
+        "name": "Status",
+        "key": "status",
+        "icon": "bi bi-bar-chart",
+        "children": [
+            {
+                "name": "Show All",
+                "url": "statusShowAll.html",
+                "icon": "bi bi-list-ul"
+            },
+            {
+                "name": "Branch Filter",
+                "url": "statusShowAllBranchFilter.html",
+                "icon": "bi bi-funnel"
+            },
+            {
+                "name": "FilterShow",
+                "url": "statusFilterShow.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "Emojis",
+                "url": "statusEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "statusEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
+            }
+        ]
+    },
+    {
+        "name": "InBranch",
+        "key": "In",
+        "icon": "bi bi-building",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "InBranch.html",
+                "icon": "bi bi-building"
+            },
+            {
+                "name": "Branch Filter",
+                "url": "InBranchBranchWise.html",
+                "icon": "bi bi-building"
+            },
+            {
+                "name": "Emojis",
+                "url": "InBranchEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "InBranchEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
+            }
+        ]
+    },
+    {
+        "name": "ToFactory",
+        "key": "To",
+        "icon": "bi bi-arrow-right-circle",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "ToFactory.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Short",
+                "url": "ToFactoryShort.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Branch Filter",
+                "url": "ToFactoryBranchWise.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Short Filter",
+                "url": "ToFactoryShortBranchWise.html",
+                "icon": "bi bi-arrow-right"
+            }
+        ]
+    },
+    {
+        "name": "FactoryScan",
+        "key": "Factory",
+        "icon": "bi bi-geo-fill",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "FactoryScan.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Short",
+                "url": "FactoryScanShort.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Branch Filter",
+                "url": "FactoryScanBranchWise.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Short Filter",
+                "url": "FactoryScanShortBranchWise.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Emojis",
+                "url": "FactoryScanEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "FactoryScanEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
+            }
+        ]
+    },
+    {
+        "name": "Washing",
+        "key": "Washing",
+        "icon": "bi bi-droplet-half",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Washing.html",
+                "icon": "bi bi-droplet-half"
+            },
+            {
+                "name": "Short",
+                "url": "WashingShort.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Branch Filter",
+                "url": "WashingBranchWise.html",
+                "icon": "bi bi-droplet-half"
+            },
+            {
+                "name": "Short Filter",
+                "url": "WashingShortBranchWise.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Emojis",
+                "url": "WashingEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "WashingEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
+            }
+        ]
+    },
+    {
+        "name": "Pressing",
+        "key": "Pressing",
+        "icon": "bi bi-align-bottom",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Pressing.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "Short",
+                "url": "PressingShort.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Branch Filter",
+                "url": "PressingBranchWise.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "Short Filter",
+                "url": "PressingShortBranchWise.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Emojis",
+                "url": "PressingEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "PressingEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
+            }
+        ]
+    },
+    {
+        "name": "Completion",
+        "key": "Completion",
+        "icon": "bi bi-check2-circle",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Completion.html",
+                "icon": "bi bi-check-circle"
+            },
+            {
+                "name": "Short",
+                "url": "CompletionShort.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Branch Filter",
+                "url": "CompletionBranchWise.html",
+                "icon": "bi bi-check-circle"
+            },
+            {
+                "name": "Short Filter",
+                "url": "CompletionShortBranchWise.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Emojis",
+                "url": "CompletionEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "CompletionEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
+            }
+        ]
+    },
+    {
+        "name": "FromFactory",
+        "key": "branchWise",
+        "icon": "bi bi-diagram-2",
+        "children": [
+            {
+                "name": "Show All",
+                "url": "branchWiseShowAll.html",
+                "icon": "bi bi-diagram-3"
+            }
+        ]
+    }
+]

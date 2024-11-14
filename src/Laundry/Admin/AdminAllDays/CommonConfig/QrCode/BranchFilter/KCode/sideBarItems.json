@@ -1,0 +1,140 @@
+[
+    {
+        "name": "Home",
+        "icon": "bi bi-house-door",
+        "url": "/laundryAdminQrCodes.html"
+    },
+    {
+        "name": "Simple",
+        "key": "Simple",
+        "icon": "bi bi-file-earmark",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Simple.html",
+                "icon": "bi bi-list"
+            }
+        ]
+    },
+    {
+        "name": "All",
+        "key": "All",
+        "icon": "bi bi-grid-fill",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "All.html",
+                "icon": "bi bi-list-check"
+            }
+        ]
+    },
+    {
+        "name": "Status",
+        "key": "status",
+        "icon": "bi bi-bar-chart",
+        "children": [
+            {
+                "name": "Show All",
+                "url": "statusShowAll.html",
+                "icon": "bi bi-list-ul"
+            }
+        ]
+    },
+    {
+        "name": "InBranch",
+        "key": "inBranch",
+        "icon": "bi bi-building",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "inBranchShowAll.html",
+                "icon": "bi bi-building"
+            },
+            {
+                "name": "ItemFilter",
+                "url": "inBranchItemFilter.html"
+            },
+            {
+                "name": "FactoryFilter",
+                "url": "inBranchFactoryFilter.html"
+            }
+        ]
+    },
+    {
+        "name": "ToFactory",
+        "key": "To",
+        "icon": "bi bi-arrow-right-circle",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "ToFactory.html",
+                "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "ItemsFilter",
+                "url": "ToFactoryItemsFilter.html",
+                "icon": "bi bi-arrow-right"
+            }
+        ]
+    },
+    {
+        "name": "FactoryScan",
+        "key": "Factory",
+        "icon": "bi bi-geo-fill",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "FactoryScan.html",
+                "icon": "bi bi-arrow-right"
+            }
+        ]
+    },
+    {
+        "name": "Washing",
+        "key": "Washing",
+        "icon": "bi bi-droplet-half",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Washing.html",
+                "icon": "bi bi-droplet-half"
+            }
+        ]
+    },
+    {
+        "name": "Pressing",
+        "key": "Pressing",
+        "icon": "bi bi-align-bottom",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Pressing.html",
+                "icon": "bi bi-gear"
+            }
+        ]
+    },
+    {
+        "name": "Completion",
+        "key": "Completion",
+        "icon": "bi bi-check2-circle",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Completion.html",
+                "icon": "bi bi-check-circle"
+            }
+        ]
+    },
+    {
+        "name": "FromFactory",
+        "key": "branchWise",
+        "icon": "bi bi-diagram-2",
+        "children": [
+            {
+                "name": "Show All",
+                "url": "branchWiseShowAll.html",
+                "icon": "bi bi-diagram-3"
+            }
+        ]
+    }
+]

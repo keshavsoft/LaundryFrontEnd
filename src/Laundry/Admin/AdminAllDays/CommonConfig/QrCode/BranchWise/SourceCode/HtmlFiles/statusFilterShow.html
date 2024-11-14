@@ -1,0 +1,36 @@
+{% extends 'src/Laundry/Admin/AdminAllDays/QrCodeWise/BranchWise/SourceCode/Masters/simple.html' %}
+
+{% block content %}
+<div class="pagetitle">
+    <h1 class="d-block d-sm-none">StatusFilterShow</h1>
+    <h1 class="d-none d-sm-block"><a id="RefreshBSTableId">StatusFilterShow</a></h1>
+    <nav class="d-none d-sm-block">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Laundry</a></li>
+            <li class="breadcrumb-item">Admin</li>
+            <li class="breadcrumb-item">AdminAllDays</li>
+            <li class="breadcrumb-item">QrCodeWise</li>
+            <li class="breadcrumb-item">BranchWise</li>
+            <li class="breadcrumb-item active">StatusShow</li>
+        </ol>
+    </nav>
+</div>
+
+<div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
+    <span class="visually-hidden">Loading...</span>
+</div>
+<table id="table">
+    <thead>
+        <tr>
+            <th data-formatter="jFGlobalSerialColumn">#</th>
+        </tr>
+
+    </thead>
+</table>
+{% endblock %}
+
+{% block js %}
+
+<script type="module" src="../Js/pages/statusFilterShow/StartFunc.js"></script>
+<!-- <script type="module" src="../Js/pages/statusShowAllBranchFilter/StartFunc.js"></script> -->
+{% endblock %}

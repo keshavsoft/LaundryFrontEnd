@@ -1,0 +1,28 @@
+{
+    "toolbar": "#toolbar",
+    "search": "true",
+    "searchable": "true",
+    "idfield": "pk",
+    "showFooter": "true",
+    "data": [],
+    "onClickRow": "",
+    "pagination": "true",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn",
+            "footerFormatter": "Total"
+        },
+        {
+            "field": "BranchName",
+            "title": "BranchName"
+        },
+        {
+            "title": "QrShow",
+            "field": "QrShow",
+            "footerFormatter": "",
+             "align":"right"
+        }
+    ]
+}
