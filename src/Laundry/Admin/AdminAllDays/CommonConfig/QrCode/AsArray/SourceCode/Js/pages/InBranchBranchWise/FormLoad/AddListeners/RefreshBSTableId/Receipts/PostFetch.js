@@ -1,13 +1,12 @@
-import urlJson from '../../../../url.json' with {type: 'json'};
+import ConfigJson from '../../../../Config.json' with {type: 'json'};
+import CommonConfig from '../../../../../CommonConfig.json' with {type: 'json'};
 
 let StartFunc = async () => {
-    let jVarLocalBranchName = localStorage.getItem('BranchName');
-   
-    // let jVarLocalFetchUrl = `/${urlJson.StartRoute}/${jVarLocalBranchName}/Show/DataOnly`;
-    let jVarLocalFetchUrl = ` /${urlJson.Url}`;
-    //let jVarLocalFetchUrl = ` /Custom/Clients/Laundry/Orders/Today/WithQrCodes/${jVarLocalBranchName}`;
+    let jVarLocalGetStartUrl = CommonConfig.GetStartUrl;
+    let jVarLocalGetEndPoint = ConfigJson.GetEndPoint;
 
-    let response = await fetch(jVarLocalFetchUrl);
+    let response = await fetch(`${jVarLocalGetStartUrl}/${jVarLocalGetEndPoint}`);
+
     return await response;
 };
 
