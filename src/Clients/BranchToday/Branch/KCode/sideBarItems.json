@@ -85,7 +85,7 @@
         "name": "Orders",
         "key": "Orders",
         "icon": "bi bi-border-style",
-        "url": "../../Today/TodayOrders/HtmlFiles/Orders.html"
+        "url": "../../Branch/Today/TodayOrders/HtmlFiles/Orders.html"
     },
     {
         "name": "QrCodes",
