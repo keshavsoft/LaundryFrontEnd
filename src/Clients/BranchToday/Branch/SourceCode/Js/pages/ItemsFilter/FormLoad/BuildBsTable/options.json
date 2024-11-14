@@ -14,7 +14,8 @@
         },
         {
             "field": "pk",
-            "title": "Order #"
+            "title": "Order #",
+            "filterControl":"select"
         },
         {
             "title": "ItemName",
