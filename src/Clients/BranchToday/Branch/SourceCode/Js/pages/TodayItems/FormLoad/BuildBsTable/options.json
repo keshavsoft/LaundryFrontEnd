@@ -4,6 +4,7 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
+    "filterControl": true,
     "data": [],
     "columns": [
         {
@@ -13,7 +14,8 @@
         },
         {
             "field": "pk",
-            "title": "Order #"
+            "title": "Order #",
+            "filterControl":"select"
         },
         {
             "title": "ItemName",

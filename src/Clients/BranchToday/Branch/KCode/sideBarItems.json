@@ -63,6 +63,11 @@
                 "name": "Items",
                 "url": "Items.html",
                 "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "ItemsFilter",
+                "url": "ItemsFilter.html",
+                "icon": "bi bi-plus-square-fill"
             }
         ]
     },
